@@ -1,0 +1,98 @@
+[
+  {
+    "archetype_name": "Minimalist Neutral",
+    "preferred_styles": ["minimalist", "casual"],
+    "preferred_colors": ["black", "white", "beige", "gray"],
+    "disliked_colors": ["red", "yellow", "neon"],
+    "preferred_categories": ["top", "bottom", "shoes"],
+    "budget_range": [20, 120],
+    "style_weight": 0.4,
+    "color_weight": 0.3,
+    "price_weight": 0.2,
+    "category_weight": 0.1
+  },
+  {
+    "archetype_name": "Streetwear Trend Follower",
+    "preferred_styles": ["streetwear", "urban", "casual"],
+    "preferred_colors": ["black", "bold accents", "red"],
+    "disliked_colors": ["pastels", "neon"],
+    "preferred_categories": ["top", "shoes", "accessories"],
+    "budget_range": [50, 200],
+    "style_weight": 0.5,
+    "color_weight": 0.3,
+    "price_weight": 0.1,
+    "category_weight": 0.1
+  },
+  {
+    "archetype_name": "Smart Casual / Preppy",
+    "preferred_styles": ["preppy", "smart casual"],
+    "preferred_colors": ["navy", "white", "light blue"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes"],
+    "budget_range": [40, 180],
+    "style_weight": 0.45,
+    "color_weight": 0.25,
+    "price_weight": 0.2,
+    "category_weight": 0.1
+  },
+  {
+    "archetype_name": "Athleisure / Sporty",
+    "preferred_styles": ["sporty", "casual", "athleisure"],
+    "preferred_colors": ["black", "gray", "athletic tones"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes"],
+    "budget_range": [35, 160],
+    "style_weight": 0.4,
+    "color_weight": 0.2,
+    "price_weight": 0.25,
+    "category_weight": 0.15
+  },
+  {
+    "archetype_name": "Bold / Trendy Fashion",
+    "preferred_styles": ["trendy", "expressive"],
+    "preferred_colors": ["bright", "mixed"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes", "accessories"],
+    "budget_range": [50, 220],
+    "style_weight": 0.5,
+    "color_weight": 0.3,
+    "price_weight": 0.1,
+    "category_weight": 0.1
+  },
+  {
+    "archetype_name": "Winter Practical",
+    "preferred_styles": ["practical", "layered", "casual"],
+    "preferred_colors": ["dark neutrals", "black", "gray", "navy"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes", "accessories"],
+    "budget_range": [50, 250],
+    "style_weight": 0.3,
+    "color_weight": 0.2,
+    "price_weight": 0.3,
+    "category_weight": 0.2
+  },
+  {
+    "archetype_name": "Formal / Business",
+    "preferred_styles": ["formal", "business"],
+    "preferred_colors": ["black", "navy", "gray", "white"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes", "accessories"],
+    "budget_range": [80, 350],
+    "style_weight": 0.45,
+    "color_weight": 0.25,
+    "price_weight": 0.2,
+    "category_weight": 0.1
+  },
+  {
+    "archetype_name": "Budget Casual Student",
+    "preferred_styles": ["casual"],
+    "preferred_colors": ["mixed", "simple"],
+    "disliked_colors": [],
+    "preferred_categories": ["top", "bottom", "shoes"],
+    "budget_range": [10, 80],
+    "style_weight": 0.3,
+    "color_weight": 0.2,
+    "price_weight": 0.4,
+    "category_weight": 0.1
+  }
+]
