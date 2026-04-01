@@ -1,0 +1,48 @@
+item_id,name,category,style,color,price
+item_001,Black Classic Hoodie,top,minimalist,black,45
+item_002,White Oversized Tee,top,minimalist,white,25
+item_003,Beige Linen Shirt,top,casual,beige,55
+item_004,Gray Crewneck Sweatshirt,top,casual,gray,40
+item_005,Neon Green Graphic Tee,top,streetwear,neon,30
+item_006,Red Varsity Jacket,top,streetwear,red,110
+item_007,Navy Polo Shirt,top,preppy,navy,60
+item_008,Light Blue Oxford Shirt,top,smart casual,light blue,75
+item_009,White Button-Down,top,formal,white,85
+item_010,Black Blazer,top,business,black,160
+item_011,Athletic Performance Tee,top,sporty,gray,35
+item_012,Yellow Patterned Blouse,top,trendy,yellow,50
+item_013,Bright Mixed-Print Shirt,top,expressive,bright,65
+item_014,Budget Plain Tee,top,casual,mixed,12
+item_015,Thermal Base Layer,top,practical,black,40
+item_016,Black Slim Chinos,bottom,minimalist,black,70
+item_017,Beige Straight Chinos,bottom,casual,beige,65
+item_018,Gray Slim Trousers,bottom,minimalist,gray,80
+item_019,Black Cargo Pants,bottom,streetwear,black,90
+item_020,Patterned Joggers,bottom,streetwear,mixed,55
+item_021,Navy Chinos,bottom,preppy,navy,75
+item_022,Formal Gray Trousers,bottom,business,gray,120
+item_023,Athletic Track Pants,bottom,sporty,black,50
+item_024,Neon Pink Leggings,bottom,athleisure,neon,40
+item_025,Budget Jeans,bottom,casual,mixed,20
+item_026,Insulated Winter Pants,bottom,practical,navy,100
+item_027,Bright Printed Shorts,bottom,expressive,bright,45
+item_028,White Minimalist Sneakers,shoes,minimalist,white,90
+item_029,Black Leather Sneakers,shoes,casual,black,100
+item_030,Chunky Streetwear Sneakers,shoes,streetwear,mixed,150
+item_031,Red High-Top Sneakers,shoes,streetwear,red,130
+item_032,Navy Boat Shoes,shoes,preppy,navy,85
+item_033,Oxford Derby Shoes,shoes,formal,black,180
+item_034,Running Trainers,shoes,sporty,gray,110
+item_035,Budget Canvas Shoes,shoes,casual,white,25
+item_036,Insulated Winter Boots,shoes,practical,black,140
+item_037,Bright Platform Sneakers,shoes,expressive,bright,120
+item_038,Black Minimal Watch,accessories,minimalist,black,80
+item_039,Streetwear Cap,accessories,streetwear,black,35
+item_040,Bold Chain Necklace,accessories,streetwear,mixed,45
+item_041,Navy Knit Beanie,accessories,casual,navy,20
+item_042,Leather Belt,accessories,formal,black,55
+item_043,Athletic Gym Bag,accessories,sporty,gray,45
+item_044,Winter Scarf,accessories,practical,gray,30
+item_045,Budget Backpack,accessories,casual,mixed,18
+item_046,Statement Sunglasses,accessories,expressive,bright,60
+item_047,Preppy Canvas Tote,accessories,preppy,navy,40

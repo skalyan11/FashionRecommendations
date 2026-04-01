@@ -5,8 +5,11 @@ Each archetype produces ~6-7 users. Variations applied per user:
   - Budget range shifted ±20%
   - Weights slightly jittered (then renormalized)
   - Occasionally one extra color preference added
+
+Output: users.csv
 """
 
+import csv
 import json
 import random
 from pathlib import Path
@@ -14,6 +17,8 @@ from pathlib import Path
 SEED = 42
 NUM_USERS = 50
 EXTRA_COLORS = ["olive", "burgundy", "tan", "cream", "charcoal", "forest green"]
+
+LIST_SEP = "|"
 
 random.seed(SEED)
 
@@ -70,22 +75,58 @@ def sample_users(archetypes: list, total: int) -> list:
     return users
 
 
+def write_users_csv(users: list, path: Path) -> None:
+    fieldnames = [
+        "user_id",
+        "archetype",
+        "preferred_styles",
+        "preferred_colors",
+        "disliked_colors",
+        "preferred_categories",
+        "budget_low",
+        "budget_high",
+        "style_weight",
+        "color_weight",
+        "price_weight",
+        "category_weight",
+    ]
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for u in users:
+            low, high = u["budget_range"]
+            w.writerow(
+                {
+                    "user_id": u["user_id"],
+                    "archetype": u["archetype"],
+                    "preferred_styles": LIST_SEP.join(u["preferred_styles"]),
+                    "preferred_colors": LIST_SEP.join(u["preferred_colors"]),
+                    "disliked_colors": LIST_SEP.join(u["disliked_colors"]),
+                    "preferred_categories": LIST_SEP.join(u["preferred_categories"]),
+                    "budget_low": low,
+                    "budget_high": high,
+                    "style_weight": u["style_weight"],
+                    "color_weight": u["color_weight"],
+                    "price_weight": u["price_weight"],
+                    "category_weight": u["category_weight"],
+                }
+            )
+
+
 def main():
     archetypes_path = Path("archetypes.json")
-    output_path = Path("users.json")
+    output_path = Path("users.csv")
 
-    with archetypes_path.open() as f:
+    with archetypes_path.open(encoding="utf-8") as f:
         archetypes = json.load(f)
 
     users = sample_users(archetypes, NUM_USERS)
-
-    with output_path.open("w") as f:
-        json.dump(users, f, indent=2)
+    write_users_csv(users, output_path)
 
     print(f"Generated {len(users)} users → {output_path}")
 
-    # Quick summary
     from collections import Counter
+
     counts = Counter(u["archetype"] for u in users)
     for archetype, count in counts.most_common():
         print(f"  {count:2d}  {archetype}")

@@ -1,0 +1,51 @@
+user_id,archetype,preferred_styles,preferred_colors,disliked_colors,preferred_categories,budget_low,budget_high,style_weight,color_weight,price_weight,category_weight
+user_001,Minimalist Neutral,minimalist|casual,black|white|beige|gray,red|yellow|neon,top|bottom|shoes,21,128,0.4518,0.2756,0.1937,0.0789
+user_002,Minimalist Neutral,minimalist|casual,black|white|beige|gray|charcoal,red|yellow|neon,top|bottom|shoes,21,125,0.4657,0.2743,0.2038,0.0562
+user_003,Minimalist Neutral,minimalist|casual,black|white|beige|gray,red|yellow|neon,top|bottom|shoes,18,109,0.3906,0.3093,0.2117,0.0884
+user_004,Minimalist Neutral,minimalist|casual,black|white|beige|gray|burgundy,red|yellow|neon,top|bottom|shoes,24,142,0.4279,0.3192,0.1625,0.0904
+user_005,Minimalist Neutral,minimalist|casual,black|white|beige|gray,red|yellow|neon,top|bottom|shoes,22,135,0.4093,0.2766,0.1703,0.1438
+user_006,Minimalist Neutral,minimalist|casual,black|white|beige|gray,red|yellow|neon,top|bottom|shoes,23,136,0.3984,0.286,0.2329,0.0827
+user_007,Minimalist Neutral,minimalist|casual,black|white|beige|gray|burgundy,red|yellow|neon,top|bottom|shoes,22,133,0.3827,0.3124,0.193,0.1119
+user_008,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red,pastels|neon,top|shoes|accessories,57,227,0.4947,0.3026,0.1232,0.0794
+user_009,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red,pastels|neon,top|shoes|accessories,41,166,0.4715,0.2887,0.1183,0.1215
+user_010,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red|forest green,pastels|neon,top|shoes|accessories,54,215,0.5199,0.3072,0.0754,0.0974
+user_011,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red,pastels|neon,top|shoes|accessories,56,224,0.5038,0.3015,0.1354,0.0593
+user_012,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red,pastels|neon,top|shoes|accessories,44,177,0.4927,0.258,0.1421,0.1073
+user_013,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red|forest green,pastels|neon,top|shoes|accessories,51,205,0.4916,0.3328,0.1124,0.0632
+user_014,Streetwear Trend Follower,streetwear|urban|casual,black|bold accents|red|burgundy,pastels|neon,top|shoes|accessories,50,201,0.4695,0.3041,0.1378,0.0887
+user_015,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue,,top|bottom|shoes,39,174,0.4609,0.2307,0.1814,0.127
+user_016,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue,,top|bottom|shoes,46,206,0.4076,0.2389,0.2504,0.1032
+user_017,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue|forest green,,top|bottom|shoes,37,168,0.4031,0.2734,0.2192,0.1042
+user_018,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue,,top|bottom|shoes,48,214,0.4679,0.2352,0.1638,0.1332
+user_019,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue,,top|bottom|shoes,40,181,0.4761,0.2507,0.1606,0.1125
+user_020,Smart Casual / Preppy,preppy|smart casual,navy|white|light blue,,top|bottom|shoes,47,210,0.4334,0.245,0.1715,0.15
+user_021,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,39,180,0.4287,0.208,0.2209,0.1425
+user_022,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,39,180,0.4097,0.1908,0.2813,0.1182
+user_023,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,30,139,0.4349,0.1974,0.2065,0.1612
+user_024,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,38,172,0.3652,0.191,0.2688,0.1749
+user_025,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,34,157,0.4148,0.187,0.263,0.1352
+user_026,Athleisure / Sporty,sporty|casual|athleisure,black|gray|athletic tones,,top|bottom|shoes,28,128,0.4217,0.176,0.2274,0.1749
+user_027,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,50,221,0.5874,0.2886,0.064,0.0599
+user_028,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,52,227,0.4766,0.2978,0.1036,0.122
+user_029,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,47,207,0.5146,0.3225,0.0984,0.0645
+user_030,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,41,181,0.492,0.337,0.0555,0.1155
+user_031,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,43,188,0.5319,0.3358,0.062,0.0704
+user_032,Bold / Trendy Fashion,trendy|expressive,bright|mixed,,top|bottom|shoes|accessories,57,251,0.4881,0.3087,0.1432,0.06
+user_033,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy|burgundy,,top|bottom|shoes|accessories,43,217,0.2792,0.2313,0.3268,0.1628
+user_034,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy,,top|bottom|shoes|accessories,60,299,0.326,0.1871,0.3167,0.1702
+user_035,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy,,top|bottom|shoes|accessories,60,300,0.2785,0.2301,0.2977,0.1937
+user_036,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy,,top|bottom|shoes|accessories,52,258,0.3142,0.2281,0.273,0.1847
+user_037,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy,,top|bottom|shoes|accessories,57,285,0.3063,0.2263,0.2575,0.2099
+user_038,Winter Practical,practical|layered|casual,dark neutrals|black|gray|navy,,top|bottom|shoes|accessories,54,268,0.2832,0.2622,0.2749,0.1796
+user_039,Formal / Business,formal|business,black|navy|gray|white,,top|bottom|shoes|accessories,84,367,0.4462,0.2233,0.2518,0.0786
+user_040,Formal / Business,formal|business,black|navy|gray|white|forest green,,top|bottom|shoes|accessories,74,324,0.4225,0.247,0.1934,0.1372
+user_041,Formal / Business,formal|business,black|navy|gray|white,,top|bottom|shoes|accessories,94,411,0.449,0.2243,0.2259,0.1008
+user_042,Formal / Business,formal|business,black|navy|gray|white,,top|bottom|shoes|accessories,80,351,0.4314,0.282,0.222,0.0646
+user_043,Formal / Business,formal|business,black|navy|gray|white|cream,,top|bottom|shoes|accessories,91,397,0.4699,0.2671,0.1784,0.0846
+user_044,Formal / Business,formal|business,black|navy|gray|white|charcoal,,top|bottom|shoes|accessories,74,322,0.4293,0.2384,0.227,0.1053
+user_045,Budget Casual Student,casual,mixed|simple|charcoal,,top|bottom|shoes,9,69,0.3211,0.2476,0.3689,0.0625
+user_046,Budget Casual Student,casual,mixed|simple,,top|bottom|shoes,10,80,0.2921,0.1796,0.4035,0.1247
+user_047,Budget Casual Student,casual,mixed|simple,,top|bottom|shoes,8,65,0.2795,0.2446,0.3607,0.1152
+user_048,Budget Casual Student,casual,mixed|simple,,top|bottom|shoes,11,87,0.295,0.1698,0.4664,0.0689
+user_049,Budget Casual Student,casual,mixed|simple|olive,,top|bottom|shoes,11,91,0.2969,0.1564,0.4312,0.1155
+user_050,Budget Casual Student,casual,mixed|simple,,top|bottom|shoes,11,89,0.3363,0.1798,0.3957,0.0882

@@ -1,0 +1,2351 @@
+user_id,item_id,item_name,score,event
+user_001,item_001,Black Classic Hoodie,0.9957,purchase
+user_001,item_002,White Oversized Tee,0.9948,purchase
+user_001,item_003,Beige Linen Shirt,0.9967,purchase
+user_001,item_004,Gray Crewneck Sweatshirt,1.0,purchase
+user_001,item_005,Neon Green Graphic Tee,0.131,ignored
+user_001,item_006,Red Varsity Jacket,0.0899,ignored
+user_001,item_007,Navy Polo Shirt,0.2826,ignored
+user_001,item_008,Light Blue Oxford Shirt,0.2646,ignored
+user_001,item_009,White Button-Down,0.5417,like
+user_001,item_010,Black Blazer,0.358,ignored
+user_001,item_011,Athletic Performance Tee,0.5552,like
+user_001,item_012,Yellow Patterned Blouse,0.1697,ignored
+user_001,item_013,Bright Mixed-Print Shirt,0.2923,ignored
+user_001,item_014,Budget Plain Tee,0.6308,like
+user_001,item_015,Thermal Base Layer,0.5261,like
+user_001,item_016,Black Slim Chinos,0.9696,purchase
+user_001,item_017,Beige Straight Chinos,1.0,purchase
+user_001,item_018,Gray Slim Trousers,1.0,purchase
+user_001,item_019,Black Cargo Pants,0.5494,like
+user_001,item_020,Patterned Joggers,0.2694,ignored
+user_001,item_021,Navy Chinos,0.2886,ignored
+user_001,item_022,Formal Gray Trousers,0.5046,like
+user_001,item_023,Athletic Track Pants,0.5388,like
+user_001,item_024,Neon Pink Leggings,0.1495,ignored
+user_001,item_025,Budget Jeans,0.6537,like
+user_001,item_026,Insulated Winter Pants,0.2654,ignored
+user_001,item_027,Bright Printed Shorts,0.2839,ignored
+user_001,item_028,White Minimalist Sneakers,1.0,purchase
+user_001,item_029,Black Leather Sneakers,1.0,purchase
+user_001,item_030,Chunky Streetwear Sneakers,0.0455,ignored
+user_001,item_031,Red High-Top Sneakers,0.017,ignored
+user_001,item_032,Navy Boat Shoes,0.2272,ignored
+user_001,item_033,Oxford Derby Shoes,0.2759,ignored
+user_001,item_034,Running Trainers,0.53,like
+user_001,item_035,Budget Canvas Shoes,0.9725,purchase
+user_001,item_036,Insulated Winter Boots,0.3808,ignored
+user_001,item_037,Bright Platform Sneakers,0.2925,ignored
+user_001,item_038,Black Minimal Watch,0.8845,purchase
+user_001,item_039,Streetwear Cap,0.4947,like
+user_001,item_040,Bold Chain Necklace,0.1636,ignored
+user_001,item_041,Navy Knit Beanie,0.546,like
+user_001,item_042,Leather Belt,0.4605,like
+user_001,item_043,Athletic Gym Bag,0.4727,like
+user_001,item_044,Winter Scarf,0.4939,like
+user_001,item_045,Budget Backpack,0.5678,like
+user_001,item_046,Statement Sunglasses,0.2042,ignored
+user_001,item_047,Preppy Canvas Tote,0.2132,ignored
+user_002,item_001,Black Classic Hoodie,1.0,purchase
+user_002,item_002,White Oversized Tee,0.9812,purchase
+user_002,item_003,Beige Linen Shirt,0.9785,purchase
+user_002,item_004,Gray Crewneck Sweatshirt,0.9859,purchase
+user_002,item_005,Neon Green Graphic Tee,0.1379,ignored
+user_002,item_006,Red Varsity Jacket,0.1154,ignored
+user_002,item_007,Navy Polo Shirt,0.3301,ignored
+user_002,item_008,Light Blue Oxford Shirt,0.2354,ignored
+user_002,item_009,White Button-Down,0.5013,like
+user_002,item_010,Black Blazer,0.3536,ignored
+user_002,item_011,Athletic Performance Tee,0.577,like
+user_002,item_012,Yellow Patterned Blouse,0.1381,ignored
+user_002,item_013,Bright Mixed-Print Shirt,0.2851,ignored
+user_002,item_014,Budget Plain Tee,0.6666,like
+user_002,item_015,Thermal Base Layer,0.5315,like
+user_002,item_016,Black Slim Chinos,0.9573,purchase
+user_002,item_017,Beige Straight Chinos,0.984,purchase
+user_002,item_018,Gray Slim Trousers,1.0,purchase
+user_002,item_019,Black Cargo Pants,0.491,like
+user_002,item_020,Patterned Joggers,0.261,ignored
+user_002,item_021,Navy Chinos,0.2676,ignored
+user_002,item_022,Formal Gray Trousers,0.5248,like
+user_002,item_023,Athletic Track Pants,0.556,like
+user_002,item_024,Neon Pink Leggings,0.1403,ignored
+user_002,item_025,Budget Jeans,0.6934,like
+user_002,item_026,Insulated Winter Pants,0.2786,ignored
+user_002,item_027,Bright Printed Shorts,0.2417,ignored
+user_002,item_028,White Minimalist Sneakers,0.9831,purchase
+user_002,item_029,Black Leather Sneakers,0.9751,purchase
+user_002,item_030,Chunky Streetwear Sneakers,0.0848,ignored
+user_002,item_031,Red High-Top Sneakers,0.0,ignored
+user_002,item_032,Navy Boat Shoes,0.2579,ignored
+user_002,item_033,Oxford Derby Shoes,0.353,ignored
+user_002,item_034,Running Trainers,0.5126,like
+user_002,item_035,Budget Canvas Shoes,0.9912,purchase
+user_002,item_036,Insulated Winter Boots,0.2753,ignored
+user_002,item_037,Bright Platform Sneakers,0.2275,ignored
+user_002,item_038,Black Minimal Watch,0.9268,purchase
+user_002,item_039,Streetwear Cap,0.4906,like
+user_002,item_040,Bold Chain Necklace,0.2396,ignored
+user_002,item_041,Navy Knit Beanie,0.567,like
+user_002,item_042,Leather Belt,0.4859,like
+user_002,item_043,Athletic Gym Bag,0.4831,like
+user_002,item_044,Winter Scarf,0.5106,like
+user_002,item_045,Budget Backpack,0.5944,like
+user_002,item_046,Statement Sunglasses,0.212,ignored
+user_002,item_047,Preppy Canvas Tote,0.1735,ignored
+user_003,item_001,Black Classic Hoodie,1.0,purchase
+user_003,item_002,White Oversized Tee,1.0,purchase
+user_003,item_003,Beige Linen Shirt,1.0,purchase
+user_003,item_004,Gray Crewneck Sweatshirt,0.9991,purchase
+user_003,item_005,Neon Green Graphic Tee,0.204,ignored
+user_003,item_006,Red Varsity Jacket,0.0,ignored
+user_003,item_007,Navy Polo Shirt,0.3479,ignored
+user_003,item_008,Light Blue Oxford Shirt,0.3036,ignored
+user_003,item_009,White Button-Down,0.5939,like
+user_003,item_010,Black Blazer,0.3638,ignored
+user_003,item_011,Athletic Performance Tee,0.6049,like
+user_003,item_012,Yellow Patterned Blouse,0.1881,ignored
+user_003,item_013,Bright Mixed-Print Shirt,0.3246,ignored
+user_003,item_014,Budget Plain Tee,0.6055,like
+user_003,item_015,Thermal Base Layer,0.5381,like
+user_003,item_016,Black Slim Chinos,1.0,purchase
+user_003,item_017,Beige Straight Chinos,1.0,purchase
+user_003,item_018,Gray Slim Trousers,0.9835,purchase
+user_003,item_019,Black Cargo Pants,0.5906,like
+user_003,item_020,Patterned Joggers,0.3,ignored
+user_003,item_021,Navy Chinos,0.3518,ignored
+user_003,item_022,Formal Gray Trousers,0.366,ignored
+user_003,item_023,Athletic Track Pants,0.5966,like
+user_003,item_024,Neon Pink Leggings,0.1863,ignored
+user_003,item_025,Budget Jeans,0.6773,like
+user_003,item_026,Insulated Winter Pants,0.2892,ignored
+user_003,item_027,Bright Printed Shorts,0.303,ignored
+user_003,item_028,White Minimalist Sneakers,0.9628,purchase
+user_003,item_029,Black Leather Sneakers,1.0,purchase
+user_003,item_030,Chunky Streetwear Sneakers,0.0521,ignored
+user_003,item_031,Red High-Top Sneakers,0.0266,ignored
+user_003,item_032,Navy Boat Shoes,0.3002,ignored
+user_003,item_033,Oxford Derby Shoes,0.4662,like
+user_003,item_034,Running Trainers,0.4061,ignored
+user_003,item_035,Budget Canvas Shoes,1.0,purchase
+user_003,item_036,Insulated Winter Boots,0.3586,ignored
+user_003,item_037,Bright Platform Sneakers,0.0847,ignored
+user_003,item_038,Black Minimal Watch,0.9213,purchase
+user_003,item_039,Streetwear Cap,0.5734,like
+user_003,item_040,Bold Chain Necklace,0.1613,ignored
+user_003,item_041,Navy Knit Beanie,0.632,like
+user_003,item_042,Leather Belt,0.5387,like
+user_003,item_043,Athletic Gym Bag,0.567,like
+user_003,item_044,Winter Scarf,0.5424,like
+user_003,item_045,Budget Backpack,0.6039,like
+user_003,item_046,Statement Sunglasses,0.1961,ignored
+user_003,item_047,Preppy Canvas Tote,0.1743,ignored
+user_004,item_001,Black Classic Hoodie,1.0,purchase
+user_004,item_002,White Oversized Tee,0.9942,purchase
+user_004,item_003,Beige Linen Shirt,1.0,purchase
+user_004,item_004,Gray Crewneck Sweatshirt,0.9817,purchase
+user_004,item_005,Neon Green Graphic Tee,0.1029,ignored
+user_004,item_006,Red Varsity Jacket,0.0462,ignored
+user_004,item_007,Navy Polo Shirt,0.241,ignored
+user_004,item_008,Light Blue Oxford Shirt,0.2607,ignored
+user_004,item_009,White Button-Down,0.5968,like
+user_004,item_010,Black Blazer,0.453,like
+user_004,item_011,Athletic Performance Tee,0.5708,like
+user_004,item_012,Yellow Patterned Blouse,0.0598,ignored
+user_004,item_013,Bright Mixed-Print Shirt,0.2666,ignored
+user_004,item_014,Budget Plain Tee,0.6151,like
+user_004,item_015,Thermal Base Layer,0.5868,like
+user_004,item_016,Black Slim Chinos,0.979,purchase
+user_004,item_017,Beige Straight Chinos,1.0,purchase
+user_004,item_018,Gray Slim Trousers,1.0,purchase
+user_004,item_019,Black Cargo Pants,0.5931,like
+user_004,item_020,Patterned Joggers,0.2911,ignored
+user_004,item_021,Navy Chinos,0.2712,ignored
+user_004,item_022,Formal Gray Trousers,0.5807,like
+user_004,item_023,Athletic Track Pants,0.6367,like
+user_004,item_024,Neon Pink Leggings,0.1006,ignored
+user_004,item_025,Budget Jeans,0.5907,like
+user_004,item_026,Insulated Winter Pants,0.2563,ignored
+user_004,item_027,Bright Printed Shorts,0.2974,ignored
+user_004,item_028,White Minimalist Sneakers,1.0,purchase
+user_004,item_029,Black Leather Sneakers,1.0,purchase
+user_004,item_030,Chunky Streetwear Sneakers,0.1263,ignored
+user_004,item_031,Red High-Top Sneakers,0.0779,ignored
+user_004,item_032,Navy Boat Shoes,0.2011,ignored
+user_004,item_033,Oxford Derby Shoes,0.4186,ignored
+user_004,item_034,Running Trainers,0.579,like
+user_004,item_035,Budget Canvas Shoes,0.9818,purchase
+user_004,item_036,Insulated Winter Boots,0.5982,like
+user_004,item_037,Bright Platform Sneakers,0.2711,ignored
+user_004,item_038,Black Minimal Watch,0.8798,purchase
+user_004,item_039,Streetwear Cap,0.4972,like
+user_004,item_040,Bold Chain Necklace,0.1566,ignored
+user_004,item_041,Navy Knit Beanie,0.4646,like
+user_004,item_042,Leather Belt,0.4953,like
+user_004,item_043,Athletic Gym Bag,0.4803,like
+user_004,item_044,Winter Scarf,0.4593,like
+user_004,item_045,Budget Backpack,0.5248,like
+user_004,item_046,Statement Sunglasses,0.1771,ignored
+user_004,item_047,Preppy Canvas Tote,0.1452,ignored
+user_005,item_001,Black Classic Hoodie,1.0,purchase
+user_005,item_002,White Oversized Tee,1.0,purchase
+user_005,item_003,Beige Linen Shirt,0.9786,purchase
+user_005,item_004,Gray Crewneck Sweatshirt,1.0,purchase
+user_005,item_005,Neon Green Graphic Tee,0.1759,ignored
+user_005,item_006,Red Varsity Jacket,0.2438,ignored
+user_005,item_007,Navy Polo Shirt,0.2582,ignored
+user_005,item_008,Light Blue Oxford Shirt,0.335,ignored
+user_005,item_009,White Button-Down,0.5815,like
+user_005,item_010,Black Blazer,0.4174,ignored
+user_005,item_011,Athletic Performance Tee,0.6477,like
+user_005,item_012,Yellow Patterned Blouse,0.1755,ignored
+user_005,item_013,Bright Mixed-Print Shirt,0.3813,ignored
+user_005,item_014,Budget Plain Tee,0.6249,like
+user_005,item_015,Thermal Base Layer,0.6012,like
+user_005,item_016,Black Slim Chinos,0.9853,purchase
+user_005,item_017,Beige Straight Chinos,0.9793,purchase
+user_005,item_018,Gray Slim Trousers,1.0,purchase
+user_005,item_019,Black Cargo Pants,0.5822,like
+user_005,item_020,Patterned Joggers,0.3202,ignored
+user_005,item_021,Navy Chinos,0.2509,ignored
+user_005,item_022,Formal Gray Trousers,0.6508,like
+user_005,item_023,Athletic Track Pants,0.5857,like
+user_005,item_024,Neon Pink Leggings,0.2281,ignored
+user_005,item_025,Budget Jeans,0.608,like
+user_005,item_026,Insulated Winter Pants,0.3229,ignored
+user_005,item_027,Bright Printed Shorts,0.409,ignored
+user_005,item_028,White Minimalist Sneakers,0.9739,purchase
+user_005,item_029,Black Leather Sneakers,0.9551,purchase
+user_005,item_030,Chunky Streetwear Sneakers,0.1274,ignored
+user_005,item_031,Red High-Top Sneakers,0.19,ignored
+user_005,item_032,Navy Boat Shoes,0.3349,ignored
+user_005,item_033,Oxford Derby Shoes,0.4591,like
+user_005,item_034,Running Trainers,0.583,like
+user_005,item_035,Budget Canvas Shoes,0.9519,purchase
+user_005,item_036,Insulated Winter Boots,0.4073,ignored
+user_005,item_037,Bright Platform Sneakers,0.3513,ignored
+user_005,item_038,Black Minimal Watch,0.8702,purchase
+user_005,item_039,Streetwear Cap,0.3882,ignored
+user_005,item_040,Bold Chain Necklace,0.1692,ignored
+user_005,item_041,Navy Knit Beanie,0.5364,like
+user_005,item_042,Leather Belt,0.5107,like
+user_005,item_043,Athletic Gym Bag,0.4638,like
+user_005,item_044,Winter Scarf,0.4562,like
+user_005,item_045,Budget Backpack,0.4573,like
+user_005,item_046,Statement Sunglasses,0.145,ignored
+user_005,item_047,Preppy Canvas Tote,0.1717,ignored
+user_006,item_001,Black Classic Hoodie,1.0,purchase
+user_006,item_002,White Oversized Tee,1.0,purchase
+user_006,item_003,Beige Linen Shirt,0.9857,purchase
+user_006,item_004,Gray Crewneck Sweatshirt,0.9654,purchase
+user_006,item_005,Neon Green Graphic Tee,0.1493,ignored
+user_006,item_006,Red Varsity Jacket,0.1379,ignored
+user_006,item_007,Navy Polo Shirt,0.3349,ignored
+user_006,item_008,Light Blue Oxford Shirt,0.2462,ignored
+user_006,item_009,White Button-Down,0.5916,like
+user_006,item_010,Black Blazer,0.3822,ignored
+user_006,item_011,Athletic Performance Tee,0.6473,like
+user_006,item_012,Yellow Patterned Blouse,0.1747,ignored
+user_006,item_013,Bright Mixed-Print Shirt,0.3456,ignored
+user_006,item_014,Budget Plain Tee,0.5856,like
+user_006,item_015,Thermal Base Layer,0.5793,like
+user_006,item_016,Black Slim Chinos,0.9798,purchase
+user_006,item_017,Beige Straight Chinos,1.0,purchase
+user_006,item_018,Gray Slim Trousers,1.0,purchase
+user_006,item_019,Black Cargo Pants,0.6162,like
+user_006,item_020,Patterned Joggers,0.4155,ignored
+user_006,item_021,Navy Chinos,0.3146,ignored
+user_006,item_022,Formal Gray Trousers,0.6202,like
+user_006,item_023,Athletic Track Pants,0.6108,like
+user_006,item_024,Neon Pink Leggings,0.1659,ignored
+user_006,item_025,Budget Jeans,0.6671,like
+user_006,item_026,Insulated Winter Pants,0.3608,ignored
+user_006,item_027,Bright Printed Shorts,0.2736,ignored
+user_006,item_028,White Minimalist Sneakers,0.988,purchase
+user_006,item_029,Black Leather Sneakers,1.0,purchase
+user_006,item_030,Chunky Streetwear Sneakers,0.1062,ignored
+user_006,item_031,Red High-Top Sneakers,0.1321,ignored
+user_006,item_032,Navy Boat Shoes,0.2479,ignored
+user_006,item_033,Oxford Derby Shoes,0.3115,ignored
+user_006,item_034,Running Trainers,0.5995,like
+user_006,item_035,Budget Canvas Shoes,0.9969,purchase
+user_006,item_036,Insulated Winter Boots,0.3791,ignored
+user_006,item_037,Bright Platform Sneakers,0.2925,ignored
+user_006,item_038,Black Minimal Watch,0.8806,purchase
+user_006,item_039,Streetwear Cap,0.4582,like
+user_006,item_040,Bold Chain Necklace,0.2428,ignored
+user_006,item_041,Navy Knit Beanie,0.526,like
+user_006,item_042,Leather Belt,0.5487,like
+user_006,item_043,Athletic Gym Bag,0.5426,like
+user_006,item_044,Winter Scarf,0.5132,like
+user_006,item_045,Budget Backpack,0.5554,like
+user_006,item_046,Statement Sunglasses,0.2288,ignored
+user_006,item_047,Preppy Canvas Tote,0.2131,ignored
+user_007,item_001,Black Classic Hoodie,0.9844,purchase
+user_007,item_002,White Oversized Tee,0.9825,purchase
+user_007,item_003,Beige Linen Shirt,0.935,purchase
+user_007,item_004,Gray Crewneck Sweatshirt,1.0,purchase
+user_007,item_005,Neon Green Graphic Tee,0.1562,ignored
+user_007,item_006,Red Varsity Jacket,0.1378,ignored
+user_007,item_007,Navy Polo Shirt,0.2835,ignored
+user_007,item_008,Light Blue Oxford Shirt,0.3161,ignored
+user_007,item_009,White Button-Down,0.6688,like
+user_007,item_010,Black Blazer,0.4254,ignored
+user_007,item_011,Athletic Performance Tee,0.6021,like
+user_007,item_012,Yellow Patterned Blouse,0.131,ignored
+user_007,item_013,Bright Mixed-Print Shirt,0.3028,ignored
+user_007,item_014,Budget Plain Tee,0.5532,like
+user_007,item_015,Thermal Base Layer,0.6135,like
+user_007,item_016,Black Slim Chinos,1.0,purchase
+user_007,item_017,Beige Straight Chinos,1.0,purchase
+user_007,item_018,Gray Slim Trousers,1.0,purchase
+user_007,item_019,Black Cargo Pants,0.6483,like
+user_007,item_020,Patterned Joggers,0.2835,ignored
+user_007,item_021,Navy Chinos,0.325,ignored
+user_007,item_022,Formal Gray Trousers,0.5831,like
+user_007,item_023,Athletic Track Pants,0.6267,like
+user_007,item_024,Neon Pink Leggings,0.1613,ignored
+user_007,item_025,Budget Jeans,0.5681,like
+user_007,item_026,Insulated Winter Pants,0.3649,ignored
+user_007,item_027,Bright Printed Shorts,0.3219,ignored
+user_007,item_028,White Minimalist Sneakers,0.9429,purchase
+user_007,item_029,Black Leather Sneakers,1.0,purchase
+user_007,item_030,Chunky Streetwear Sneakers,0.0997,ignored
+user_007,item_031,Red High-Top Sneakers,0.1487,ignored
+user_007,item_032,Navy Boat Shoes,0.3189,ignored
+user_007,item_033,Oxford Derby Shoes,0.436,ignored
+user_007,item_034,Running Trainers,0.5561,like
+user_007,item_035,Budget Canvas Shoes,0.9653,purchase
+user_007,item_036,Insulated Winter Boots,0.4475,ignored
+user_007,item_037,Bright Platform Sneakers,0.3439,ignored
+user_007,item_038,Black Minimal Watch,0.9452,purchase
+user_007,item_039,Streetwear Cap,0.5595,like
+user_007,item_040,Bold Chain Necklace,0.1313,ignored
+user_007,item_041,Navy Knit Beanie,0.5023,like
+user_007,item_042,Leather Belt,0.4479,ignored
+user_007,item_043,Athletic Gym Bag,0.5538,like
+user_007,item_044,Winter Scarf,0.513,like
+user_007,item_045,Budget Backpack,0.445,ignored
+user_007,item_046,Statement Sunglasses,0.2533,ignored
+user_007,item_047,Preppy Canvas Tote,0.2123,ignored
+user_008,item_001,Black Classic Hoodie,0.3869,ignored
+user_008,item_002,White Oversized Tee,0.1498,ignored
+user_008,item_003,Beige Linen Shirt,0.6138,like
+user_008,item_004,Gray Crewneck Sweatshirt,0.639,like
+user_008,item_005,Neon Green Graphic Tee,0.4704,like
+user_008,item_006,Red Varsity Jacket,1.0,purchase
+user_008,item_007,Navy Polo Shirt,0.1599,ignored
+user_008,item_008,Light Blue Oxford Shirt,0.2121,ignored
+user_008,item_009,White Button-Down,0.257,ignored
+user_008,item_010,Black Blazer,0.4804,like
+user_008,item_011,Athletic Performance Tee,0.1473,ignored
+user_008,item_012,Yellow Patterned Blouse,0.1471,ignored
+user_008,item_013,Bright Mixed-Print Shirt,0.1819,ignored
+user_008,item_014,Budget Plain Tee,0.6551,like
+user_008,item_015,Thermal Base Layer,0.4465,ignored
+user_008,item_016,Black Slim Chinos,0.3975,ignored
+user_008,item_017,Beige Straight Chinos,0.6708,like
+user_008,item_018,Gray Slim Trousers,0.1469,ignored
+user_008,item_019,Black Cargo Pants,0.9155,purchase
+user_008,item_020,Patterned Joggers,0.5372,like
+user_008,item_021,Navy Chinos,0.0997,ignored
+user_008,item_022,Formal Gray Trousers,0.1601,ignored
+user_008,item_023,Athletic Track Pants,0.3598,ignored
+user_008,item_024,Neon Pink Leggings,0.0138,ignored
+user_008,item_025,Budget Jeans,0.5508,like
+user_008,item_026,Insulated Winter Pants,0.1417,ignored
+user_008,item_027,Bright Printed Shorts,0.0581,ignored
+user_008,item_028,White Minimalist Sneakers,0.2255,ignored
+user_008,item_029,Black Leather Sneakers,0.9944,purchase
+user_008,item_030,Chunky Streetwear Sneakers,0.7222,purchase
+user_008,item_031,Red High-Top Sneakers,1.0,purchase
+user_008,item_032,Navy Boat Shoes,0.1991,ignored
+user_008,item_033,Oxford Derby Shoes,0.4794,like
+user_008,item_034,Running Trainers,0.1744,ignored
+user_008,item_035,Budget Canvas Shoes,0.6135,like
+user_008,item_036,Insulated Winter Boots,0.4757,like
+user_008,item_037,Bright Platform Sneakers,0.2286,ignored
+user_008,item_038,Black Minimal Watch,0.5038,like
+user_008,item_039,Streetwear Cap,0.9854,purchase
+user_008,item_040,Bold Chain Necklace,0.7041,purchase
+user_008,item_041,Navy Knit Beanie,0.6364,like
+user_008,item_042,Leather Belt,0.3972,ignored
+user_008,item_043,Athletic Gym Bag,0.1296,ignored
+user_008,item_044,Winter Scarf,0.1387,ignored
+user_008,item_045,Budget Backpack,0.591,like
+user_008,item_046,Statement Sunglasses,0.1951,ignored
+user_008,item_047,Preppy Canvas Tote,0.1496,ignored
+user_009,item_001,Black Classic Hoodie,0.5147,like
+user_009,item_002,White Oversized Tee,0.1576,ignored
+user_009,item_003,Beige Linen Shirt,0.6885,like
+user_009,item_004,Gray Crewneck Sweatshirt,0.7058,purchase
+user_009,item_005,Neon Green Graphic Tee,0.503,like
+user_009,item_006,Red Varsity Jacket,0.9751,purchase
+user_009,item_007,Navy Polo Shirt,0.2286,ignored
+user_009,item_008,Light Blue Oxford Shirt,0.2684,ignored
+user_009,item_009,White Button-Down,0.2193,ignored
+user_009,item_010,Black Blazer,0.543,like
+user_009,item_011,Athletic Performance Tee,0.2025,ignored
+user_009,item_012,Yellow Patterned Blouse,0.2623,ignored
+user_009,item_013,Bright Mixed-Print Shirt,0.2818,ignored
+user_009,item_014,Budget Plain Tee,0.6357,like
+user_009,item_015,Thermal Base Layer,0.5033,like
+user_009,item_016,Black Slim Chinos,0.3832,ignored
+user_009,item_017,Beige Straight Chinos,0.5779,like
+user_009,item_018,Gray Slim Trousers,0.1542,ignored
+user_009,item_019,Black Cargo Pants,0.9032,purchase
+user_009,item_020,Patterned Joggers,0.5899,like
+user_009,item_021,Navy Chinos,0.0826,ignored
+user_009,item_022,Formal Gray Trousers,0.1351,ignored
+user_009,item_023,Athletic Track Pants,0.3881,ignored
+user_009,item_024,Neon Pink Leggings,0.0,ignored
+user_009,item_025,Budget Jeans,0.5112,like
+user_009,item_026,Insulated Winter Pants,0.1257,ignored
+user_009,item_027,Bright Printed Shorts,0.0547,ignored
+user_009,item_028,White Minimalist Sneakers,0.2506,ignored
+user_009,item_029,Black Leather Sneakers,1.0,purchase
+user_009,item_030,Chunky Streetwear Sneakers,0.6938,like
+user_009,item_031,Red High-Top Sneakers,1.0,purchase
+user_009,item_032,Navy Boat Shoes,0.2581,ignored
+user_009,item_033,Oxford Derby Shoes,0.392,ignored
+user_009,item_034,Running Trainers,0.2197,ignored
+user_009,item_035,Budget Canvas Shoes,0.6731,like
+user_009,item_036,Insulated Winter Boots,0.483,like
+user_009,item_037,Bright Platform Sneakers,0.2298,ignored
+user_009,item_038,Black Minimal Watch,0.5096,like
+user_009,item_039,Streetwear Cap,0.9429,purchase
+user_009,item_040,Bold Chain Necklace,0.7176,purchase
+user_009,item_041,Navy Knit Beanie,0.6533,like
+user_009,item_042,Leather Belt,0.5625,like
+user_009,item_043,Athletic Gym Bag,0.2466,ignored
+user_009,item_044,Winter Scarf,0.1713,ignored
+user_009,item_045,Budget Backpack,0.6159,like
+user_009,item_046,Statement Sunglasses,0.2615,ignored
+user_009,item_047,Preppy Canvas Tote,0.1965,ignored
+user_010,item_001,Black Classic Hoodie,0.4858,like
+user_010,item_002,White Oversized Tee,0.1127,ignored
+user_010,item_003,Beige Linen Shirt,0.6935,like
+user_010,item_004,Gray Crewneck Sweatshirt,0.6532,like
+user_010,item_005,Neon Green Graphic Tee,0.4988,like
+user_010,item_006,Red Varsity Jacket,1.0,purchase
+user_010,item_007,Navy Polo Shirt,0.1214,ignored
+user_010,item_008,Light Blue Oxford Shirt,0.1975,ignored
+user_010,item_009,White Button-Down,0.1924,ignored
+user_010,item_010,Black Blazer,0.5139,like
+user_010,item_011,Athletic Performance Tee,0.2026,ignored
+user_010,item_012,Yellow Patterned Blouse,0.1255,ignored
+user_010,item_013,Bright Mixed-Print Shirt,0.1717,ignored
+user_010,item_014,Budget Plain Tee,0.6553,like
+user_010,item_015,Thermal Base Layer,0.5006,like
+user_010,item_016,Black Slim Chinos,0.3307,ignored
+user_010,item_017,Beige Straight Chinos,0.6099,like
+user_010,item_018,Gray Slim Trousers,0.0313,ignored
+user_010,item_019,Black Cargo Pants,0.8251,purchase
+user_010,item_020,Patterned Joggers,0.5347,like
+user_010,item_021,Navy Chinos,0.0339,ignored
+user_010,item_022,Formal Gray Trousers,0.1075,ignored
+user_010,item_023,Athletic Track Pants,0.3188,ignored
+user_010,item_024,Neon Pink Leggings,0.0,ignored
+user_010,item_025,Budget Jeans,0.5227,like
+user_010,item_026,Insulated Winter Pants,0.0937,ignored
+user_010,item_027,Bright Printed Shorts,0.0046,ignored
+user_010,item_028,White Minimalist Sneakers,0.2123,ignored
+user_010,item_029,Black Leather Sneakers,0.9701,purchase
+user_010,item_030,Chunky Streetwear Sneakers,0.6698,like
+user_010,item_031,Red High-Top Sneakers,1.0,purchase
+user_010,item_032,Navy Boat Shoes,0.1735,ignored
+user_010,item_033,Oxford Derby Shoes,0.5227,like
+user_010,item_034,Running Trainers,0.1764,ignored
+user_010,item_035,Budget Canvas Shoes,0.6188,like
+user_010,item_036,Insulated Winter Boots,0.4632,like
+user_010,item_037,Bright Platform Sneakers,0.1556,ignored
+user_010,item_038,Black Minimal Watch,0.5018,like
+user_010,item_039,Streetwear Cap,0.9737,purchase
+user_010,item_040,Bold Chain Necklace,0.6514,like
+user_010,item_041,Navy Knit Beanie,0.6811,like
+user_010,item_042,Leather Belt,0.4641,like
+user_010,item_043,Athletic Gym Bag,0.131,ignored
+user_010,item_044,Winter Scarf,0.1405,ignored
+user_010,item_045,Budget Backpack,0.7008,purchase
+user_010,item_046,Statement Sunglasses,0.1698,ignored
+user_010,item_047,Preppy Canvas Tote,0.1246,ignored
+user_011,item_001,Black Classic Hoodie,0.3971,ignored
+user_011,item_002,White Oversized Tee,0.1476,ignored
+user_011,item_003,Beige Linen Shirt,0.6132,like
+user_011,item_004,Gray Crewneck Sweatshirt,0.6411,like
+user_011,item_005,Neon Green Graphic Tee,0.4231,ignored
+user_011,item_006,Red Varsity Jacket,1.0,purchase
+user_011,item_007,Navy Polo Shirt,0.1547,ignored
+user_011,item_008,Light Blue Oxford Shirt,0.1714,ignored
+user_011,item_009,White Button-Down,0.2265,ignored
+user_011,item_010,Black Blazer,0.4562,like
+user_011,item_011,Athletic Performance Tee,0.1246,ignored
+user_011,item_012,Yellow Patterned Blouse,0.1292,ignored
+user_011,item_013,Bright Mixed-Print Shirt,0.1647,ignored
+user_011,item_014,Budget Plain Tee,0.6711,like
+user_011,item_015,Thermal Base Layer,0.4735,like
+user_011,item_016,Black Slim Chinos,0.3778,ignored
+user_011,item_017,Beige Straight Chinos,0.5957,like
+user_011,item_018,Gray Slim Trousers,0.1596,ignored
+user_011,item_019,Black Cargo Pants,0.9016,purchase
+user_011,item_020,Patterned Joggers,0.5598,like
+user_011,item_021,Navy Chinos,0.1393,ignored
+user_011,item_022,Formal Gray Trousers,0.1562,ignored
+user_011,item_023,Athletic Track Pants,0.3625,ignored
+user_011,item_024,Neon Pink Leggings,0.0029,ignored
+user_011,item_025,Budget Jeans,0.5482,like
+user_011,item_026,Insulated Winter Pants,0.1742,ignored
+user_011,item_027,Bright Printed Shorts,0.0528,ignored
+user_011,item_028,White Minimalist Sneakers,0.2049,ignored
+user_011,item_029,Black Leather Sneakers,0.9847,purchase
+user_011,item_030,Chunky Streetwear Sneakers,0.7017,purchase
+user_011,item_031,Red High-Top Sneakers,0.995,purchase
+user_011,item_032,Navy Boat Shoes,0.1898,ignored
+user_011,item_033,Oxford Derby Shoes,0.4658,like
+user_011,item_034,Running Trainers,0.2186,ignored
+user_011,item_035,Budget Canvas Shoes,0.6732,like
+user_011,item_036,Insulated Winter Boots,0.5035,like
+user_011,item_037,Bright Platform Sneakers,0.2167,ignored
+user_011,item_038,Black Minimal Watch,0.5213,like
+user_011,item_039,Streetwear Cap,0.9601,purchase
+user_011,item_040,Bold Chain Necklace,0.6399,like
+user_011,item_041,Navy Knit Beanie,0.6372,like
+user_011,item_042,Leather Belt,0.4544,like
+user_011,item_043,Athletic Gym Bag,0.1291,ignored
+user_011,item_044,Winter Scarf,0.0978,ignored
+user_011,item_045,Budget Backpack,0.6315,like
+user_011,item_046,Statement Sunglasses,0.138,ignored
+user_011,item_047,Preppy Canvas Tote,0.1268,ignored
+user_012,item_001,Black Classic Hoodie,0.5198,like
+user_012,item_002,White Oversized Tee,0.2155,ignored
+user_012,item_003,Beige Linen Shirt,0.7466,purchase
+user_012,item_004,Gray Crewneck Sweatshirt,0.6988,like
+user_012,item_005,Neon Green Graphic Tee,0.5421,like
+user_012,item_006,Red Varsity Jacket,0.9693,purchase
+user_012,item_007,Navy Polo Shirt,0.2071,ignored
+user_012,item_008,Light Blue Oxford Shirt,0.2203,ignored
+user_012,item_009,White Button-Down,0.2084,ignored
+user_012,item_010,Black Blazer,0.5264,like
+user_012,item_011,Athletic Performance Tee,0.1722,ignored
+user_012,item_012,Yellow Patterned Blouse,0.2665,ignored
+user_012,item_013,Bright Mixed-Print Shirt,0.2516,ignored
+user_012,item_014,Budget Plain Tee,0.7023,purchase
+user_012,item_015,Thermal Base Layer,0.4682,like
+user_012,item_016,Black Slim Chinos,0.3807,ignored
+user_012,item_017,Beige Straight Chinos,0.6266,like
+user_012,item_018,Gray Slim Trousers,0.1261,ignored
+user_012,item_019,Black Cargo Pants,0.8442,purchase
+user_012,item_020,Patterned Joggers,0.6551,like
+user_012,item_021,Navy Chinos,0.1778,ignored
+user_012,item_022,Formal Gray Trousers,0.1419,ignored
+user_012,item_023,Athletic Track Pants,0.3853,ignored
+user_012,item_024,Neon Pink Leggings,0.0327,ignored
+user_012,item_025,Budget Jeans,0.4934,like
+user_012,item_026,Insulated Winter Pants,0.1474,ignored
+user_012,item_027,Bright Printed Shorts,0.1464,ignored
+user_012,item_028,White Minimalist Sneakers,0.2323,ignored
+user_012,item_029,Black Leather Sneakers,1.0,purchase
+user_012,item_030,Chunky Streetwear Sneakers,0.7712,purchase
+user_012,item_031,Red High-Top Sneakers,0.9922,purchase
+user_012,item_032,Navy Boat Shoes,0.2468,ignored
+user_012,item_033,Oxford Derby Shoes,0.3537,ignored
+user_012,item_034,Running Trainers,0.234,ignored
+user_012,item_035,Budget Canvas Shoes,0.6318,like
+user_012,item_036,Insulated Winter Boots,0.5488,like
+user_012,item_037,Bright Platform Sneakers,0.2802,ignored
+user_012,item_038,Black Minimal Watch,0.5313,like
+user_012,item_039,Streetwear Cap,0.8962,purchase
+user_012,item_040,Bold Chain Necklace,0.8045,purchase
+user_012,item_041,Navy Knit Beanie,0.7304,purchase
+user_012,item_042,Leather Belt,0.513,like
+user_012,item_043,Athletic Gym Bag,0.2223,ignored
+user_012,item_044,Winter Scarf,0.1524,ignored
+user_012,item_045,Budget Backpack,0.6836,like
+user_012,item_046,Statement Sunglasses,0.222,ignored
+user_012,item_047,Preppy Canvas Tote,0.1774,ignored
+user_013,item_001,Black Classic Hoodie,0.4849,like
+user_013,item_002,White Oversized Tee,0.0742,ignored
+user_013,item_003,Beige Linen Shirt,0.7274,purchase
+user_013,item_004,Gray Crewneck Sweatshirt,0.658,like
+user_013,item_005,Neon Green Graphic Tee,0.4075,ignored
+user_013,item_006,Red Varsity Jacket,0.9576,purchase
+user_013,item_007,Navy Polo Shirt,0.1671,ignored
+user_013,item_008,Light Blue Oxford Shirt,0.1447,ignored
+user_013,item_009,White Button-Down,0.1677,ignored
+user_013,item_010,Black Blazer,0.431,ignored
+user_013,item_011,Athletic Performance Tee,0.1125,ignored
+user_013,item_012,Yellow Patterned Blouse,0.1735,ignored
+user_013,item_013,Bright Mixed-Print Shirt,0.1421,ignored
+user_013,item_014,Budget Plain Tee,0.6028,like
+user_013,item_015,Thermal Base Layer,0.4075,ignored
+user_013,item_016,Black Slim Chinos,0.4643,like
+user_013,item_017,Beige Straight Chinos,0.5972,like
+user_013,item_018,Gray Slim Trousers,0.1706,ignored
+user_013,item_019,Black Cargo Pants,0.943,purchase
+user_013,item_020,Patterned Joggers,0.5928,like
+user_013,item_021,Navy Chinos,0.1289,ignored
+user_013,item_022,Formal Gray Trousers,0.0972,ignored
+user_013,item_023,Athletic Track Pants,0.3488,ignored
+user_013,item_024,Neon Pink Leggings,0.0091,ignored
+user_013,item_025,Budget Jeans,0.5426,like
+user_013,item_026,Insulated Winter Pants,0.1174,ignored
+user_013,item_027,Bright Printed Shorts,0.0675,ignored
+user_013,item_028,White Minimalist Sneakers,0.1603,ignored
+user_013,item_029,Black Leather Sneakers,1.0,purchase
+user_013,item_030,Chunky Streetwear Sneakers,0.7193,purchase
+user_013,item_031,Red High-Top Sneakers,0.9668,purchase
+user_013,item_032,Navy Boat Shoes,0.2277,ignored
+user_013,item_033,Oxford Derby Shoes,0.5011,like
+user_013,item_034,Running Trainers,0.1526,ignored
+user_013,item_035,Budget Canvas Shoes,0.6838,like
+user_013,item_036,Insulated Winter Boots,0.5131,like
+user_013,item_037,Bright Platform Sneakers,0.2167,ignored
+user_013,item_038,Black Minimal Watch,0.5329,like
+user_013,item_039,Streetwear Cap,0.8934,purchase
+user_013,item_040,Bold Chain Necklace,0.6146,like
+user_013,item_041,Navy Knit Beanie,0.5952,like
+user_013,item_042,Leather Belt,0.4681,like
+user_013,item_043,Athletic Gym Bag,0.0662,ignored
+user_013,item_044,Winter Scarf,0.1225,ignored
+user_013,item_045,Budget Backpack,0.6287,like
+user_013,item_046,Statement Sunglasses,0.1873,ignored
+user_013,item_047,Preppy Canvas Tote,0.1102,ignored
+user_014,item_001,Black Classic Hoodie,0.4377,ignored
+user_014,item_002,White Oversized Tee,0.128,ignored
+user_014,item_003,Beige Linen Shirt,0.6793,like
+user_014,item_004,Gray Crewneck Sweatshirt,0.5961,like
+user_014,item_005,Neon Green Graphic Tee,0.469,like
+user_014,item_006,Red Varsity Jacket,0.9993,purchase
+user_014,item_007,Navy Polo Shirt,0.1996,ignored
+user_014,item_008,Light Blue Oxford Shirt,0.2195,ignored
+user_014,item_009,White Button-Down,0.2037,ignored
+user_014,item_010,Black Blazer,0.5305,like
+user_014,item_011,Athletic Performance Tee,0.1728,ignored
+user_014,item_012,Yellow Patterned Blouse,0.2318,ignored
+user_014,item_013,Bright Mixed-Print Shirt,0.2407,ignored
+user_014,item_014,Budget Plain Tee,0.5775,like
+user_014,item_015,Thermal Base Layer,0.4503,like
+user_014,item_016,Black Slim Chinos,0.4502,like
+user_014,item_017,Beige Straight Chinos,0.6265,like
+user_014,item_018,Gray Slim Trousers,0.0899,ignored
+user_014,item_019,Black Cargo Pants,0.9162,purchase
+user_014,item_020,Patterned Joggers,0.6435,like
+user_014,item_021,Navy Chinos,0.1324,ignored
+user_014,item_022,Formal Gray Trousers,0.135,ignored
+user_014,item_023,Athletic Track Pants,0.4554,like
+user_014,item_024,Neon Pink Leggings,0.0074,ignored
+user_014,item_025,Budget Jeans,0.5586,like
+user_014,item_026,Insulated Winter Pants,0.14,ignored
+user_014,item_027,Bright Printed Shorts,0.0735,ignored
+user_014,item_028,White Minimalist Sneakers,0.203,ignored
+user_014,item_029,Black Leather Sneakers,0.9949,purchase
+user_014,item_030,Chunky Streetwear Sneakers,0.7336,purchase
+user_014,item_031,Red High-Top Sneakers,0.9939,purchase
+user_014,item_032,Navy Boat Shoes,0.2214,ignored
+user_014,item_033,Oxford Derby Shoes,0.5159,like
+user_014,item_034,Running Trainers,0.2501,ignored
+user_014,item_035,Budget Canvas Shoes,0.6015,like
+user_014,item_036,Insulated Winter Boots,0.5579,like
+user_014,item_037,Bright Platform Sneakers,0.1984,ignored
+user_014,item_038,Black Minimal Watch,0.4989,like
+user_014,item_039,Streetwear Cap,0.9374,purchase
+user_014,item_040,Bold Chain Necklace,0.631,like
+user_014,item_041,Navy Knit Beanie,0.636,like
+user_014,item_042,Leather Belt,0.5625,like
+user_014,item_043,Athletic Gym Bag,0.1452,ignored
+user_014,item_044,Winter Scarf,0.1709,ignored
+user_014,item_045,Budget Backpack,0.5998,like
+user_014,item_046,Statement Sunglasses,0.2643,ignored
+user_014,item_047,Preppy Canvas Tote,0.1766,ignored
+user_015,item_001,Black Classic Hoodie,0.3245,ignored
+user_015,item_002,White Oversized Tee,0.454,like
+user_015,item_003,Beige Linen Shirt,0.2848,ignored
+user_015,item_004,Gray Crewneck Sweatshirt,0.2986,ignored
+user_015,item_005,Neon Green Graphic Tee,0.2328,ignored
+user_015,item_006,Red Varsity Jacket,0.3078,ignored
+user_015,item_007,Navy Polo Shirt,1.0,purchase
+user_015,item_008,Light Blue Oxford Shirt,0.9592,purchase
+user_015,item_009,White Button-Down,0.5445,like
+user_015,item_010,Black Blazer,0.2876,ignored
+user_015,item_011,Athletic Performance Tee,0.1852,ignored
+user_015,item_012,Yellow Patterned Blouse,0.3038,ignored
+user_015,item_013,Bright Mixed-Print Shirt,0.2527,ignored
+user_015,item_014,Budget Plain Tee,0.2387,ignored
+user_015,item_015,Thermal Base Layer,0.334,ignored
+user_015,item_016,Black Slim Chinos,0.3068,ignored
+user_015,item_017,Beige Straight Chinos,0.2786,ignored
+user_015,item_018,Gray Slim Trousers,0.28,ignored
+user_015,item_019,Black Cargo Pants,0.3039,ignored
+user_015,item_020,Patterned Joggers,0.2357,ignored
+user_015,item_021,Navy Chinos,1.0,purchase
+user_015,item_022,Formal Gray Trousers,0.3283,ignored
+user_015,item_023,Athletic Track Pants,0.299,ignored
+user_015,item_024,Neon Pink Leggings,0.2936,ignored
+user_015,item_025,Budget Jeans,0.2232,ignored
+user_015,item_026,Insulated Winter Pants,0.5496,like
+user_015,item_027,Bright Printed Shorts,0.3412,ignored
+user_015,item_028,White Minimalist Sneakers,0.5397,like
+user_015,item_029,Black Leather Sneakers,0.2877,ignored
+user_015,item_030,Chunky Streetwear Sneakers,0.2946,ignored
+user_015,item_031,Red High-Top Sneakers,0.3139,ignored
+user_015,item_032,Navy Boat Shoes,1.0,purchase
+user_015,item_033,Oxford Derby Shoes,0.1174,ignored
+user_015,item_034,Running Trainers,0.2768,ignored
+user_015,item_035,Budget Canvas Shoes,0.4223,ignored
+user_015,item_036,Insulated Winter Boots,0.2455,ignored
+user_015,item_037,Bright Platform Sneakers,0.3183,ignored
+user_015,item_038,Black Minimal Watch,0.1406,ignored
+user_015,item_039,Streetwear Cap,0.0537,ignored
+user_015,item_040,Bold Chain Necklace,0.1221,ignored
+user_015,item_041,Navy Knit Beanie,0.2879,ignored
+user_015,item_042,Leather Belt,0.1985,ignored
+user_015,item_043,Athletic Gym Bag,0.1421,ignored
+user_015,item_044,Winter Scarf,0.0382,ignored
+user_015,item_045,Budget Backpack,0.096,ignored
+user_015,item_046,Statement Sunglasses,0.1712,ignored
+user_015,item_047,Preppy Canvas Tote,0.886,purchase
+user_016,item_001,Black Classic Hoodie,0.2506,ignored
+user_016,item_002,White Oversized Tee,0.467,like
+user_016,item_003,Beige Linen Shirt,0.3147,ignored
+user_016,item_004,Gray Crewneck Sweatshirt,0.2247,ignored
+user_016,item_005,Neon Green Graphic Tee,0.2434,ignored
+user_016,item_006,Red Varsity Jacket,0.3361,ignored
+user_016,item_007,Navy Polo Shirt,0.9569,purchase
+user_016,item_008,Light Blue Oxford Shirt,1.0,purchase
+user_016,item_009,White Button-Down,0.58,like
+user_016,item_010,Black Blazer,0.3413,ignored
+user_016,item_011,Athletic Performance Tee,0.2289,ignored
+user_016,item_012,Yellow Patterned Blouse,0.3845,ignored
+user_016,item_013,Bright Mixed-Print Shirt,0.3615,ignored
+user_016,item_014,Budget Plain Tee,0.2184,ignored
+user_016,item_015,Thermal Base Layer,0.2489,ignored
+user_016,item_016,Black Slim Chinos,0.418,ignored
+user_016,item_017,Beige Straight Chinos,0.3952,ignored
+user_016,item_018,Gray Slim Trousers,0.3738,ignored
+user_016,item_019,Black Cargo Pants,0.3199,ignored
+user_016,item_020,Patterned Joggers,0.4662,like
+user_016,item_021,Navy Chinos,0.964,purchase
+user_016,item_022,Formal Gray Trousers,0.3424,ignored
+user_016,item_023,Athletic Track Pants,0.3326,ignored
+user_016,item_024,Neon Pink Leggings,0.2772,ignored
+user_016,item_025,Budget Jeans,0.241,ignored
+user_016,item_026,Insulated Winter Pants,0.5497,like
+user_016,item_027,Bright Printed Shorts,0.2364,ignored
+user_016,item_028,White Minimalist Sneakers,0.6089,like
+user_016,item_029,Black Leather Sneakers,0.344,ignored
+user_016,item_030,Chunky Streetwear Sneakers,0.317,ignored
+user_016,item_031,Red High-Top Sneakers,0.3318,ignored
+user_016,item_032,Navy Boat Shoes,0.9869,purchase
+user_016,item_033,Oxford Derby Shoes,0.3543,ignored
+user_016,item_034,Running Trainers,0.338,ignored
+user_016,item_035,Budget Canvas Shoes,0.4894,like
+user_016,item_036,Insulated Winter Boots,0.3251,ignored
+user_016,item_037,Bright Platform Sneakers,0.3017,ignored
+user_016,item_038,Black Minimal Watch,0.2282,ignored
+user_016,item_039,Streetwear Cap,0.1657,ignored
+user_016,item_040,Bold Chain Necklace,0.108,ignored
+user_016,item_041,Navy Knit Beanie,0.4343,ignored
+user_016,item_042,Leather Belt,0.2651,ignored
+user_016,item_043,Athletic Gym Bag,0.0903,ignored
+user_016,item_044,Winter Scarf,0.1002,ignored
+user_016,item_045,Budget Backpack,0.1325,ignored
+user_016,item_046,Statement Sunglasses,0.2151,ignored
+user_016,item_047,Preppy Canvas Tote,0.8429,purchase
+user_017,item_001,Black Classic Hoodie,0.2937,ignored
+user_017,item_002,White Oversized Tee,0.5076,like
+user_017,item_003,Beige Linen Shirt,0.3672,ignored
+user_017,item_004,Gray Crewneck Sweatshirt,0.3201,ignored
+user_017,item_005,Neon Green Graphic Tee,0.1839,ignored
+user_017,item_006,Red Varsity Jacket,0.3152,ignored
+user_017,item_007,Navy Polo Shirt,1.0,purchase
+user_017,item_008,Light Blue Oxford Shirt,1.0,purchase
+user_017,item_009,White Button-Down,0.5985,like
+user_017,item_010,Black Blazer,0.2814,ignored
+user_017,item_011,Athletic Performance Tee,0.2151,ignored
+user_017,item_012,Yellow Patterned Blouse,0.3032,ignored
+user_017,item_013,Bright Mixed-Print Shirt,0.2579,ignored
+user_017,item_014,Budget Plain Tee,0.1929,ignored
+user_017,item_015,Thermal Base Layer,0.2804,ignored
+user_017,item_016,Black Slim Chinos,0.341,ignored
+user_017,item_017,Beige Straight Chinos,0.3817,ignored
+user_017,item_018,Gray Slim Trousers,0.3792,ignored
+user_017,item_019,Black Cargo Pants,0.3062,ignored
+user_017,item_020,Patterned Joggers,0.3094,ignored
+user_017,item_021,Navy Chinos,1.0,purchase
+user_017,item_022,Formal Gray Trousers,0.3552,ignored
+user_017,item_023,Athletic Track Pants,0.3108,ignored
+user_017,item_024,Neon Pink Leggings,0.3191,ignored
+user_017,item_025,Budget Jeans,0.28,ignored
+user_017,item_026,Insulated Winter Pants,0.5936,like
+user_017,item_027,Bright Printed Shorts,0.3088,ignored
+user_017,item_028,White Minimalist Sneakers,0.6004,like
+user_017,item_029,Black Leather Sneakers,0.3408,ignored
+user_017,item_030,Chunky Streetwear Sneakers,0.2928,ignored
+user_017,item_031,Red High-Top Sneakers,0.3159,ignored
+user_017,item_032,Navy Boat Shoes,0.9649,purchase
+user_017,item_033,Oxford Derby Shoes,0.0959,ignored
+user_017,item_034,Running Trainers,0.3797,ignored
+user_017,item_035,Budget Canvas Shoes,0.5095,like
+user_017,item_036,Insulated Winter Boots,0.3206,ignored
+user_017,item_037,Bright Platform Sneakers,0.2954,ignored
+user_017,item_038,Black Minimal Watch,0.2099,ignored
+user_017,item_039,Streetwear Cap,0.1411,ignored
+user_017,item_040,Bold Chain Necklace,0.2023,ignored
+user_017,item_041,Navy Knit Beanie,0.4265,ignored
+user_017,item_042,Leather Belt,0.178,ignored
+user_017,item_043,Athletic Gym Bag,0.2105,ignored
+user_017,item_044,Winter Scarf,0.1619,ignored
+user_017,item_045,Budget Backpack,0.0494,ignored
+user_017,item_046,Statement Sunglasses,0.2549,ignored
+user_017,item_047,Preppy Canvas Tote,0.8402,purchase
+user_018,item_001,Black Classic Hoodie,0.2124,ignored
+user_018,item_002,White Oversized Tee,0.4451,ignored
+user_018,item_003,Beige Linen Shirt,0.3217,ignored
+user_018,item_004,Gray Crewneck Sweatshirt,0.1205,ignored
+user_018,item_005,Neon Green Graphic Tee,0.1576,ignored
+user_018,item_006,Red Varsity Jacket,0.28,ignored
+user_018,item_007,Navy Polo Shirt,1.0,purchase
+user_018,item_008,Light Blue Oxford Shirt,0.9732,purchase
+user_018,item_009,White Button-Down,0.5256,like
+user_018,item_010,Black Blazer,0.2614,ignored
+user_018,item_011,Athletic Performance Tee,0.2031,ignored
+user_018,item_012,Yellow Patterned Blouse,0.2716,ignored
+user_018,item_013,Bright Mixed-Print Shirt,0.3043,ignored
+user_018,item_014,Budget Plain Tee,0.2325,ignored
+user_018,item_015,Thermal Base Layer,0.2581,ignored
+user_018,item_016,Black Slim Chinos,0.2773,ignored
+user_018,item_017,Beige Straight Chinos,0.2875,ignored
+user_018,item_018,Gray Slim Trousers,0.2984,ignored
+user_018,item_019,Black Cargo Pants,0.2882,ignored
+user_018,item_020,Patterned Joggers,0.2954,ignored
+user_018,item_021,Navy Chinos,0.9531,purchase
+user_018,item_022,Formal Gray Trousers,0.3082,ignored
+user_018,item_023,Athletic Track Pants,0.2695,ignored
+user_018,item_024,Neon Pink Leggings,0.1864,ignored
+user_018,item_025,Budget Jeans,0.1675,ignored
+user_018,item_026,Insulated Winter Pants,0.567,like
+user_018,item_027,Bright Printed Shorts,0.2109,ignored
+user_018,item_028,White Minimalist Sneakers,0.5667,like
+user_018,item_029,Black Leather Sneakers,0.3052,ignored
+user_018,item_030,Chunky Streetwear Sneakers,0.2459,ignored
+user_018,item_031,Red High-Top Sneakers,0.2645,ignored
+user_018,item_032,Navy Boat Shoes,1.0,purchase
+user_018,item_033,Oxford Derby Shoes,0.274,ignored
+user_018,item_034,Running Trainers,0.2643,ignored
+user_018,item_035,Budget Canvas Shoes,0.4449,ignored
+user_018,item_036,Insulated Winter Boots,0.2917,ignored
+user_018,item_037,Bright Platform Sneakers,0.2666,ignored
+user_018,item_038,Black Minimal Watch,0.154,ignored
+user_018,item_039,Streetwear Cap,0.0675,ignored
+user_018,item_040,Bold Chain Necklace,0.0042,ignored
+user_018,item_041,Navy Knit Beanie,0.3322,ignored
+user_018,item_042,Leather Belt,0.1395,ignored
+user_018,item_043,Athletic Gym Bag,0.121,ignored
+user_018,item_044,Winter Scarf,0.0474,ignored
+user_018,item_045,Budget Backpack,0.0345,ignored
+user_018,item_046,Statement Sunglasses,0.1994,ignored
+user_018,item_047,Preppy Canvas Tote,0.7374,purchase
+user_019,item_001,Black Classic Hoodie,0.254,ignored
+user_019,item_002,White Oversized Tee,0.4614,like
+user_019,item_003,Beige Linen Shirt,0.2632,ignored
+user_019,item_004,Gray Crewneck Sweatshirt,0.2234,ignored
+user_019,item_005,Neon Green Graphic Tee,0.1984,ignored
+user_019,item_006,Red Varsity Jacket,0.2673,ignored
+user_019,item_007,Navy Polo Shirt,1.0,purchase
+user_019,item_008,Light Blue Oxford Shirt,1.0,purchase
+user_019,item_009,White Button-Down,0.6149,like
+user_019,item_010,Black Blazer,0.2237,ignored
+user_019,item_011,Athletic Performance Tee,0.1921,ignored
+user_019,item_012,Yellow Patterned Blouse,0.2411,ignored
+user_019,item_013,Bright Mixed-Print Shirt,0.3077,ignored
+user_019,item_014,Budget Plain Tee,0.2175,ignored
+user_019,item_015,Thermal Base Layer,0.2957,ignored
+user_019,item_016,Black Slim Chinos,0.2498,ignored
+user_019,item_017,Beige Straight Chinos,0.2507,ignored
+user_019,item_018,Gray Slim Trousers,0.2122,ignored
+user_019,item_019,Black Cargo Pants,0.3244,ignored
+user_019,item_020,Patterned Joggers,0.2883,ignored
+user_019,item_021,Navy Chinos,0.9921,purchase
+user_019,item_022,Formal Gray Trousers,0.3011,ignored
+user_019,item_023,Athletic Track Pants,0.2956,ignored
+user_019,item_024,Neon Pink Leggings,0.3024,ignored
+user_019,item_025,Budget Jeans,0.1441,ignored
+user_019,item_026,Insulated Winter Pants,0.5024,like
+user_019,item_027,Bright Printed Shorts,0.279,ignored
+user_019,item_028,White Minimalist Sneakers,0.5345,like
+user_019,item_029,Black Leather Sneakers,0.3018,ignored
+user_019,item_030,Chunky Streetwear Sneakers,0.2428,ignored
+user_019,item_031,Red High-Top Sneakers,0.2769,ignored
+user_019,item_032,Navy Boat Shoes,1.0,purchase
+user_019,item_033,Oxford Derby Shoes,0.2939,ignored
+user_019,item_034,Running Trainers,0.2992,ignored
+user_019,item_035,Budget Canvas Shoes,0.4429,ignored
+user_019,item_036,Insulated Winter Boots,0.2961,ignored
+user_019,item_037,Bright Platform Sneakers,0.3272,ignored
+user_019,item_038,Black Minimal Watch,0.1638,ignored
+user_019,item_039,Streetwear Cap,0.117,ignored
+user_019,item_040,Bold Chain Necklace,0.1343,ignored
+user_019,item_041,Navy Knit Beanie,0.3487,ignored
+user_019,item_042,Leather Belt,0.1877,ignored
+user_019,item_043,Athletic Gym Bag,0.138,ignored
+user_019,item_044,Winter Scarf,0.1132,ignored
+user_019,item_045,Budget Backpack,0.06,ignored
+user_019,item_046,Statement Sunglasses,0.1364,ignored
+user_019,item_047,Preppy Canvas Tote,0.8874,purchase
+user_020,item_001,Black Classic Hoodie,0.2938,ignored
+user_020,item_002,White Oversized Tee,0.4901,like
+user_020,item_003,Beige Linen Shirt,0.3496,ignored
+user_020,item_004,Gray Crewneck Sweatshirt,0.2138,ignored
+user_020,item_005,Neon Green Graphic Tee,0.2381,ignored
+user_020,item_006,Red Varsity Jacket,0.2862,ignored
+user_020,item_007,Navy Polo Shirt,0.9828,purchase
+user_020,item_008,Light Blue Oxford Shirt,1.0,purchase
+user_020,item_009,White Button-Down,0.5653,like
+user_020,item_010,Black Blazer,0.365,ignored
+user_020,item_011,Athletic Performance Tee,0.2297,ignored
+user_020,item_012,Yellow Patterned Blouse,0.3156,ignored
+user_020,item_013,Bright Mixed-Print Shirt,0.3598,ignored
+user_020,item_014,Budget Plain Tee,0.2163,ignored
+user_020,item_015,Thermal Base Layer,0.1902,ignored
+user_020,item_016,Black Slim Chinos,0.3605,ignored
+user_020,item_017,Beige Straight Chinos,0.3339,ignored
+user_020,item_018,Gray Slim Trousers,0.2565,ignored
+user_020,item_019,Black Cargo Pants,0.3228,ignored
+user_020,item_020,Patterned Joggers,0.3094,ignored
+user_020,item_021,Navy Chinos,1.0,purchase
+user_020,item_022,Formal Gray Trousers,0.2996,ignored
+user_020,item_023,Athletic Track Pants,0.3041,ignored
+user_020,item_024,Neon Pink Leggings,0.2085,ignored
+user_020,item_025,Budget Jeans,0.2042,ignored
+user_020,item_026,Insulated Winter Pants,0.5455,like
+user_020,item_027,Bright Printed Shorts,0.1927,ignored
+user_020,item_028,White Minimalist Sneakers,0.5356,like
+user_020,item_029,Black Leather Sneakers,0.2733,ignored
+user_020,item_030,Chunky Streetwear Sneakers,0.2766,ignored
+user_020,item_031,Red High-Top Sneakers,0.2747,ignored
+user_020,item_032,Navy Boat Shoes,0.9843,purchase
+user_020,item_033,Oxford Derby Shoes,0.301,ignored
+user_020,item_034,Running Trainers,0.2847,ignored
+user_020,item_035,Budget Canvas Shoes,0.4951,like
+user_020,item_036,Insulated Winter Boots,0.3201,ignored
+user_020,item_037,Bright Platform Sneakers,0.3085,ignored
+user_020,item_038,Black Minimal Watch,0.1576,ignored
+user_020,item_039,Streetwear Cap,0.1336,ignored
+user_020,item_040,Bold Chain Necklace,0.093,ignored
+user_020,item_041,Navy Knit Beanie,0.345,ignored
+user_020,item_042,Leather Belt,0.0939,ignored
+user_020,item_043,Athletic Gym Bag,0.0662,ignored
+user_020,item_044,Winter Scarf,0.0207,ignored
+user_020,item_045,Budget Backpack,0.073,ignored
+user_020,item_046,Statement Sunglasses,0.1827,ignored
+user_020,item_047,Preppy Canvas Tote,0.7439,purchase
+user_021,item_001,Black Classic Hoodie,0.587,like
+user_021,item_002,White Oversized Tee,0.2223,ignored
+user_021,item_003,Beige Linen Shirt,0.8094,purchase
+user_021,item_004,Gray Crewneck Sweatshirt,0.9534,purchase
+user_021,item_005,Neon Green Graphic Tee,0.2451,ignored
+user_021,item_006,Red Varsity Jacket,0.376,ignored
+user_021,item_007,Navy Polo Shirt,0.3795,ignored
+user_021,item_008,Light Blue Oxford Shirt,0.3596,ignored
+user_021,item_009,White Button-Down,0.4216,ignored
+user_021,item_010,Black Blazer,0.559,like
+user_021,item_011,Athletic Performance Tee,0.8762,purchase
+user_021,item_012,Yellow Patterned Blouse,0.2806,ignored
+user_021,item_013,Bright Mixed-Print Shirt,0.4165,ignored
+user_021,item_014,Budget Plain Tee,0.6705,like
+user_021,item_015,Thermal Base Layer,0.5361,like
+user_021,item_016,Black Slim Chinos,0.611,like
+user_021,item_017,Beige Straight Chinos,0.8292,purchase
+user_021,item_018,Gray Slim Trousers,0.5746,like
+user_021,item_019,Black Cargo Pants,0.5284,like
+user_021,item_020,Patterned Joggers,0.376,ignored
+user_021,item_021,Navy Chinos,0.3448,ignored
+user_021,item_022,Formal Gray Trousers,0.5363,like
+user_021,item_023,Athletic Track Pants,1.0,purchase
+user_021,item_024,Neon Pink Leggings,0.7281,purchase
+user_021,item_025,Budget Jeans,0.6986,like
+user_021,item_026,Insulated Winter Pants,0.3772,ignored
+user_021,item_027,Bright Printed Shorts,0.4249,ignored
+user_021,item_028,White Minimalist Sneakers,0.3732,ignored
+user_021,item_029,Black Leather Sneakers,0.9382,purchase
+user_021,item_030,Chunky Streetwear Sneakers,0.3383,ignored
+user_021,item_031,Red High-Top Sneakers,0.3653,ignored
+user_021,item_032,Navy Boat Shoes,0.3741,ignored
+user_021,item_033,Oxford Derby Shoes,0.6008,like
+user_021,item_034,Running Trainers,0.9412,purchase
+user_021,item_035,Budget Canvas Shoes,0.6717,like
+user_021,item_036,Insulated Winter Boots,0.6005,like
+user_021,item_037,Bright Platform Sneakers,0.4097,ignored
+user_021,item_038,Black Minimal Watch,0.4847,like
+user_021,item_039,Streetwear Cap,0.3068,ignored
+user_021,item_040,Bold Chain Necklace,0.2538,ignored
+user_021,item_041,Navy Knit Beanie,0.5906,like
+user_021,item_042,Leather Belt,0.4648,like
+user_021,item_043,Athletic Gym Bag,0.8793,purchase
+user_021,item_044,Winter Scarf,0.3433,ignored
+user_021,item_045,Budget Backpack,0.5155,like
+user_021,item_046,Statement Sunglasses,0.1775,ignored
+user_021,item_047,Preppy Canvas Tote,0.2504,ignored
+user_022,item_001,Black Classic Hoodie,0.5799,like
+user_022,item_002,White Oversized Tee,0.2581,ignored
+user_022,item_003,Beige Linen Shirt,0.7918,purchase
+user_022,item_004,Gray Crewneck Sweatshirt,0.9882,purchase
+user_022,item_005,Neon Green Graphic Tee,0.2659,ignored
+user_022,item_006,Red Varsity Jacket,0.3688,ignored
+user_022,item_007,Navy Polo Shirt,0.4016,ignored
+user_022,item_008,Light Blue Oxford Shirt,0.4069,ignored
+user_022,item_009,White Button-Down,0.3972,ignored
+user_022,item_010,Black Blazer,0.568,like
+user_022,item_011,Athletic Performance Tee,0.8829,purchase
+user_022,item_012,Yellow Patterned Blouse,0.4557,like
+user_022,item_013,Bright Mixed-Print Shirt,0.3815,ignored
+user_022,item_014,Budget Plain Tee,0.7055,purchase
+user_022,item_015,Thermal Base Layer,0.617,like
+user_022,item_016,Black Slim Chinos,0.5107,like
+user_022,item_017,Beige Straight Chinos,0.7864,purchase
+user_022,item_018,Gray Slim Trousers,0.5712,like
+user_022,item_019,Black Cargo Pants,0.6138,like
+user_022,item_020,Patterned Joggers,0.4052,ignored
+user_022,item_021,Navy Chinos,0.4137,ignored
+user_022,item_022,Formal Gray Trousers,0.6094,like
+user_022,item_023,Athletic Track Pants,0.973,purchase
+user_022,item_024,Neon Pink Leggings,0.7868,purchase
+user_022,item_025,Budget Jeans,0.6318,like
+user_022,item_026,Insulated Winter Pants,0.3944,ignored
+user_022,item_027,Bright Printed Shorts,0.3959,ignored
+user_022,item_028,White Minimalist Sneakers,0.4046,ignored
+user_022,item_029,Black Leather Sneakers,0.9782,purchase
+user_022,item_030,Chunky Streetwear Sneakers,0.4267,ignored
+user_022,item_031,Red High-Top Sneakers,0.427,ignored
+user_022,item_032,Navy Boat Shoes,0.4459,ignored
+user_022,item_033,Oxford Derby Shoes,0.6116,like
+user_022,item_034,Running Trainers,1.0,purchase
+user_022,item_035,Budget Canvas Shoes,0.6887,like
+user_022,item_036,Insulated Winter Boots,0.6086,like
+user_022,item_037,Bright Platform Sneakers,0.3799,ignored
+user_022,item_038,Black Minimal Watch,0.5108,like
+user_022,item_039,Streetwear Cap,0.3831,ignored
+user_022,item_040,Bold Chain Necklace,0.3406,ignored
+user_022,item_041,Navy Knit Beanie,0.5515,like
+user_022,item_042,Leather Belt,0.4818,like
+user_022,item_043,Athletic Gym Bag,0.8943,purchase
+user_022,item_044,Winter Scarf,0.3314,ignored
+user_022,item_045,Budget Backpack,0.569,like
+user_022,item_046,Statement Sunglasses,0.2777,ignored
+user_022,item_047,Preppy Canvas Tote,0.2755,ignored
+user_023,item_001,Black Classic Hoodie,0.6179,like
+user_023,item_002,White Oversized Tee,0.2694,ignored
+user_023,item_003,Beige Linen Shirt,0.8046,purchase
+user_023,item_004,Gray Crewneck Sweatshirt,1.0,purchase
+user_023,item_005,Neon Green Graphic Tee,0.3722,ignored
+user_023,item_006,Red Varsity Jacket,0.3764,ignored
+user_023,item_007,Navy Polo Shirt,0.3658,ignored
+user_023,item_008,Light Blue Oxford Shirt,0.3311,ignored
+user_023,item_009,White Button-Down,0.3668,ignored
+user_023,item_010,Black Blazer,0.3245,ignored
+user_023,item_011,Athletic Performance Tee,1.0,purchase
+user_023,item_012,Yellow Patterned Blouse,0.3323,ignored
+user_023,item_013,Bright Mixed-Print Shirt,0.3952,ignored
+user_023,item_014,Budget Plain Tee,0.7219,purchase
+user_023,item_015,Thermal Base Layer,0.5735,like
+user_023,item_016,Black Slim Chinos,0.5621,like
+user_023,item_017,Beige Straight Chinos,0.8151,purchase
+user_023,item_018,Gray Slim Trousers,0.5062,like
+user_023,item_019,Black Cargo Pants,0.5322,like
+user_023,item_020,Patterned Joggers,0.3632,ignored
+user_023,item_021,Navy Chinos,0.3781,ignored
+user_023,item_022,Formal Gray Trousers,0.5627,like
+user_023,item_023,Athletic Track Pants,0.9699,purchase
+user_023,item_024,Neon Pink Leggings,0.8066,purchase
+user_023,item_025,Budget Jeans,0.6858,like
+user_023,item_026,Insulated Winter Pants,0.3356,ignored
+user_023,item_027,Bright Printed Shorts,0.3776,ignored
+user_023,item_028,White Minimalist Sneakers,0.3614,ignored
+user_023,item_029,Black Leather Sneakers,1.0,purchase
+user_023,item_030,Chunky Streetwear Sneakers,0.1812,ignored
+user_023,item_031,Red High-Top Sneakers,0.3897,ignored
+user_023,item_032,Navy Boat Shoes,0.3773,ignored
+user_023,item_033,Oxford Derby Shoes,0.3332,ignored
+user_023,item_034,Running Trainers,0.9719,purchase
+user_023,item_035,Budget Canvas Shoes,0.6553,like
+user_023,item_036,Insulated Winter Boots,0.445,ignored
+user_023,item_037,Bright Platform Sneakers,0.3353,ignored
+user_023,item_038,Black Minimal Watch,0.3976,ignored
+user_023,item_039,Streetwear Cap,0.3931,ignored
+user_023,item_040,Bold Chain Necklace,0.1981,ignored
+user_023,item_041,Navy Knit Beanie,0.5207,like
+user_023,item_042,Leather Belt,0.3478,ignored
+user_023,item_043,Athletic Gym Bag,0.8089,purchase
+user_023,item_044,Winter Scarf,0.3622,ignored
+user_023,item_045,Budget Backpack,0.5344,like
+user_023,item_046,Statement Sunglasses,0.186,ignored
+user_023,item_047,Preppy Canvas Tote,0.1859,ignored
+user_024,item_001,Black Classic Hoodie,0.6412,like
+user_024,item_002,White Oversized Tee,0.2918,ignored
+user_024,item_003,Beige Linen Shirt,0.8369,purchase
+user_024,item_004,Gray Crewneck Sweatshirt,0.9883,purchase
+user_024,item_005,Neon Green Graphic Tee,0.3161,ignored
+user_024,item_006,Red Varsity Jacket,0.4039,ignored
+user_024,item_007,Navy Polo Shirt,0.4634,like
+user_024,item_008,Light Blue Oxford Shirt,0.4315,ignored
+user_024,item_009,White Button-Down,0.456,like
+user_024,item_010,Black Blazer,0.6446,like
+user_024,item_011,Athletic Performance Tee,0.8603,purchase
+user_024,item_012,Yellow Patterned Blouse,0.4502,like
+user_024,item_013,Bright Mixed-Print Shirt,0.4321,ignored
+user_024,item_014,Budget Plain Tee,0.7149,purchase
+user_024,item_015,Thermal Base Layer,0.6627,like
+user_024,item_016,Black Slim Chinos,0.6492,like
+user_024,item_017,Beige Straight Chinos,0.7735,purchase
+user_024,item_018,Gray Slim Trousers,0.6017,like
+user_024,item_019,Black Cargo Pants,0.6148,like
+user_024,item_020,Patterned Joggers,0.4363,ignored
+user_024,item_021,Navy Chinos,0.4571,like
+user_024,item_022,Formal Gray Trousers,0.6078,like
+user_024,item_023,Athletic Track Pants,1.0,purchase
+user_024,item_024,Neon Pink Leggings,0.809,purchase
+user_024,item_025,Budget Jeans,0.6141,like
+user_024,item_026,Insulated Winter Pants,0.4294,ignored
+user_024,item_027,Bright Printed Shorts,0.3661,ignored
+user_024,item_028,White Minimalist Sneakers,0.4211,ignored
+user_024,item_029,Black Leather Sneakers,0.9834,purchase
+user_024,item_030,Chunky Streetwear Sneakers,0.4254,ignored
+user_024,item_031,Red High-Top Sneakers,0.4339,ignored
+user_024,item_032,Navy Boat Shoes,0.4319,ignored
+user_024,item_033,Oxford Derby Shoes,0.3481,ignored
+user_024,item_034,Running Trainers,1.0,purchase
+user_024,item_035,Budget Canvas Shoes,0.7109,purchase
+user_024,item_036,Insulated Winter Boots,0.6004,like
+user_024,item_037,Bright Platform Sneakers,0.4813,like
+user_024,item_038,Black Minimal Watch,0.4112,ignored
+user_024,item_039,Streetwear Cap,0.301,ignored
+user_024,item_040,Bold Chain Necklace,0.3146,ignored
+user_024,item_041,Navy Knit Beanie,0.4324,ignored
+user_024,item_042,Leather Belt,0.477,like
+user_024,item_043,Athletic Gym Bag,0.7874,purchase
+user_024,item_044,Winter Scarf,0.3211,ignored
+user_024,item_045,Budget Backpack,0.4942,like
+user_024,item_046,Statement Sunglasses,0.3197,ignored
+user_024,item_047,Preppy Canvas Tote,0.2445,ignored
+user_025,item_001,Black Classic Hoodie,0.5831,like
+user_025,item_002,White Oversized Tee,0.2855,ignored
+user_025,item_003,Beige Linen Shirt,0.8054,purchase
+user_025,item_004,Gray Crewneck Sweatshirt,0.9753,purchase
+user_025,item_005,Neon Green Graphic Tee,0.2649,ignored
+user_025,item_006,Red Varsity Jacket,0.401,ignored
+user_025,item_007,Navy Polo Shirt,0.4247,ignored
+user_025,item_008,Light Blue Oxford Shirt,0.3699,ignored
+user_025,item_009,White Button-Down,0.3847,ignored
+user_025,item_010,Black Blazer,0.3319,ignored
+user_025,item_011,Athletic Performance Tee,0.995,purchase
+user_025,item_012,Yellow Patterned Blouse,0.3926,ignored
+user_025,item_013,Bright Mixed-Print Shirt,0.3977,ignored
+user_025,item_014,Budget Plain Tee,0.6606,like
+user_025,item_015,Thermal Base Layer,0.5612,like
+user_025,item_016,Black Slim Chinos,0.5984,like
+user_025,item_017,Beige Straight Chinos,0.7801,purchase
+user_025,item_018,Gray Slim Trousers,0.6202,like
+user_025,item_019,Black Cargo Pants,0.5917,like
+user_025,item_020,Patterned Joggers,0.3599,ignored
+user_025,item_021,Navy Chinos,0.4067,ignored
+user_025,item_022,Formal Gray Trousers,0.5902,like
+user_025,item_023,Athletic Track Pants,1.0,purchase
+user_025,item_024,Neon Pink Leggings,0.8478,purchase
+user_025,item_025,Budget Jeans,0.6705,like
+user_025,item_026,Insulated Winter Pants,0.377,ignored
+user_025,item_027,Bright Printed Shorts,0.38,ignored
+user_025,item_028,White Minimalist Sneakers,0.3688,ignored
+user_025,item_029,Black Leather Sneakers,0.9776,purchase
+user_025,item_030,Chunky Streetwear Sneakers,0.4067,ignored
+user_025,item_031,Red High-Top Sneakers,0.3987,ignored
+user_025,item_032,Navy Boat Shoes,0.3835,ignored
+user_025,item_033,Oxford Derby Shoes,0.3001,ignored
+user_025,item_034,Running Trainers,1.0,purchase
+user_025,item_035,Budget Canvas Shoes,0.6665,like
+user_025,item_036,Insulated Winter Boots,0.554,like
+user_025,item_037,Bright Platform Sneakers,0.3936,ignored
+user_025,item_038,Black Minimal Watch,0.4421,ignored
+user_025,item_039,Streetwear Cap,0.4179,ignored
+user_025,item_040,Bold Chain Necklace,0.2878,ignored
+user_025,item_041,Navy Knit Beanie,0.5717,like
+user_025,item_042,Leather Belt,0.4512,like
+user_025,item_043,Athletic Gym Bag,0.8687,purchase
+user_025,item_044,Winter Scarf,0.3343,ignored
+user_025,item_045,Budget Backpack,0.5454,like
+user_025,item_046,Statement Sunglasses,0.2897,ignored
+user_025,item_047,Preppy Canvas Tote,0.3127,ignored
+user_026,item_001,Black Classic Hoodie,0.5807,like
+user_026,item_002,White Oversized Tee,0.3018,ignored
+user_026,item_003,Beige Linen Shirt,0.8502,purchase
+user_026,item_004,Gray Crewneck Sweatshirt,0.9899,purchase
+user_026,item_005,Neon Green Graphic Tee,0.3685,ignored
+user_026,item_006,Red Varsity Jacket,0.4295,ignored
+user_026,item_007,Navy Polo Shirt,0.3552,ignored
+user_026,item_008,Light Blue Oxford Shirt,0.456,like
+user_026,item_009,White Button-Down,0.4284,ignored
+user_026,item_010,Black Blazer,0.3565,ignored
+user_026,item_011,Athletic Performance Tee,1.0,purchase
+user_026,item_012,Yellow Patterned Blouse,0.4548,like
+user_026,item_013,Bright Mixed-Print Shirt,0.3739,ignored
+user_026,item_014,Budget Plain Tee,0.6755,like
+user_026,item_015,Thermal Base Layer,0.5604,like
+user_026,item_016,Black Slim Chinos,0.5704,like
+user_026,item_017,Beige Straight Chinos,0.7938,purchase
+user_026,item_018,Gray Slim Trousers,0.5829,like
+user_026,item_019,Black Cargo Pants,0.5824,like
+user_026,item_020,Patterned Joggers,0.3779,ignored
+user_026,item_021,Navy Chinos,0.4504,like
+user_026,item_022,Formal Gray Trousers,0.5365,like
+user_026,item_023,Athletic Track Pants,0.9617,purchase
+user_026,item_024,Neon Pink Leggings,0.8353,purchase
+user_026,item_025,Budget Jeans,0.7041,purchase
+user_026,item_026,Insulated Winter Pants,0.4148,ignored
+user_026,item_027,Bright Printed Shorts,0.3837,ignored
+user_026,item_028,White Minimalist Sneakers,0.3713,ignored
+user_026,item_029,Black Leather Sneakers,0.9806,purchase
+user_026,item_030,Chunky Streetwear Sneakers,0.1544,ignored
+user_026,item_031,Red High-Top Sneakers,0.1906,ignored
+user_026,item_032,Navy Boat Shoes,0.3879,ignored
+user_026,item_033,Oxford Derby Shoes,0.3737,ignored
+user_026,item_034,Running Trainers,1.0,purchase
+user_026,item_035,Budget Canvas Shoes,0.7415,purchase
+user_026,item_036,Insulated Winter Boots,0.3779,ignored
+user_026,item_037,Bright Platform Sneakers,0.4258,ignored
+user_026,item_038,Black Minimal Watch,0.4265,ignored
+user_026,item_039,Streetwear Cap,0.3879,ignored
+user_026,item_040,Bold Chain Necklace,0.2195,ignored
+user_026,item_041,Navy Knit Beanie,0.4805,like
+user_026,item_042,Leather Belt,0.4122,ignored
+user_026,item_043,Athletic Gym Bag,0.8049,purchase
+user_026,item_044,Winter Scarf,0.4154,ignored
+user_026,item_045,Budget Backpack,0.5512,like
+user_026,item_046,Statement Sunglasses,0.1868,ignored
+user_026,item_047,Preppy Canvas Tote,0.197,ignored
+user_027,item_001,Black Classic Hoodie,0.0814,ignored
+user_027,item_002,White Oversized Tee,0.0764,ignored
+user_027,item_003,Beige Linen Shirt,0.1289,ignored
+user_027,item_004,Gray Crewneck Sweatshirt,0.0572,ignored
+user_027,item_005,Neon Green Graphic Tee,0.0933,ignored
+user_027,item_006,Red Varsity Jacket,0.0732,ignored
+user_027,item_007,Navy Polo Shirt,0.0592,ignored
+user_027,item_008,Light Blue Oxford Shirt,0.1454,ignored
+user_027,item_009,White Button-Down,0.0847,ignored
+user_027,item_010,Black Blazer,0.1071,ignored
+user_027,item_011,Athletic Performance Tee,0.0494,ignored
+user_027,item_012,Yellow Patterned Blouse,0.669,like
+user_027,item_013,Bright Mixed-Print Shirt,0.9879,purchase
+user_027,item_014,Budget Plain Tee,0.3682,ignored
+user_027,item_015,Thermal Base Layer,0.1214,ignored
+user_027,item_016,Black Slim Chinos,0.1374,ignored
+user_027,item_017,Beige Straight Chinos,0.1161,ignored
+user_027,item_018,Gray Slim Trousers,0.1466,ignored
+user_027,item_019,Black Cargo Pants,0.1574,ignored
+user_027,item_020,Patterned Joggers,0.4248,ignored
+user_027,item_021,Navy Chinos,0.1117,ignored
+user_027,item_022,Formal Gray Trousers,0.1545,ignored
+user_027,item_023,Athletic Track Pants,0.177,ignored
+user_027,item_024,Neon Pink Leggings,0.1117,ignored
+user_027,item_025,Budget Jeans,0.4336,ignored
+user_027,item_026,Insulated Winter Pants,0.1517,ignored
+user_027,item_027,Bright Printed Shorts,0.9934,purchase
+user_027,item_028,White Minimalist Sneakers,0.0912,ignored
+user_027,item_029,Black Leather Sneakers,0.0905,ignored
+user_027,item_030,Chunky Streetwear Sneakers,0.411,ignored
+user_027,item_031,Red High-Top Sneakers,0.0738,ignored
+user_027,item_032,Navy Boat Shoes,0.1061,ignored
+user_027,item_033,Oxford Derby Shoes,0.1499,ignored
+user_027,item_034,Running Trainers,0.1039,ignored
+user_027,item_035,Budget Canvas Shoes,0.1079,ignored
+user_027,item_036,Insulated Winter Boots,0.0834,ignored
+user_027,item_037,Bright Platform Sneakers,0.9851,purchase
+user_027,item_038,Black Minimal Watch,0.1546,ignored
+user_027,item_039,Streetwear Cap,0.0982,ignored
+user_027,item_040,Bold Chain Necklace,0.3892,ignored
+user_027,item_041,Navy Knit Beanie,0.143,ignored
+user_027,item_042,Leather Belt,0.1628,ignored
+user_027,item_043,Athletic Gym Bag,0.0656,ignored
+user_027,item_044,Winter Scarf,0.1314,ignored
+user_027,item_045,Budget Backpack,0.362,ignored
+user_027,item_046,Statement Sunglasses,0.9994,purchase
+user_027,item_047,Preppy Canvas Tote,0.0924,ignored
+user_028,item_001,Black Classic Hoodie,0.206,ignored
+user_028,item_002,White Oversized Tee,0.1399,ignored
+user_028,item_003,Beige Linen Shirt,0.2392,ignored
+user_028,item_004,Gray Crewneck Sweatshirt,0.1895,ignored
+user_028,item_005,Neon Green Graphic Tee,0.1981,ignored
+user_028,item_006,Red Varsity Jacket,0.2193,ignored
+user_028,item_007,Navy Polo Shirt,0.2557,ignored
+user_028,item_008,Light Blue Oxford Shirt,0.2043,ignored
+user_028,item_009,White Button-Down,0.26,ignored
+user_028,item_010,Black Blazer,0.2362,ignored
+user_028,item_011,Athletic Performance Tee,0.1318,ignored
+user_028,item_012,Yellow Patterned Blouse,0.6626,like
+user_028,item_013,Bright Mixed-Print Shirt,1.0,purchase
+user_028,item_014,Budget Plain Tee,0.4609,like
+user_028,item_015,Thermal Base Layer,0.1517,ignored
+user_028,item_016,Black Slim Chinos,0.2184,ignored
+user_028,item_017,Beige Straight Chinos,0.1823,ignored
+user_028,item_018,Gray Slim Trousers,0.2763,ignored
+user_028,item_019,Black Cargo Pants,0.1918,ignored
+user_028,item_020,Patterned Joggers,0.5036,like
+user_028,item_021,Navy Chinos,0.2599,ignored
+user_028,item_022,Formal Gray Trousers,0.2432,ignored
+user_028,item_023,Athletic Track Pants,0.1954,ignored
+user_028,item_024,Neon Pink Leggings,0.2193,ignored
+user_028,item_025,Budget Jeans,0.4622,like
+user_028,item_026,Insulated Winter Pants,0.1942,ignored
+user_028,item_027,Bright Printed Shorts,0.9735,purchase
+user_028,item_028,White Minimalist Sneakers,0.2495,ignored
+user_028,item_029,Black Leather Sneakers,0.2158,ignored
+user_028,item_030,Chunky Streetwear Sneakers,0.4854,like
+user_028,item_031,Red High-Top Sneakers,0.2628,ignored
+user_028,item_032,Navy Boat Shoes,0.2429,ignored
+user_028,item_033,Oxford Derby Shoes,0.1844,ignored
+user_028,item_034,Running Trainers,0.249,ignored
+user_028,item_035,Budget Canvas Shoes,0.1306,ignored
+user_028,item_036,Insulated Winter Boots,0.2111,ignored
+user_028,item_037,Bright Platform Sneakers,0.9663,purchase
+user_028,item_038,Black Minimal Watch,0.2065,ignored
+user_028,item_039,Streetwear Cap,0.1488,ignored
+user_028,item_040,Bold Chain Necklace,0.4532,like
+user_028,item_041,Navy Knit Beanie,0.1955,ignored
+user_028,item_042,Leather Belt,0.2344,ignored
+user_028,item_043,Athletic Gym Bag,0.1927,ignored
+user_028,item_044,Winter Scarf,0.2066,ignored
+user_028,item_045,Budget Backpack,0.4604,like
+user_028,item_046,Statement Sunglasses,1.0,purchase
+user_028,item_047,Preppy Canvas Tote,0.1899,ignored
+user_029,item_001,Black Classic Hoodie,0.1649,ignored
+user_029,item_002,White Oversized Tee,0.1407,ignored
+user_029,item_003,Beige Linen Shirt,0.2043,ignored
+user_029,item_004,Gray Crewneck Sweatshirt,0.1443,ignored
+user_029,item_005,Neon Green Graphic Tee,0.1454,ignored
+user_029,item_006,Red Varsity Jacket,0.1094,ignored
+user_029,item_007,Navy Polo Shirt,0.1893,ignored
+user_029,item_008,Light Blue Oxford Shirt,0.1693,ignored
+user_029,item_009,White Button-Down,0.1645,ignored
+user_029,item_010,Black Blazer,0.1471,ignored
+user_029,item_011,Athletic Performance Tee,0.1009,ignored
+user_029,item_012,Yellow Patterned Blouse,0.69,like
+user_029,item_013,Bright Mixed-Print Shirt,1.0,purchase
+user_029,item_014,Budget Plain Tee,0.3913,ignored
+user_029,item_015,Thermal Base Layer,0.1202,ignored
+user_029,item_016,Black Slim Chinos,0.1461,ignored
+user_029,item_017,Beige Straight Chinos,0.1344,ignored
+user_029,item_018,Gray Slim Trousers,0.1747,ignored
+user_029,item_019,Black Cargo Pants,0.153,ignored
+user_029,item_020,Patterned Joggers,0.4656,like
+user_029,item_021,Navy Chinos,0.1398,ignored
+user_029,item_022,Formal Gray Trousers,0.1713,ignored
+user_029,item_023,Athletic Track Pants,0.1626,ignored
+user_029,item_024,Neon Pink Leggings,0.081,ignored
+user_029,item_025,Budget Jeans,0.411,ignored
+user_029,item_026,Insulated Winter Pants,0.1574,ignored
+user_029,item_027,Bright Printed Shorts,0.963,purchase
+user_029,item_028,White Minimalist Sneakers,0.1314,ignored
+user_029,item_029,Black Leather Sneakers,0.1775,ignored
+user_029,item_030,Chunky Streetwear Sneakers,0.4607,like
+user_029,item_031,Red High-Top Sneakers,0.2447,ignored
+user_029,item_032,Navy Boat Shoes,0.1347,ignored
+user_029,item_033,Oxford Derby Shoes,0.1392,ignored
+user_029,item_034,Running Trainers,0.1687,ignored
+user_029,item_035,Budget Canvas Shoes,0.0866,ignored
+user_029,item_036,Insulated Winter Boots,0.1877,ignored
+user_029,item_037,Bright Platform Sneakers,1.0,purchase
+user_029,item_038,Black Minimal Watch,0.1513,ignored
+user_029,item_039,Streetwear Cap,0.1189,ignored
+user_029,item_040,Bold Chain Necklace,0.4207,ignored
+user_029,item_041,Navy Knit Beanie,0.1137,ignored
+user_029,item_042,Leather Belt,0.2059,ignored
+user_029,item_043,Athletic Gym Bag,0.1405,ignored
+user_029,item_044,Winter Scarf,0.0866,ignored
+user_029,item_045,Budget Backpack,0.4826,like
+user_029,item_046,Statement Sunglasses,1.0,purchase
+user_029,item_047,Preppy Canvas Tote,0.1283,ignored
+user_030,item_001,Black Classic Hoodie,0.1512,ignored
+user_030,item_002,White Oversized Tee,0.1453,ignored
+user_030,item_003,Beige Linen Shirt,0.1471,ignored
+user_030,item_004,Gray Crewneck Sweatshirt,0.1573,ignored
+user_030,item_005,Neon Green Graphic Tee,0.1338,ignored
+user_030,item_006,Red Varsity Jacket,0.104,ignored
+user_030,item_007,Navy Polo Shirt,0.1988,ignored
+user_030,item_008,Light Blue Oxford Shirt,0.1767,ignored
+user_030,item_009,White Button-Down,0.2034,ignored
+user_030,item_010,Black Blazer,0.1669,ignored
+user_030,item_011,Athletic Performance Tee,0.149,ignored
+user_030,item_012,Yellow Patterned Blouse,0.6965,like
+user_030,item_013,Bright Mixed-Print Shirt,1.0,purchase
+user_030,item_014,Budget Plain Tee,0.4889,like
+user_030,item_015,Thermal Base Layer,0.2397,ignored
+user_030,item_016,Black Slim Chinos,0.1659,ignored
+user_030,item_017,Beige Straight Chinos,0.1761,ignored
+user_030,item_018,Gray Slim Trousers,0.223,ignored
+user_030,item_019,Black Cargo Pants,0.1468,ignored
+user_030,item_020,Patterned Joggers,0.4768,like
+user_030,item_021,Navy Chinos,0.128,ignored
+user_030,item_022,Formal Gray Trousers,0.187,ignored
+user_030,item_023,Athletic Track Pants,0.1898,ignored
+user_030,item_024,Neon Pink Leggings,0.1655,ignored
+user_030,item_025,Budget Jeans,0.4397,ignored
+user_030,item_026,Insulated Winter Pants,0.2012,ignored
+user_030,item_027,Bright Printed Shorts,1.0,purchase
+user_030,item_028,White Minimalist Sneakers,0.1681,ignored
+user_030,item_029,Black Leather Sneakers,0.172,ignored
+user_030,item_030,Chunky Streetwear Sneakers,0.5283,like
+user_030,item_031,Red High-Top Sneakers,0.182,ignored
+user_030,item_032,Navy Boat Shoes,0.1903,ignored
+user_030,item_033,Oxford Derby Shoes,0.1384,ignored
+user_030,item_034,Running Trainers,0.1658,ignored
+user_030,item_035,Budget Canvas Shoes,0.1069,ignored
+user_030,item_036,Insulated Winter Boots,0.1899,ignored
+user_030,item_037,Bright Platform Sneakers,1.0,purchase
+user_030,item_038,Black Minimal Watch,0.168,ignored
+user_030,item_039,Streetwear Cap,0.1522,ignored
+user_030,item_040,Bold Chain Necklace,0.4613,like
+user_030,item_041,Navy Knit Beanie,0.169,ignored
+user_030,item_042,Leather Belt,0.157,ignored
+user_030,item_043,Athletic Gym Bag,0.1749,ignored
+user_030,item_044,Winter Scarf,0.1768,ignored
+user_030,item_045,Budget Backpack,0.4576,like
+user_030,item_046,Statement Sunglasses,1.0,purchase
+user_030,item_047,Preppy Canvas Tote,0.147,ignored
+user_031,item_001,Black Classic Hoodie,0.1332,ignored
+user_031,item_002,White Oversized Tee,0.1181,ignored
+user_031,item_003,Beige Linen Shirt,0.095,ignored
+user_031,item_004,Gray Crewneck Sweatshirt,0.1192,ignored
+user_031,item_005,Neon Green Graphic Tee,0.1032,ignored
+user_031,item_006,Red Varsity Jacket,0.1635,ignored
+user_031,item_007,Navy Polo Shirt,0.1259,ignored
+user_031,item_008,Light Blue Oxford Shirt,0.1215,ignored
+user_031,item_009,White Button-Down,0.1435,ignored
+user_031,item_010,Black Blazer,0.1306,ignored
+user_031,item_011,Athletic Performance Tee,0.0662,ignored
+user_031,item_012,Yellow Patterned Blouse,0.6585,like
+user_031,item_013,Bright Mixed-Print Shirt,1.0,purchase
+user_031,item_014,Budget Plain Tee,0.4344,ignored
+user_031,item_015,Thermal Base Layer,0.0753,ignored
+user_031,item_016,Black Slim Chinos,0.1539,ignored
+user_031,item_017,Beige Straight Chinos,0.0768,ignored
+user_031,item_018,Gray Slim Trousers,0.0688,ignored
+user_031,item_019,Black Cargo Pants,0.1323,ignored
+user_031,item_020,Patterned Joggers,0.4736,like
+user_031,item_021,Navy Chinos,0.139,ignored
+user_031,item_022,Formal Gray Trousers,0.1056,ignored
+user_031,item_023,Athletic Track Pants,0.1279,ignored
+user_031,item_024,Neon Pink Leggings,0.0594,ignored
+user_031,item_025,Budget Jeans,0.4438,ignored
+user_031,item_026,Insulated Winter Pants,0.0839,ignored
+user_031,item_027,Bright Printed Shorts,0.9955,purchase
+user_031,item_028,White Minimalist Sneakers,0.1402,ignored
+user_031,item_029,Black Leather Sneakers,0.0797,ignored
+user_031,item_030,Chunky Streetwear Sneakers,0.4525,like
+user_031,item_031,Red High-Top Sneakers,0.156,ignored
+user_031,item_032,Navy Boat Shoes,0.1789,ignored
+user_031,item_033,Oxford Derby Shoes,0.0873,ignored
+user_031,item_034,Running Trainers,0.1426,ignored
+user_031,item_035,Budget Canvas Shoes,0.0643,ignored
+user_031,item_036,Insulated Winter Boots,0.092,ignored
+user_031,item_037,Bright Platform Sneakers,1.0,purchase
+user_031,item_038,Black Minimal Watch,0.1524,ignored
+user_031,item_039,Streetwear Cap,0.0773,ignored
+user_031,item_040,Bold Chain Necklace,0.4748,like
+user_031,item_041,Navy Knit Beanie,0.1207,ignored
+user_031,item_042,Leather Belt,0.1378,ignored
+user_031,item_043,Athletic Gym Bag,0.1998,ignored
+user_031,item_044,Winter Scarf,0.1196,ignored
+user_031,item_045,Budget Backpack,0.3474,ignored
+user_031,item_046,Statement Sunglasses,0.9913,purchase
+user_031,item_047,Preppy Canvas Tote,0.0793,ignored
+user_032,item_001,Black Classic Hoodie,0.1255,ignored
+user_032,item_002,White Oversized Tee,0.132,ignored
+user_032,item_003,Beige Linen Shirt,0.1121,ignored
+user_032,item_004,Gray Crewneck Sweatshirt,0.0991,ignored
+user_032,item_005,Neon Green Graphic Tee,0.1725,ignored
+user_032,item_006,Red Varsity Jacket,0.2211,ignored
+user_032,item_007,Navy Polo Shirt,0.1831,ignored
+user_032,item_008,Light Blue Oxford Shirt,0.2236,ignored
+user_032,item_009,White Button-Down,0.2235,ignored
+user_032,item_010,Black Blazer,0.2412,ignored
+user_032,item_011,Athletic Performance Tee,0.0999,ignored
+user_032,item_012,Yellow Patterned Blouse,0.6431,like
+user_032,item_013,Bright Mixed-Print Shirt,0.9818,purchase
+user_032,item_014,Budget Plain Tee,0.475,like
+user_032,item_015,Thermal Base Layer,0.1258,ignored
+user_032,item_016,Black Slim Chinos,0.135,ignored
+user_032,item_017,Beige Straight Chinos,0.2043,ignored
+user_032,item_018,Gray Slim Trousers,0.1497,ignored
+user_032,item_019,Black Cargo Pants,0.1967,ignored
+user_032,item_020,Patterned Joggers,0.4386,ignored
+user_032,item_021,Navy Chinos,0.1912,ignored
+user_032,item_022,Formal Gray Trousers,0.1586,ignored
+user_032,item_023,Athletic Track Pants,0.0981,ignored
+user_032,item_024,Neon Pink Leggings,0.1063,ignored
+user_032,item_025,Budget Jeans,0.4329,ignored
+user_032,item_026,Insulated Winter Pants,0.2419,ignored
+user_032,item_027,Bright Printed Shorts,0.9497,purchase
+user_032,item_028,White Minimalist Sneakers,0.189,ignored
+user_032,item_029,Black Leather Sneakers,0.2414,ignored
+user_032,item_030,Chunky Streetwear Sneakers,0.4709,like
+user_032,item_031,Red High-Top Sneakers,0.2238,ignored
+user_032,item_032,Navy Boat Shoes,0.1979,ignored
+user_032,item_033,Oxford Derby Shoes,0.2103,ignored
+user_032,item_034,Running Trainers,0.2224,ignored
+user_032,item_035,Budget Canvas Shoes,0.1112,ignored
+user_032,item_036,Insulated Winter Boots,0.2272,ignored
+user_032,item_037,Bright Platform Sneakers,0.9997,purchase
+user_032,item_038,Black Minimal Watch,0.2756,ignored
+user_032,item_039,Streetwear Cap,0.1225,ignored
+user_032,item_040,Bold Chain Necklace,0.4784,like
+user_032,item_041,Navy Knit Beanie,0.151,ignored
+user_032,item_042,Leather Belt,0.0964,ignored
+user_032,item_043,Athletic Gym Bag,0.1724,ignored
+user_032,item_044,Winter Scarf,0.0998,ignored
+user_032,item_045,Budget Backpack,0.3733,ignored
+user_032,item_046,Statement Sunglasses,1.0,purchase
+user_032,item_047,Preppy Canvas Tote,0.1637,ignored
+user_033,item_001,Black Classic Hoodie,0.7225,purchase
+user_033,item_002,White Oversized Tee,0.3184,ignored
+user_033,item_003,Beige Linen Shirt,0.8163,purchase
+user_033,item_004,Gray Crewneck Sweatshirt,0.8581,purchase
+user_033,item_005,Neon Green Graphic Tee,0.3065,ignored
+user_033,item_006,Red Varsity Jacket,0.5115,like
+user_033,item_007,Navy Polo Shirt,0.6836,like
+user_033,item_008,Light Blue Oxford Shirt,0.4728,like
+user_033,item_009,White Button-Down,0.4581,like
+user_033,item_010,Black Blazer,0.6549,like
+user_033,item_011,Athletic Performance Tee,0.5222,like
+user_033,item_012,Yellow Patterned Blouse,0.5263,like
+user_033,item_013,Bright Mixed-Print Shirt,0.4567,like
+user_033,item_014,Budget Plain Tee,0.5889,like
+user_033,item_015,Thermal Base Layer,0.8019,purchase
+user_033,item_016,Black Slim Chinos,0.7469,purchase
+user_033,item_017,Beige Straight Chinos,0.7688,purchase
+user_033,item_018,Gray Slim Trousers,0.7356,purchase
+user_033,item_019,Black Cargo Pants,0.7177,purchase
+user_033,item_020,Patterned Joggers,0.4545,like
+user_033,item_021,Navy Chinos,0.6917,like
+user_033,item_022,Formal Gray Trousers,0.746,purchase
+user_033,item_023,Athletic Track Pants,0.7192,purchase
+user_033,item_024,Neon Pink Leggings,0.3494,ignored
+user_033,item_025,Budget Jeans,0.5105,like
+user_033,item_026,Insulated Winter Pants,1.0,purchase
+user_033,item_027,Bright Printed Shorts,0.4748,like
+user_033,item_028,White Minimalist Sneakers,0.5548,like
+user_033,item_029,Black Leather Sneakers,0.9847,purchase
+user_033,item_030,Chunky Streetwear Sneakers,0.4904,like
+user_033,item_031,Red High-Top Sneakers,0.5094,like
+user_033,item_032,Navy Boat Shoes,0.6946,like
+user_033,item_033,Oxford Derby Shoes,0.7471,purchase
+user_033,item_034,Running Trainers,0.7015,purchase
+user_033,item_035,Budget Canvas Shoes,0.6441,like
+user_033,item_036,Insulated Winter Boots,1.0,purchase
+user_033,item_037,Bright Platform Sneakers,0.5045,like
+user_033,item_038,Black Minimal Watch,0.6992,like
+user_033,item_039,Streetwear Cap,0.5512,like
+user_033,item_040,Bold Chain Necklace,0.4986,like
+user_033,item_041,Navy Knit Beanie,0.7757,purchase
+user_033,item_042,Leather Belt,0.7043,purchase
+user_033,item_043,Athletic Gym Bag,0.749,purchase
+user_033,item_044,Winter Scarf,0.7987,purchase
+user_033,item_045,Budget Backpack,0.6438,like
+user_033,item_046,Statement Sunglasses,0.4708,like
+user_033,item_047,Preppy Canvas Tote,0.5672,like
+user_034,item_001,Black Classic Hoodie,0.4812,like
+user_034,item_002,White Oversized Tee,0.3431,ignored
+user_034,item_003,Beige Linen Shirt,0.6684,like
+user_034,item_004,Gray Crewneck Sweatshirt,0.8758,purchase
+user_034,item_005,Neon Green Graphic Tee,0.3692,ignored
+user_034,item_006,Red Varsity Jacket,0.5245,like
+user_034,item_007,Navy Polo Shirt,0.6803,like
+user_034,item_008,Light Blue Oxford Shirt,0.4501,like
+user_034,item_009,White Button-Down,0.5266,like
+user_034,item_010,Black Blazer,0.6349,like
+user_034,item_011,Athletic Performance Tee,0.5024,like
+user_034,item_012,Yellow Patterned Blouse,0.3507,ignored
+user_034,item_013,Bright Mixed-Print Shirt,0.5002,like
+user_034,item_014,Budget Plain Tee,0.7023,purchase
+user_034,item_015,Thermal Base Layer,0.8416,purchase
+user_034,item_016,Black Slim Chinos,0.6233,like
+user_034,item_017,Beige Straight Chinos,0.8046,purchase
+user_034,item_018,Gray Slim Trousers,0.6792,like
+user_034,item_019,Black Cargo Pants,0.6635,like
+user_034,item_020,Patterned Joggers,0.371,ignored
+user_034,item_021,Navy Chinos,0.6666,like
+user_034,item_022,Formal Gray Trousers,0.6309,like
+user_034,item_023,Athletic Track Pants,0.5296,like
+user_034,item_024,Neon Pink Leggings,0.2942,ignored
+user_034,item_025,Budget Jeans,0.7055,purchase
+user_034,item_026,Insulated Winter Pants,1.0,purchase
+user_034,item_027,Bright Printed Shorts,0.2865,ignored
+user_034,item_028,White Minimalist Sneakers,0.5193,like
+user_034,item_029,Black Leather Sneakers,1.0,purchase
+user_034,item_030,Chunky Streetwear Sneakers,0.4268,ignored
+user_034,item_031,Red High-Top Sneakers,0.514,like
+user_034,item_032,Navy Boat Shoes,0.6885,like
+user_034,item_033,Oxford Derby Shoes,0.6793,like
+user_034,item_034,Running Trainers,0.6843,like
+user_034,item_035,Budget Canvas Shoes,0.6693,like
+user_034,item_036,Insulated Winter Boots,0.9792,purchase
+user_034,item_037,Bright Platform Sneakers,0.5292,like
+user_034,item_038,Black Minimal Watch,0.6335,like
+user_034,item_039,Streetwear Cap,0.5744,like
+user_034,item_040,Bold Chain Necklace,0.3744,ignored
+user_034,item_041,Navy Knit Beanie,0.8061,purchase
+user_034,item_042,Leather Belt,0.5154,like
+user_034,item_043,Athletic Gym Bag,0.5582,like
+user_034,item_044,Winter Scarf,0.827,purchase
+user_034,item_045,Budget Backpack,0.6496,like
+user_034,item_046,Statement Sunglasses,0.4748,like
+user_034,item_047,Preppy Canvas Tote,0.5506,like
+user_035,item_001,Black Classic Hoodie,0.5544,like
+user_035,item_002,White Oversized Tee,0.3423,ignored
+user_035,item_003,Beige Linen Shirt,0.6372,like
+user_035,item_004,Gray Crewneck Sweatshirt,0.845,purchase
+user_035,item_005,Neon Green Graphic Tee,0.3166,ignored
+user_035,item_006,Red Varsity Jacket,0.4512,like
+user_035,item_007,Navy Polo Shirt,0.676,like
+user_035,item_008,Light Blue Oxford Shirt,0.456,like
+user_035,item_009,White Button-Down,0.4398,ignored
+user_035,item_010,Black Blazer,0.6997,like
+user_035,item_011,Athletic Performance Tee,0.5816,like
+user_035,item_012,Yellow Patterned Blouse,0.3442,ignored
+user_035,item_013,Bright Mixed-Print Shirt,0.4666,like
+user_035,item_014,Budget Plain Tee,0.5905,like
+user_035,item_015,Thermal Base Layer,0.8214,purchase
+user_035,item_016,Black Slim Chinos,0.6799,like
+user_035,item_017,Beige Straight Chinos,0.7328,purchase
+user_035,item_018,Gray Slim Trousers,0.7429,purchase
+user_035,item_019,Black Cargo Pants,0.6794,like
+user_035,item_020,Patterned Joggers,0.3431,ignored
+user_035,item_021,Navy Chinos,0.703,purchase
+user_035,item_022,Formal Gray Trousers,0.7943,purchase
+user_035,item_023,Athletic Track Pants,0.5187,like
+user_035,item_024,Neon Pink Leggings,0.3484,ignored
+user_035,item_025,Budget Jeans,0.611,like
+user_035,item_026,Insulated Winter Pants,0.9769,purchase
+user_035,item_027,Bright Printed Shorts,0.3521,ignored
+user_035,item_028,White Minimalist Sneakers,0.4961,like
+user_035,item_029,Black Leather Sneakers,0.9679,purchase
+user_035,item_030,Chunky Streetwear Sneakers,0.5042,like
+user_035,item_031,Red High-Top Sneakers,0.5031,like
+user_035,item_032,Navy Boat Shoes,0.7608,purchase
+user_035,item_033,Oxford Derby Shoes,0.7032,purchase
+user_035,item_034,Running Trainers,0.7656,purchase
+user_035,item_035,Budget Canvas Shoes,0.6151,like
+user_035,item_036,Insulated Winter Boots,0.9407,purchase
+user_035,item_037,Bright Platform Sneakers,0.5071,like
+user_035,item_038,Black Minimal Watch,0.7191,purchase
+user_035,item_039,Streetwear Cap,0.5461,like
+user_035,item_040,Bold Chain Necklace,0.3706,ignored
+user_035,item_041,Navy Knit Beanie,0.8371,purchase
+user_035,item_042,Leather Belt,0.6031,like
+user_035,item_043,Athletic Gym Bag,0.5701,like
+user_035,item_044,Winter Scarf,0.8737,purchase
+user_035,item_045,Budget Backpack,0.6414,like
+user_035,item_046,Statement Sunglasses,0.5056,like
+user_035,item_047,Preppy Canvas Tote,0.5416,like
+user_036,item_001,Black Classic Hoodie,0.5769,like
+user_036,item_002,White Oversized Tee,0.3219,ignored
+user_036,item_003,Beige Linen Shirt,0.832,purchase
+user_036,item_004,Gray Crewneck Sweatshirt,0.8779,purchase
+user_036,item_005,Neon Green Graphic Tee,0.3437,ignored
+user_036,item_006,Red Varsity Jacket,0.4348,ignored
+user_036,item_007,Navy Polo Shirt,0.6736,like
+user_036,item_008,Light Blue Oxford Shirt,0.4606,like
+user_036,item_009,White Button-Down,0.4226,ignored
+user_036,item_010,Black Blazer,0.6507,like
+user_036,item_011,Athletic Performance Tee,0.546,like
+user_036,item_012,Yellow Patterned Blouse,0.3189,ignored
+user_036,item_013,Bright Mixed-Print Shirt,0.4638,like
+user_036,item_014,Budget Plain Tee,0.6689,like
+user_036,item_015,Thermal Base Layer,0.8515,purchase
+user_036,item_016,Black Slim Chinos,0.7062,purchase
+user_036,item_017,Beige Straight Chinos,0.7676,purchase
+user_036,item_018,Gray Slim Trousers,0.68,like
+user_036,item_019,Black Cargo Pants,0.6935,like
+user_036,item_020,Patterned Joggers,0.3957,ignored
+user_036,item_021,Navy Chinos,0.6878,like
+user_036,item_022,Formal Gray Trousers,0.6667,like
+user_036,item_023,Athletic Track Pants,0.5214,like
+user_036,item_024,Neon Pink Leggings,0.2646,ignored
+user_036,item_025,Budget Jeans,0.6221,like
+user_036,item_026,Insulated Winter Pants,0.9437,purchase
+user_036,item_027,Bright Printed Shorts,0.3473,ignored
+user_036,item_028,White Minimalist Sneakers,0.4505,like
+user_036,item_029,Black Leather Sneakers,0.9495,purchase
+user_036,item_030,Chunky Streetwear Sneakers,0.4375,ignored
+user_036,item_031,Red High-Top Sneakers,0.4803,like
+user_036,item_032,Navy Boat Shoes,0.668,like
+user_036,item_033,Oxford Derby Shoes,0.6774,like
+user_036,item_034,Running Trainers,0.6747,like
+user_036,item_035,Budget Canvas Shoes,0.6316,like
+user_036,item_036,Insulated Winter Boots,0.949,purchase
+user_036,item_037,Bright Platform Sneakers,0.4563,like
+user_036,item_038,Black Minimal Watch,0.6691,like
+user_036,item_039,Streetwear Cap,0.6379,like
+user_036,item_040,Bold Chain Necklace,0.3148,ignored
+user_036,item_041,Navy Knit Beanie,0.8498,purchase
+user_036,item_042,Leather Belt,0.7155,purchase
+user_036,item_043,Athletic Gym Bag,0.5446,like
+user_036,item_044,Winter Scarf,0.8711,purchase
+user_036,item_045,Budget Backpack,0.6092,like
+user_036,item_046,Statement Sunglasses,0.5044,like
+user_036,item_047,Preppy Canvas Tote,0.5305,like
+user_037,item_001,Black Classic Hoodie,0.5762,like
+user_037,item_002,White Oversized Tee,0.3727,ignored
+user_037,item_003,Beige Linen Shirt,0.6359,like
+user_037,item_004,Gray Crewneck Sweatshirt,0.8712,purchase
+user_037,item_005,Neon Green Graphic Tee,0.3563,ignored
+user_037,item_006,Red Varsity Jacket,0.4879,like
+user_037,item_007,Navy Polo Shirt,0.661,like
+user_037,item_008,Light Blue Oxford Shirt,0.4728,like
+user_037,item_009,White Button-Down,0.439,ignored
+user_037,item_010,Black Blazer,0.6713,like
+user_037,item_011,Athletic Performance Tee,0.5454,like
+user_037,item_012,Yellow Patterned Blouse,0.3752,ignored
+user_037,item_013,Bright Mixed-Print Shirt,0.5153,like
+user_037,item_014,Budget Plain Tee,0.7232,purchase
+user_037,item_015,Thermal Base Layer,0.8695,purchase
+user_037,item_016,Black Slim Chinos,0.6685,like
+user_037,item_017,Beige Straight Chinos,0.7446,purchase
+user_037,item_018,Gray Slim Trousers,0.7419,purchase
+user_037,item_019,Black Cargo Pants,0.6475,like
+user_037,item_020,Patterned Joggers,0.3292,ignored
+user_037,item_021,Navy Chinos,0.6767,like
+user_037,item_022,Formal Gray Trousers,0.7462,purchase
+user_037,item_023,Athletic Track Pants,0.5345,like
+user_037,item_024,Neon Pink Leggings,0.3717,ignored
+user_037,item_025,Budget Jeans,0.6844,like
+user_037,item_026,Insulated Winter Pants,0.995,purchase
+user_037,item_027,Bright Printed Shorts,0.3527,ignored
+user_037,item_028,White Minimalist Sneakers,0.4212,ignored
+user_037,item_029,Black Leather Sneakers,0.9974,purchase
+user_037,item_030,Chunky Streetwear Sneakers,0.4609,like
+user_037,item_031,Red High-Top Sneakers,0.39,ignored
+user_037,item_032,Navy Boat Shoes,0.7062,purchase
+user_037,item_033,Oxford Derby Shoes,0.7044,purchase
+user_037,item_034,Running Trainers,0.6429,like
+user_037,item_035,Budget Canvas Shoes,0.6026,like
+user_037,item_036,Insulated Winter Boots,0.9775,purchase
+user_037,item_037,Bright Platform Sneakers,0.4515,like
+user_037,item_038,Black Minimal Watch,0.6845,like
+user_037,item_039,Streetwear Cap,0.5362,like
+user_037,item_040,Bold Chain Necklace,0.3085,ignored
+user_037,item_041,Navy Knit Beanie,0.8804,purchase
+user_037,item_042,Leather Belt,0.5506,like
+user_037,item_043,Athletic Gym Bag,0.5617,like
+user_037,item_044,Winter Scarf,0.8643,purchase
+user_037,item_045,Budget Backpack,0.6587,like
+user_037,item_046,Statement Sunglasses,0.4628,like
+user_037,item_047,Preppy Canvas Tote,0.5907,like
+user_038,item_001,Black Classic Hoodie,0.5823,like
+user_038,item_002,White Oversized Tee,0.3437,ignored
+user_038,item_003,Beige Linen Shirt,0.7751,purchase
+user_038,item_004,Gray Crewneck Sweatshirt,0.8186,purchase
+user_038,item_005,Neon Green Graphic Tee,0.3447,ignored
+user_038,item_006,Red Varsity Jacket,0.508,like
+user_038,item_007,Navy Polo Shirt,0.6875,like
+user_038,item_008,Light Blue Oxford Shirt,0.4535,like
+user_038,item_009,White Button-Down,0.4438,ignored
+user_038,item_010,Black Blazer,0.7299,purchase
+user_038,item_011,Athletic Performance Tee,0.5948,like
+user_038,item_012,Yellow Patterned Blouse,0.2969,ignored
+user_038,item_013,Bright Mixed-Print Shirt,0.4939,like
+user_038,item_014,Budget Plain Tee,0.5745,like
+user_038,item_015,Thermal Base Layer,0.8583,purchase
+user_038,item_016,Black Slim Chinos,0.7474,purchase
+user_038,item_017,Beige Straight Chinos,0.7963,purchase
+user_038,item_018,Gray Slim Trousers,0.7013,purchase
+user_038,item_019,Black Cargo Pants,0.7402,purchase
+user_038,item_020,Patterned Joggers,0.4611,like
+user_038,item_021,Navy Chinos,0.6692,like
+user_038,item_022,Formal Gray Trousers,0.688,like
+user_038,item_023,Athletic Track Pants,0.5431,like
+user_038,item_024,Neon Pink Leggings,0.3019,ignored
+user_038,item_025,Budget Jeans,0.5877,like
+user_038,item_026,Insulated Winter Pants,1.0,purchase
+user_038,item_027,Bright Printed Shorts,0.3553,ignored
+user_038,item_028,White Minimalist Sneakers,0.4672,like
+user_038,item_029,Black Leather Sneakers,1.0,purchase
+user_038,item_030,Chunky Streetwear Sneakers,0.4472,ignored
+user_038,item_031,Red High-Top Sneakers,0.4782,like
+user_038,item_032,Navy Boat Shoes,0.7291,purchase
+user_038,item_033,Oxford Derby Shoes,0.7619,purchase
+user_038,item_034,Running Trainers,0.7053,purchase
+user_038,item_035,Budget Canvas Shoes,0.6256,like
+user_038,item_036,Insulated Winter Boots,1.0,purchase
+user_038,item_037,Bright Platform Sneakers,0.4329,ignored
+user_038,item_038,Black Minimal Watch,0.7145,purchase
+user_038,item_039,Streetwear Cap,0.5943,like
+user_038,item_040,Bold Chain Necklace,0.304,ignored
+user_038,item_041,Navy Knit Beanie,0.8361,purchase
+user_038,item_042,Leather Belt,0.7717,purchase
+user_038,item_043,Athletic Gym Bag,0.5723,like
+user_038,item_044,Winter Scarf,0.9144,purchase
+user_038,item_045,Budget Backpack,0.5849,like
+user_038,item_046,Statement Sunglasses,0.4483,ignored
+user_038,item_047,Preppy Canvas Tote,0.6031,like
+user_039,item_001,Black Classic Hoodie,0.4216,ignored
+user_039,item_002,White Oversized Tee,0.4008,ignored
+user_039,item_003,Beige Linen Shirt,0.1829,ignored
+user_039,item_004,Gray Crewneck Sweatshirt,0.436,ignored
+user_039,item_005,Neon Green Graphic Tee,0.1845,ignored
+user_039,item_006,Red Varsity Jacket,0.333,ignored
+user_039,item_007,Navy Polo Shirt,0.3601,ignored
+user_039,item_008,Light Blue Oxford Shirt,0.1878,ignored
+user_039,item_009,White Button-Down,0.9945,purchase
+user_039,item_010,Black Blazer,0.9845,purchase
+user_039,item_011,Athletic Performance Tee,0.398,ignored
+user_039,item_012,Yellow Patterned Blouse,0.178,ignored
+user_039,item_013,Bright Mixed-Print Shirt,0.2066,ignored
+user_039,item_014,Budget Plain Tee,0.2491,ignored
+user_039,item_015,Thermal Base Layer,0.3858,ignored
+user_039,item_016,Black Slim Chinos,0.4195,ignored
+user_039,item_017,Beige Straight Chinos,0.2338,ignored
+user_039,item_018,Gray Slim Trousers,0.4378,ignored
+user_039,item_019,Black Cargo Pants,0.5509,like
+user_039,item_020,Patterned Joggers,0.191,ignored
+user_039,item_021,Navy Chinos,0.4282,ignored
+user_039,item_022,Formal Gray Trousers,0.9969,purchase
+user_039,item_023,Athletic Track Pants,0.3622,ignored
+user_039,item_024,Neon Pink Leggings,0.183,ignored
+user_039,item_025,Budget Jeans,0.146,ignored
+user_039,item_026,Insulated Winter Pants,0.5924,like
+user_039,item_027,Bright Printed Shorts,0.2292,ignored
+user_039,item_028,White Minimalist Sneakers,0.5301,like
+user_039,item_029,Black Leather Sneakers,0.5778,like
+user_039,item_030,Chunky Streetwear Sneakers,0.4039,ignored
+user_039,item_031,Red High-Top Sneakers,0.3117,ignored
+user_039,item_032,Navy Boat Shoes,0.5927,like
+user_039,item_033,Oxford Derby Shoes,1.0,purchase
+user_039,item_034,Running Trainers,0.5466,like
+user_039,item_035,Budget Canvas Shoes,0.3946,ignored
+user_039,item_036,Insulated Winter Boots,0.537,like
+user_039,item_037,Bright Platform Sneakers,0.3186,ignored
+user_039,item_038,Black Minimal Watch,0.3583,ignored
+user_039,item_039,Streetwear Cap,0.4437,ignored
+user_039,item_040,Bold Chain Necklace,0.1948,ignored
+user_039,item_041,Navy Knit Beanie,0.4416,ignored
+user_039,item_042,Leather Belt,0.8614,purchase
+user_039,item_043,Athletic Gym Bag,0.5177,like
+user_039,item_044,Winter Scarf,0.3781,ignored
+user_039,item_045,Budget Backpack,0.1765,ignored
+user_039,item_046,Statement Sunglasses,0.2257,ignored
+user_039,item_047,Preppy Canvas Tote,0.4986,like
+user_040,item_001,Black Classic Hoodie,0.4511,like
+user_040,item_002,White Oversized Tee,0.5358,like
+user_040,item_003,Beige Linen Shirt,0.2064,ignored
+user_040,item_004,Gray Crewneck Sweatshirt,0.5197,like
+user_040,item_005,Neon Green Graphic Tee,0.2362,ignored
+user_040,item_006,Red Varsity Jacket,0.3975,ignored
+user_040,item_007,Navy Polo Shirt,0.5344,like
+user_040,item_008,Light Blue Oxford Shirt,0.3112,ignored
+user_040,item_009,White Button-Down,1.0,purchase
+user_040,item_010,Black Blazer,0.9663,purchase
+user_040,item_011,Athletic Performance Tee,0.4715,like
+user_040,item_012,Yellow Patterned Blouse,0.2881,ignored
+user_040,item_013,Bright Mixed-Print Shirt,0.2119,ignored
+user_040,item_014,Budget Plain Tee,0.2147,ignored
+user_040,item_015,Thermal Base Layer,0.4848,like
+user_040,item_016,Black Slim Chinos,0.4945,like
+user_040,item_017,Beige Straight Chinos,0.2455,ignored
+user_040,item_018,Gray Slim Trousers,0.5552,like
+user_040,item_019,Black Cargo Pants,0.5835,like
+user_040,item_020,Patterned Joggers,0.253,ignored
+user_040,item_021,Navy Chinos,0.6227,like
+user_040,item_022,Formal Gray Trousers,1.0,purchase
+user_040,item_023,Athletic Track Pants,0.4433,ignored
+user_040,item_024,Neon Pink Leggings,0.2348,ignored
+user_040,item_025,Budget Jeans,0.2153,ignored
+user_040,item_026,Insulated Winter Pants,0.6172,like
+user_040,item_027,Bright Printed Shorts,0.1836,ignored
+user_040,item_028,White Minimalist Sneakers,0.5944,like
+user_040,item_029,Black Leather Sneakers,0.5456,like
+user_040,item_030,Chunky Streetwear Sneakers,0.3688,ignored
+user_040,item_031,Red High-Top Sneakers,0.3537,ignored
+user_040,item_032,Navy Boat Shoes,0.5842,like
+user_040,item_033,Oxford Derby Shoes,1.0,purchase
+user_040,item_034,Running Trainers,0.5675,like
+user_040,item_035,Budget Canvas Shoes,0.5012,like
+user_040,item_036,Insulated Winter Boots,0.5761,like
+user_040,item_037,Bright Platform Sneakers,0.3525,ignored
+user_040,item_038,Black Minimal Watch,0.5794,like
+user_040,item_039,Streetwear Cap,0.4065,ignored
+user_040,item_040,Bold Chain Necklace,0.2185,ignored
+user_040,item_041,Navy Knit Beanie,0.5264,like
+user_040,item_042,Leather Belt,0.947,purchase
+user_040,item_043,Athletic Gym Bag,0.484,like
+user_040,item_044,Winter Scarf,0.4771,like
+user_040,item_045,Budget Backpack,0.2238,ignored
+user_040,item_046,Statement Sunglasses,0.2528,ignored
+user_040,item_047,Preppy Canvas Tote,0.4983,like
+user_041,item_001,Black Classic Hoodie,0.4086,ignored
+user_041,item_002,White Oversized Tee,0.4578,like
+user_041,item_003,Beige Linen Shirt,0.2507,ignored
+user_041,item_004,Gray Crewneck Sweatshirt,0.4094,ignored
+user_041,item_005,Neon Green Graphic Tee,0.2081,ignored
+user_041,item_006,Red Varsity Jacket,0.3406,ignored
+user_041,item_007,Navy Polo Shirt,0.4597,like
+user_041,item_008,Light Blue Oxford Shirt,0.2011,ignored
+user_041,item_009,White Button-Down,0.8712,purchase
+user_041,item_010,Black Blazer,0.9861,purchase
+user_041,item_011,Athletic Performance Tee,0.4496,ignored
+user_041,item_012,Yellow Patterned Blouse,0.2266,ignored
+user_041,item_013,Bright Mixed-Print Shirt,0.2131,ignored
+user_041,item_014,Budget Plain Tee,0.1728,ignored
+user_041,item_015,Thermal Base Layer,0.4053,ignored
+user_041,item_016,Black Slim Chinos,0.4571,like
+user_041,item_017,Beige Straight Chinos,0.1771,ignored
+user_041,item_018,Gray Slim Trousers,0.4448,ignored
+user_041,item_019,Black Cargo Pants,0.4272,ignored
+user_041,item_020,Patterned Joggers,0.1956,ignored
+user_041,item_021,Navy Chinos,0.4388,ignored
+user_041,item_022,Formal Gray Trousers,1.0,purchase
+user_041,item_023,Athletic Track Pants,0.4467,ignored
+user_041,item_024,Neon Pink Leggings,0.2048,ignored
+user_041,item_025,Budget Jeans,0.1695,ignored
+user_041,item_026,Insulated Winter Pants,0.5664,like
+user_041,item_027,Bright Printed Shorts,0.2478,ignored
+user_041,item_028,White Minimalist Sneakers,0.4562,like
+user_041,item_029,Black Leather Sneakers,0.586,like
+user_041,item_030,Chunky Streetwear Sneakers,0.341,ignored
+user_041,item_031,Red High-Top Sneakers,0.2876,ignored
+user_041,item_032,Navy Boat Shoes,0.4367,ignored
+user_041,item_033,Oxford Derby Shoes,1.0,purchase
+user_041,item_034,Running Trainers,0.5726,like
+user_041,item_035,Budget Canvas Shoes,0.4232,ignored
+user_041,item_036,Insulated Winter Boots,0.5491,like
+user_041,item_037,Bright Platform Sneakers,0.3377,ignored
+user_041,item_038,Black Minimal Watch,0.4761,like
+user_041,item_039,Streetwear Cap,0.4682,like
+user_041,item_040,Bold Chain Necklace,0.2331,ignored
+user_041,item_041,Navy Knit Beanie,0.4499,ignored
+user_041,item_042,Leather Belt,0.8563,purchase
+user_041,item_043,Athletic Gym Bag,0.405,ignored
+user_041,item_044,Winter Scarf,0.4352,ignored
+user_041,item_045,Budget Backpack,0.2449,ignored
+user_041,item_046,Statement Sunglasses,0.2256,ignored
+user_041,item_047,Preppy Canvas Tote,0.4548,like
+user_042,item_001,Black Classic Hoodie,0.4126,ignored
+user_042,item_002,White Oversized Tee,0.4138,ignored
+user_042,item_003,Beige Linen Shirt,0.2092,ignored
+user_042,item_004,Gray Crewneck Sweatshirt,0.4566,like
+user_042,item_005,Neon Green Graphic Tee,0.1362,ignored
+user_042,item_006,Red Varsity Jacket,0.3131,ignored
+user_042,item_007,Navy Polo Shirt,0.4653,like
+user_042,item_008,Light Blue Oxford Shirt,0.2641,ignored
+user_042,item_009,White Button-Down,1.0,purchase
+user_042,item_010,Black Blazer,1.0,purchase
+user_042,item_011,Athletic Performance Tee,0.4531,like
+user_042,item_012,Yellow Patterned Blouse,0.1826,ignored
+user_042,item_013,Bright Mixed-Print Shirt,0.1725,ignored
+user_042,item_014,Budget Plain Tee,0.1324,ignored
+user_042,item_015,Thermal Base Layer,0.4854,like
+user_042,item_016,Black Slim Chinos,0.4658,like
+user_042,item_017,Beige Straight Chinos,0.093,ignored
+user_042,item_018,Gray Slim Trousers,0.5495,like
+user_042,item_019,Black Cargo Pants,0.5437,like
+user_042,item_020,Patterned Joggers,0.205,ignored
+user_042,item_021,Navy Chinos,0.4563,like
+user_042,item_022,Formal Gray Trousers,1.0,purchase
+user_042,item_023,Athletic Track Pants,0.4099,ignored
+user_042,item_024,Neon Pink Leggings,0.1433,ignored
+user_042,item_025,Budget Jeans,0.2076,ignored
+user_042,item_026,Insulated Winter Pants,0.5489,like
+user_042,item_027,Bright Printed Shorts,0.1438,ignored
+user_042,item_028,White Minimalist Sneakers,0.5528,like
+user_042,item_029,Black Leather Sneakers,0.5458,like
+user_042,item_030,Chunky Streetwear Sneakers,0.3028,ignored
+user_042,item_031,Red High-Top Sneakers,0.3201,ignored
+user_042,item_032,Navy Boat Shoes,0.521,like
+user_042,item_033,Oxford Derby Shoes,0.9913,purchase
+user_042,item_034,Running Trainers,0.569,like
+user_042,item_035,Budget Canvas Shoes,0.4601,like
+user_042,item_036,Insulated Winter Boots,0.5936,like
+user_042,item_037,Bright Platform Sneakers,0.2902,ignored
+user_042,item_038,Black Minimal Watch,0.5512,like
+user_042,item_039,Streetwear Cap,0.4242,ignored
+user_042,item_040,Bold Chain Necklace,0.1209,ignored
+user_042,item_041,Navy Knit Beanie,0.4465,ignored
+user_042,item_042,Leather Belt,0.8894,purchase
+user_042,item_043,Athletic Gym Bag,0.4853,like
+user_042,item_044,Winter Scarf,0.4463,ignored
+user_042,item_045,Budget Backpack,0.2453,ignored
+user_042,item_046,Statement Sunglasses,0.1733,ignored
+user_042,item_047,Preppy Canvas Tote,0.4431,ignored
+user_043,item_001,Black Classic Hoodie,0.4523,like
+user_043,item_002,White Oversized Tee,0.4118,ignored
+user_043,item_003,Beige Linen Shirt,0.1801,ignored
+user_043,item_004,Gray Crewneck Sweatshirt,0.379,ignored
+user_043,item_005,Neon Green Graphic Tee,0.1941,ignored
+user_043,item_006,Red Varsity Jacket,0.265,ignored
+user_043,item_007,Navy Polo Shirt,0.4472,ignored
+user_043,item_008,Light Blue Oxford Shirt,0.1784,ignored
+user_043,item_009,White Button-Down,0.8726,purchase
+user_043,item_010,Black Blazer,0.973,purchase
+user_043,item_011,Athletic Performance Tee,0.4879,like
+user_043,item_012,Yellow Patterned Blouse,0.1886,ignored
+user_043,item_013,Bright Mixed-Print Shirt,0.1559,ignored
+user_043,item_014,Budget Plain Tee,0.1864,ignored
+user_043,item_015,Thermal Base Layer,0.4531,like
+user_043,item_016,Black Slim Chinos,0.4995,like
+user_043,item_017,Beige Straight Chinos,0.2071,ignored
+user_043,item_018,Gray Slim Trousers,0.4532,like
+user_043,item_019,Black Cargo Pants,0.4274,ignored
+user_043,item_020,Patterned Joggers,0.2273,ignored
+user_043,item_021,Navy Chinos,0.4379,ignored
+user_043,item_022,Formal Gray Trousers,0.9739,purchase
+user_043,item_023,Athletic Track Pants,0.4043,ignored
+user_043,item_024,Neon Pink Leggings,0.1479,ignored
+user_043,item_025,Budget Jeans,0.1629,ignored
+user_043,item_026,Insulated Winter Pants,0.5531,like
+user_043,item_027,Bright Printed Shorts,0.2012,ignored
+user_043,item_028,White Minimalist Sneakers,0.4754,like
+user_043,item_029,Black Leather Sneakers,0.5347,like
+user_043,item_030,Chunky Streetwear Sneakers,0.2879,ignored
+user_043,item_031,Red High-Top Sneakers,0.3308,ignored
+user_043,item_032,Navy Boat Shoes,0.4682,like
+user_043,item_033,Oxford Derby Shoes,1.0,purchase
+user_043,item_034,Running Trainers,0.4848,like
+user_043,item_035,Budget Canvas Shoes,0.4186,ignored
+user_043,item_036,Insulated Winter Boots,0.5076,like
+user_043,item_037,Bright Platform Sneakers,0.1827,ignored
+user_043,item_038,Black Minimal Watch,0.4431,ignored
+user_043,item_039,Streetwear Cap,0.4827,like
+user_043,item_040,Bold Chain Necklace,0.1577,ignored
+user_043,item_041,Navy Knit Beanie,0.4468,ignored
+user_043,item_042,Leather Belt,0.8852,purchase
+user_043,item_043,Athletic Gym Bag,0.4261,ignored
+user_043,item_044,Winter Scarf,0.4495,ignored
+user_043,item_045,Budget Backpack,0.1379,ignored
+user_043,item_046,Statement Sunglasses,0.209,ignored
+user_043,item_047,Preppy Canvas Tote,0.3833,ignored
+user_044,item_001,Black Classic Hoodie,0.4669,like
+user_044,item_002,White Oversized Tee,0.4425,ignored
+user_044,item_003,Beige Linen Shirt,0.2635,ignored
+user_044,item_004,Gray Crewneck Sweatshirt,0.4801,like
+user_044,item_005,Neon Green Graphic Tee,0.1563,ignored
+user_044,item_006,Red Varsity Jacket,0.2596,ignored
+user_044,item_007,Navy Polo Shirt,0.4272,ignored
+user_044,item_008,Light Blue Oxford Shirt,0.3172,ignored
+user_044,item_009,White Button-Down,0.9943,purchase
+user_044,item_010,Black Blazer,1.0,purchase
+user_044,item_011,Athletic Performance Tee,0.4774,like
+user_044,item_012,Yellow Patterned Blouse,0.1778,ignored
+user_044,item_013,Bright Mixed-Print Shirt,0.1648,ignored
+user_044,item_014,Budget Plain Tee,0.2264,ignored
+user_044,item_015,Thermal Base Layer,0.4464,ignored
+user_044,item_016,Black Slim Chinos,0.4541,like
+user_044,item_017,Beige Straight Chinos,0.1995,ignored
+user_044,item_018,Gray Slim Trousers,0.5655,like
+user_044,item_019,Black Cargo Pants,0.6153,like
+user_044,item_020,Patterned Joggers,0.1701,ignored
+user_044,item_021,Navy Chinos,0.5339,like
+user_044,item_022,Formal Gray Trousers,1.0,purchase
+user_044,item_023,Athletic Track Pants,0.5042,like
+user_044,item_024,Neon Pink Leggings,0.2126,ignored
+user_044,item_025,Budget Jeans,0.1809,ignored
+user_044,item_026,Insulated Winter Pants,0.5107,like
+user_044,item_027,Bright Printed Shorts,0.2266,ignored
+user_044,item_028,White Minimalist Sneakers,0.5332,like
+user_044,item_029,Black Leather Sneakers,0.636,like
+user_044,item_030,Chunky Streetwear Sneakers,0.4025,ignored
+user_044,item_031,Red High-Top Sneakers,0.3391,ignored
+user_044,item_032,Navy Boat Shoes,0.5853,like
+user_044,item_033,Oxford Derby Shoes,0.9965,purchase
+user_044,item_034,Running Trainers,0.605,like
+user_044,item_035,Budget Canvas Shoes,0.4571,like
+user_044,item_036,Insulated Winter Boots,0.5726,like
+user_044,item_037,Bright Platform Sneakers,0.3731,ignored
+user_044,item_038,Black Minimal Watch,0.5895,like
+user_044,item_039,Streetwear Cap,0.5211,like
+user_044,item_040,Bold Chain Necklace,0.1697,ignored
+user_044,item_041,Navy Knit Beanie,0.4405,ignored
+user_044,item_042,Leather Belt,0.8594,purchase
+user_044,item_043,Athletic Gym Bag,0.4825,like
+user_044,item_044,Winter Scarf,0.4424,ignored
+user_044,item_045,Budget Backpack,0.2369,ignored
+user_044,item_046,Statement Sunglasses,0.1837,ignored
+user_044,item_047,Preppy Canvas Tote,0.4544,like
+user_045,item_001,Black Classic Hoodie,0.5003,like
+user_045,item_002,White Oversized Tee,0.4806,like
+user_045,item_003,Beige Linen Shirt,0.6961,like
+user_045,item_004,Gray Crewneck Sweatshirt,0.7634,purchase
+user_045,item_005,Neon Green Graphic Tee,0.4562,like
+user_045,item_006,Red Varsity Jacket,0.0477,ignored
+user_045,item_007,Navy Polo Shirt,0.3983,ignored
+user_045,item_008,Light Blue Oxford Shirt,0.0824,ignored
+user_045,item_009,White Button-Down,0.0655,ignored
+user_045,item_010,Black Blazer,0.0791,ignored
+user_045,item_011,Athletic Performance Tee,0.4267,ignored
+user_045,item_012,Yellow Patterned Blouse,0.5013,like
+user_045,item_013,Bright Mixed-Print Shirt,0.404,ignored
+user_045,item_014,Budget Plain Tee,0.9851,purchase
+user_045,item_015,Thermal Base Layer,0.4468,ignored
+user_045,item_016,Black Slim Chinos,0.0845,ignored
+user_045,item_017,Beige Straight Chinos,0.7111,purchase
+user_045,item_018,Gray Slim Trousers,0.1014,ignored
+user_045,item_019,Black Cargo Pants,0.0188,ignored
+user_045,item_020,Patterned Joggers,0.6792,like
+user_045,item_021,Navy Chinos,0.0533,ignored
+user_045,item_022,Formal Gray Trousers,0.0413,ignored
+user_045,item_023,Athletic Track Pants,0.4654,like
+user_045,item_024,Neon Pink Leggings,0.361,ignored
+user_045,item_025,Budget Jeans,0.9781,purchase
+user_045,item_026,Insulated Winter Pants,0.0354,ignored
+user_045,item_027,Bright Printed Shorts,0.4576,like
+user_045,item_028,White Minimalist Sneakers,0.109,ignored
+user_045,item_029,Black Leather Sneakers,0.4069,ignored
+user_045,item_030,Chunky Streetwear Sneakers,0.352,ignored
+user_045,item_031,Red High-Top Sneakers,0.0,ignored
+user_045,item_032,Navy Boat Shoes,0.0674,ignored
+user_045,item_033,Oxford Derby Shoes,0.021,ignored
+user_045,item_034,Running Trainers,0.0513,ignored
+user_045,item_035,Budget Canvas Shoes,0.7598,purchase
+user_045,item_036,Insulated Winter Boots,0.0653,ignored
+user_045,item_037,Bright Platform Sneakers,0.1038,ignored
+user_045,item_038,Black Minimal Watch,0.0,ignored
+user_045,item_039,Streetwear Cap,0.3438,ignored
+user_045,item_040,Bold Chain Necklace,0.5721,like
+user_045,item_041,Navy Knit Beanie,0.6408,like
+user_045,item_042,Leather Belt,0.3991,ignored
+user_045,item_043,Athletic Gym Bag,0.3744,ignored
+user_045,item_044,Winter Scarf,0.4156,ignored
+user_045,item_045,Budget Backpack,0.9732,purchase
+user_045,item_046,Statement Sunglasses,0.3709,ignored
+user_045,item_047,Preppy Canvas Tote,0.3398,ignored
+user_046,item_001,Black Classic Hoodie,0.558,like
+user_046,item_002,White Oversized Tee,0.5075,like
+user_046,item_003,Beige Linen Shirt,0.7843,purchase
+user_046,item_004,Gray Crewneck Sweatshirt,0.7858,purchase
+user_046,item_005,Neon Green Graphic Tee,0.5319,like
+user_046,item_006,Red Varsity Jacket,0.1627,ignored
+user_046,item_007,Navy Polo Shirt,0.5298,like
+user_046,item_008,Light Blue Oxford Shirt,0.5649,like
+user_046,item_009,White Button-Down,0.1274,ignored
+user_046,item_010,Black Blazer,0.1119,ignored
+user_046,item_011,Athletic Performance Tee,0.6098,like
+user_046,item_012,Yellow Patterned Blouse,0.5828,like
+user_046,item_013,Bright Mixed-Print Shirt,0.5341,like
+user_046,item_014,Budget Plain Tee,0.9749,purchase
+user_046,item_015,Thermal Base Layer,0.4799,like
+user_046,item_016,Black Slim Chinos,0.5402,like
+user_046,item_017,Beige Straight Chinos,0.8126,purchase
+user_046,item_018,Gray Slim Trousers,0.5422,like
+user_046,item_019,Black Cargo Pants,0.1344,ignored
+user_046,item_020,Patterned Joggers,0.7209,purchase
+user_046,item_021,Navy Chinos,0.5625,like
+user_046,item_022,Formal Gray Trousers,0.1341,ignored
+user_046,item_023,Athletic Track Pants,0.5065,like
+user_046,item_024,Neon Pink Leggings,0.5051,like
+user_046,item_025,Budget Jeans,1.0,purchase
+user_046,item_026,Insulated Winter Pants,0.0925,ignored
+user_046,item_027,Bright Printed Shorts,0.5498,like
+user_046,item_028,White Minimalist Sneakers,0.1461,ignored
+user_046,item_029,Black Leather Sneakers,0.4155,ignored
+user_046,item_030,Chunky Streetwear Sneakers,0.2809,ignored
+user_046,item_031,Red High-Top Sneakers,0.0714,ignored
+user_046,item_032,Navy Boat Shoes,0.091,ignored
+user_046,item_033,Oxford Derby Shoes,0.0759,ignored
+user_046,item_034,Running Trainers,0.1255,ignored
+user_046,item_035,Budget Canvas Shoes,0.807,purchase
+user_046,item_036,Insulated Winter Boots,0.0971,ignored
+user_046,item_037,Bright Platform Sneakers,0.1509,ignored
+user_046,item_038,Black Minimal Watch,0.4074,ignored
+user_046,item_039,Streetwear Cap,0.4049,ignored
+user_046,item_040,Bold Chain Necklace,0.5998,like
+user_046,item_041,Navy Knit Beanie,0.7267,purchase
+user_046,item_042,Leather Belt,0.3554,ignored
+user_046,item_043,Athletic Gym Bag,0.4247,ignored
+user_046,item_044,Winter Scarf,0.3492,ignored
+user_046,item_045,Budget Backpack,0.8514,purchase
+user_046,item_046,Statement Sunglasses,0.4339,ignored
+user_046,item_047,Preppy Canvas Tote,0.4242,ignored
+user_047,item_001,Black Classic Hoodie,0.4958,like
+user_047,item_002,White Oversized Tee,0.4814,like
+user_047,item_003,Beige Linen Shirt,0.7978,purchase
+user_047,item_004,Gray Crewneck Sweatshirt,0.7092,purchase
+user_047,item_005,Neon Green Graphic Tee,0.4667,like
+user_047,item_006,Red Varsity Jacket,0.1166,ignored
+user_047,item_007,Navy Polo Shirt,0.537,like
+user_047,item_008,Light Blue Oxford Shirt,0.146,ignored
+user_047,item_009,White Button-Down,0.1464,ignored
+user_047,item_010,Black Blazer,0.0924,ignored
+user_047,item_011,Athletic Performance Tee,0.5434,like
+user_047,item_012,Yellow Patterned Blouse,0.4901,like
+user_047,item_013,Bright Mixed-Print Shirt,0.4457,ignored
+user_047,item_014,Budget Plain Tee,1.0,purchase
+user_047,item_015,Thermal Base Layer,0.4331,ignored
+user_047,item_016,Black Slim Chinos,0.0891,ignored
+user_047,item_017,Beige Straight Chinos,0.7484,purchase
+user_047,item_018,Gray Slim Trousers,0.0858,ignored
+user_047,item_019,Black Cargo Pants,0.131,ignored
+user_047,item_020,Patterned Joggers,0.7288,purchase
+user_047,item_021,Navy Chinos,0.1186,ignored
+user_047,item_022,Formal Gray Trousers,0.172,ignored
+user_047,item_023,Athletic Track Pants,0.4269,ignored
+user_047,item_024,Neon Pink Leggings,0.5169,like
+user_047,item_025,Budget Jeans,0.9753,purchase
+user_047,item_026,Insulated Winter Pants,0.1591,ignored
+user_047,item_027,Bright Printed Shorts,0.5331,like
+user_047,item_028,White Minimalist Sneakers,0.1842,ignored
+user_047,item_029,Black Leather Sneakers,0.389,ignored
+user_047,item_030,Chunky Streetwear Sneakers,0.3249,ignored
+user_047,item_031,Red High-Top Sneakers,0.125,ignored
+user_047,item_032,Navy Boat Shoes,0.1136,ignored
+user_047,item_033,Oxford Derby Shoes,0.0623,ignored
+user_047,item_034,Running Trainers,0.1373,ignored
+user_047,item_035,Budget Canvas Shoes,0.7277,purchase
+user_047,item_036,Insulated Winter Boots,0.1585,ignored
+user_047,item_037,Bright Platform Sneakers,0.1442,ignored
+user_047,item_038,Black Minimal Watch,0.0,ignored
+user_047,item_039,Streetwear Cap,0.3618,ignored
+user_047,item_040,Bold Chain Necklace,0.598,like
+user_047,item_041,Navy Knit Beanie,0.6265,like
+user_047,item_042,Leather Belt,0.4536,like
+user_047,item_043,Athletic Gym Bag,0.3326,ignored
+user_047,item_044,Winter Scarf,0.3624,ignored
+user_047,item_045,Budget Backpack,0.9145,purchase
+user_047,item_046,Statement Sunglasses,0.3492,ignored
+user_047,item_047,Preppy Canvas Tote,0.3418,ignored
+user_048,item_001,Black Classic Hoodie,0.4954,like
+user_048,item_002,White Oversized Tee,0.5711,like
+user_048,item_003,Beige Linen Shirt,0.8517,purchase
+user_048,item_004,Gray Crewneck Sweatshirt,0.8444,purchase
+user_048,item_005,Neon Green Graphic Tee,0.49,like
+user_048,item_006,Red Varsity Jacket,0.084,ignored
+user_048,item_007,Navy Polo Shirt,0.5439,like
+user_048,item_008,Light Blue Oxford Shirt,0.5252,like
+user_048,item_009,White Button-Down,0.494,like
+user_048,item_010,Black Blazer,0.0672,ignored
+user_048,item_011,Athletic Performance Tee,0.5092,like
+user_048,item_012,Yellow Patterned Blouse,0.5377,like
+user_048,item_013,Bright Mixed-Print Shirt,0.5372,like
+user_048,item_014,Budget Plain Tee,0.9899,purchase
+user_048,item_015,Thermal Base Layer,0.5618,like
+user_048,item_016,Black Slim Chinos,0.5333,like
+user_048,item_017,Beige Straight Chinos,0.8462,purchase
+user_048,item_018,Gray Slim Trousers,0.5479,like
+user_048,item_019,Black Cargo Pants,0.0991,ignored
+user_048,item_020,Patterned Joggers,0.6762,like
+user_048,item_021,Navy Chinos,0.5249,like
+user_048,item_022,Formal Gray Trousers,0.0966,ignored
+user_048,item_023,Athletic Track Pants,0.5399,like
+user_048,item_024,Neon Pink Leggings,0.5691,like
+user_048,item_025,Budget Jeans,1.0,purchase
+user_048,item_026,Insulated Winter Pants,0.0556,ignored
+user_048,item_027,Bright Printed Shorts,0.5617,like
+user_048,item_028,White Minimalist Sneakers,0.0612,ignored
+user_048,item_029,Black Leather Sneakers,0.3926,ignored
+user_048,item_030,Chunky Streetwear Sneakers,0.2943,ignored
+user_048,item_031,Red High-Top Sneakers,0.1016,ignored
+user_048,item_032,Navy Boat Shoes,0.604,like
+user_048,item_033,Oxford Derby Shoes,0.0224,ignored
+user_048,item_034,Running Trainers,0.0524,ignored
+user_048,item_035,Budget Canvas Shoes,0.8223,purchase
+user_048,item_036,Insulated Winter Boots,0.0569,ignored
+user_048,item_037,Bright Platform Sneakers,0.0801,ignored
+user_048,item_038,Black Minimal Watch,0.4554,like
+user_048,item_039,Streetwear Cap,0.4996,like
+user_048,item_040,Bold Chain Necklace,0.6657,like
+user_048,item_041,Navy Knit Beanie,0.7738,purchase
+user_048,item_042,Leather Belt,0.436,ignored
+user_048,item_043,Athletic Gym Bag,0.4828,like
+user_048,item_044,Winter Scarf,0.4866,like
+user_048,item_045,Budget Backpack,0.9418,purchase
+user_048,item_046,Statement Sunglasses,0.4673,like
+user_048,item_047,Preppy Canvas Tote,0.5084,like
+user_049,item_001,Black Classic Hoodie,0.5302,like
+user_049,item_002,White Oversized Tee,0.5357,like
+user_049,item_003,Beige Linen Shirt,0.8636,purchase
+user_049,item_004,Gray Crewneck Sweatshirt,0.8595,purchase
+user_049,item_005,Neon Green Graphic Tee,0.5723,like
+user_049,item_006,Red Varsity Jacket,0.107,ignored
+user_049,item_007,Navy Polo Shirt,0.5073,like
+user_049,item_008,Light Blue Oxford Shirt,0.5096,like
+user_049,item_009,White Button-Down,0.5337,like
+user_049,item_010,Black Blazer,0.1393,ignored
+user_049,item_011,Athletic Performance Tee,0.5705,like
+user_049,item_012,Yellow Patterned Blouse,0.4922,like
+user_049,item_013,Bright Mixed-Print Shirt,0.5627,like
+user_049,item_014,Budget Plain Tee,0.9974,purchase
+user_049,item_015,Thermal Base Layer,0.5154,like
+user_049,item_016,Black Slim Chinos,0.6124,like
+user_049,item_017,Beige Straight Chinos,0.8515,purchase
+user_049,item_018,Gray Slim Trousers,0.5715,like
+user_049,item_019,Black Cargo Pants,0.6237,like
+user_049,item_020,Patterned Joggers,0.6857,like
+user_049,item_021,Navy Chinos,0.5348,like
+user_049,item_022,Formal Gray Trousers,0.1602,ignored
+user_049,item_023,Athletic Track Pants,0.5075,like
+user_049,item_024,Neon Pink Leggings,0.5489,like
+user_049,item_025,Budget Jeans,1.0,purchase
+user_049,item_026,Insulated Winter Pants,0.1446,ignored
+user_049,item_027,Bright Printed Shorts,0.5589,like
+user_049,item_028,White Minimalist Sneakers,0.5193,like
+user_049,item_029,Black Leather Sneakers,0.4416,ignored
+user_049,item_030,Chunky Streetwear Sneakers,0.2973,ignored
+user_049,item_031,Red High-Top Sneakers,0.084,ignored
+user_049,item_032,Navy Boat Shoes,0.5261,like
+user_049,item_033,Oxford Derby Shoes,0.0997,ignored
+user_049,item_034,Running Trainers,0.081,ignored
+user_049,item_035,Budget Canvas Shoes,0.8755,purchase
+user_049,item_036,Insulated Winter Boots,0.1058,ignored
+user_049,item_037,Bright Platform Sneakers,0.1072,ignored
+user_049,item_038,Black Minimal Watch,0.4001,ignored
+user_049,item_039,Streetwear Cap,0.4194,ignored
+user_049,item_040,Bold Chain Necklace,0.6321,like
+user_049,item_041,Navy Knit Beanie,0.7505,purchase
+user_049,item_042,Leather Belt,0.3827,ignored
+user_049,item_043,Athletic Gym Bag,0.4015,ignored
+user_049,item_044,Winter Scarf,0.4503,like
+user_049,item_045,Budget Backpack,0.8696,purchase
+user_049,item_046,Statement Sunglasses,0.4146,ignored
+user_049,item_047,Preppy Canvas Tote,0.4054,ignored
+user_050,item_001,Black Classic Hoodie,0.444,ignored
+user_050,item_002,White Oversized Tee,0.4868,like
+user_050,item_003,Beige Linen Shirt,0.8088,purchase
+user_050,item_004,Gray Crewneck Sweatshirt,0.8544,purchase
+user_050,item_005,Neon Green Graphic Tee,0.4819,like
+user_050,item_006,Red Varsity Jacket,0.0592,ignored
+user_050,item_007,Navy Polo Shirt,0.5047,like
+user_050,item_008,Light Blue Oxford Shirt,0.5243,like
+user_050,item_009,White Button-Down,0.4618,like
+user_050,item_010,Black Blazer,0.0371,ignored
+user_050,item_011,Athletic Performance Tee,0.4695,like
+user_050,item_012,Yellow Patterned Blouse,0.4434,ignored
+user_050,item_013,Bright Mixed-Print Shirt,0.5331,like
+user_050,item_014,Budget Plain Tee,0.9584,purchase
+user_050,item_015,Thermal Base Layer,0.4741,like
+user_050,item_016,Black Slim Chinos,0.5281,like
+user_050,item_017,Beige Straight Chinos,0.8463,purchase
+user_050,item_018,Gray Slim Trousers,0.4685,like
+user_050,item_019,Black Cargo Pants,0.0647,ignored
+user_050,item_020,Patterned Joggers,0.6583,like
+user_050,item_021,Navy Chinos,0.4767,like
+user_050,item_022,Formal Gray Trousers,0.1331,ignored
+user_050,item_023,Athletic Track Pants,0.4793,like
+user_050,item_024,Neon Pink Leggings,0.4434,ignored
+user_050,item_025,Budget Jeans,1.0,purchase
+user_050,item_026,Insulated Winter Pants,0.1193,ignored
+user_050,item_027,Bright Printed Shorts,0.4771,like
+user_050,item_028,White Minimalist Sneakers,0.1114,ignored
+user_050,item_029,Black Leather Sneakers,0.426,ignored
+user_050,item_030,Chunky Streetwear Sneakers,0.2318,ignored
+user_050,item_031,Red High-Top Sneakers,0.0858,ignored
+user_050,item_032,Navy Boat Shoes,0.4496,ignored
+user_050,item_033,Oxford Derby Shoes,0.0692,ignored
+user_050,item_034,Running Trainers,0.06,ignored
+user_050,item_035,Budget Canvas Shoes,0.8302,purchase
+user_050,item_036,Insulated Winter Boots,0.0938,ignored
+user_050,item_037,Bright Platform Sneakers,0.0486,ignored
+user_050,item_038,Black Minimal Watch,0.3681,ignored
+user_050,item_039,Streetwear Cap,0.3956,ignored
+user_050,item_040,Bold Chain Necklace,0.5894,like
+user_050,item_041,Navy Knit Beanie,0.7342,purchase
+user_050,item_042,Leather Belt,0.3295,ignored
+user_050,item_043,Athletic Gym Bag,0.4343,ignored
+user_050,item_044,Winter Scarf,0.4489,ignored
+user_050,item_045,Budget Backpack,0.9593,purchase
+user_050,item_046,Statement Sunglasses,0.412,ignored
+user_050,item_047,Preppy Canvas Tote,0.4159,ignored

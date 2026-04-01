@@ -14,10 +14,11 @@ Total score ∈ [0, 1].  Interaction thresholds:
   score >= LIKE_THRESHOLD      →  like
   otherwise                    →  ignored
 
-Output: interactions.json — list of interaction records
-        interaction_summary.json — per-user summary (liked / purchased / ignored counts)
+Reads: users.csv, sample_items.json
+Writes: items.csv (catalog), interactions.csv
 """
 
+import csv
 import json
 import random
 from pathlib import Path
@@ -25,8 +26,59 @@ from pathlib import Path
 SEED = 42
 LIKE_THRESHOLD = 0.45
 PURCHASE_THRESHOLD = 0.70
+LIST_SEP = "|"
 
 random.seed(SEED)
+
+
+def load_users_csv(path: Path) -> list[dict]:
+    users = []
+    with path.open(encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            users.append(
+                {
+                    "user_id": row["user_id"],
+                    "archetype": row["archetype"],
+                    "preferred_styles": [s for s in row["preferred_styles"].split(LIST_SEP) if s],
+                    "preferred_colors": [s for s in row["preferred_colors"].split(LIST_SEP) if s],
+                    "disliked_colors": [s for s in row["disliked_colors"].split(LIST_SEP) if s],
+                    "preferred_categories": [s for s in row["preferred_categories"].split(LIST_SEP) if s],
+                    "budget_range": [int(row["budget_low"]), int(row["budget_high"])],
+                    "style_weight": float(row["style_weight"]),
+                    "color_weight": float(row["color_weight"]),
+                    "price_weight": float(row["price_weight"]),
+                    "category_weight": float(row["category_weight"]),
+                }
+            )
+    return users
+
+
+def write_items_csv(items: list, path: Path) -> None:
+    fieldnames = ["item_id", "name", "category", "style", "color", "price"]
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for item in items:
+            w.writerow(
+                {
+                    "item_id": item["id"],
+                    "name": item["name"],
+                    "category": item["category"],
+                    "style": item["style"],
+                    "color": item["color"],
+                    "price": item["price"],
+                }
+            )
+
+
+def write_interactions_csv(interactions: list, path: Path) -> None:
+    fieldnames = ["user_id", "item_id", "item_name", "score", "event"]
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for row in interactions:
+            w.writerow(row)
 
 
 def score_item(user: dict, item: dict) -> float:
@@ -83,23 +135,27 @@ def generate_interactions(users: list, items: list) -> tuple[list, list]:
                 event = "ignored"
                 ignored.append(item["id"])
 
-            interactions.append({
-                "user_id": user["user_id"],
-                "item_id": item["id"],
-                "item_name": item["name"],
-                "score": round(noisy_score, 4),
-                "event": event,
-            })
+            interactions.append(
+                {
+                    "user_id": user["user_id"],
+                    "item_id": item["id"],
+                    "item_name": item["name"],
+                    "score": round(noisy_score, 4),
+                    "event": event,
+                }
+            )
 
-        summaries.append({
-            "user_id": user["user_id"],
-            "archetype": user["archetype"],
-            "liked_count": len(liked),
-            "purchased_count": len(purchased),
-            "ignored_count": len(ignored),
-            "liked_items": liked,
-            "purchased_items": purchased,
-        })
+        summaries.append(
+            {
+                "user_id": user["user_id"],
+                "archetype": user["archetype"],
+                "liked_count": len(liked),
+                "purchased_count": len(purchased),
+                "ignored_count": len(ignored),
+                "liked_items": liked,
+                "purchased_items": purchased,
+            }
+        )
 
     return interactions, summaries
 
@@ -107,7 +163,6 @@ def generate_interactions(users: list, items: list) -> tuple[list, list]:
 def print_example(users: list, items: list, interactions: list):
     """Print a human-readable example for the first user of each archetype."""
     seen_archetypes = set()
-    item_map = {item["id"]: item for item in items}
 
     print("\n── Example interactions ──")
     for user in users:
@@ -130,26 +185,23 @@ def print_example(users: list, items: list, interactions: list):
 
 
 def main():
-    users_path = Path("users.json")
+    users_path = Path("users.csv")
     items_path = Path("sample_items.json")
-    interactions_path = Path("interactions.json")
-    summary_path = Path("interaction_summary.json")
+    items_csv_path = Path("items.csv")
+    interactions_path = Path("interactions.csv")
 
     if not users_path.exists():
-        print("users.json not found — run generate_users.py first")
+        print("users.csv not found — run generate_users.py first")
         return
 
-    with users_path.open() as f:
-        users = json.load(f)
-    with items_path.open() as f:
+    users = load_users_csv(users_path)
+    with items_path.open(encoding="utf-8") as f:
         items = json.load(f)
 
-    interactions, summaries = generate_interactions(users, items)
+    write_items_csv(items, items_csv_path)
 
-    with interactions_path.open("w") as f:
-        json.dump(interactions, f, indent=2)
-    with summary_path.open("w") as f:
-        json.dump(summaries, f, indent=2)
+    interactions, _summaries = generate_interactions(users, items)
+    write_interactions_csv(interactions, interactions_path)
 
     total = len(interactions)
     likes = sum(1 for i in interactions if i["event"] == "like")
@@ -160,7 +212,7 @@ def main():
     print(f"  Purchases : {purchases:4d}  ({purchases/total*100:.1f}%)")
     print(f"  Likes     : {likes:4d}  ({likes/total*100:.1f}%)")
     print(f"  Ignored   : {ignored:4d}  ({ignored/total*100:.1f}%)")
-    print(f"Saved → {interactions_path}, {summary_path}")
+    print(f"Saved → {items_csv_path}, {interactions_path}")
 
     print_example(users, items, interactions)
 
