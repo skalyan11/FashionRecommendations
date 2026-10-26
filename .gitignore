@@ -1,2 +1,5 @@
 /venv
 /explanation.txt
+venv/
+__pycache__/
+data/

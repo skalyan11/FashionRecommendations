@@ -1,0 +1,9 @@
+torch>=2.2
+torchvision>=0.17
+faiss-cpu>=1.8
+numpy
+pandas
+pillow
+pyarrow
+huggingface_hub
+tqdm
