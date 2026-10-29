@@ -29,6 +29,9 @@ python -m fashion.index search my_photo.jpg -k 5              # similar to any i
 ```
 
 The dataset is Fashion Product Images (Small), pulled from its Hugging Face
-mirror. If you have the Kaggle zip instead, unzip it into `data/raw/` and skip
+mirror. If the Hub's file storage (`*.hf.co`) is blocked on your network, run
+`python -m fashion.download --source rows` instead; it pages through the
+dataset viewer API on `datasets-server.huggingface.co` (about 10 minutes). If
+you have the Kaggle zip instead, unzip it into `data/raw/` and skip
 `fashion.download`. `catalog.csv` uses the same `category`, `style` and `color`
 vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
