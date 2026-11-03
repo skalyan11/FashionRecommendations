@@ -63,9 +63,12 @@ vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
    and shoulder-to-knee crop. A waist-up photo still gets an upper-body crop,
    a three-quarter shot (knees out of frame) still gets the bottom half, and
    anything cut off is reported as "not in frame".
-3. **Label each crop.** Crops are embedded with the step 1 ResNet50 and
-   labelled by linear classifiers trained on the catalog embeddings. Only
-   categories that make sense for the region compete.
+3. **Label each crop.** Crops are embedded with the same encoder as the
+   catalog index (ConvNeXt-Tiny by default) and labelled by linear
+   classifiers trained on the catalog embeddings. Only categories that make
+   sense for the region compete. The classifier records which embeddings it
+   was trained on, and the reader refuses to run against an index built from
+   different ones, so retrain it after re-embedding.
 4. **Find dresses and hemlines from the body itself.** The catalog classifier
    almost never says "dress" on a torso crop, so small probe patches on the
    chest, thigh, shins and between the knees are compared instead: one fabric
@@ -81,16 +84,17 @@ vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
    from these.
 
 ```bash
-python -m fashion.garment_classifier     # train the labelling heads (~1.5 min on CPU)
+python -m fashion.garment_classifier     # train the labelling heads on the current embeddings (~1.5 min on CPU)
 python -m fashion.outfit photo.jpg        # what's worn, what's missing, look-alikes
 python -m fashion.outfit photo.jpg --json --save-crops crops/
 ```
 
-The classifiers score 93% on outfit category and 78% on article type (52
-types), on a held-out 20% of the catalog. Those are product photos on white
+On ConvNeXt-Tiny embeddings the classifiers score 94.9% on outfit category
+and 80.6% on article type (52 types), on a held-out 20% of the catalog
+(ResNet50 got 93.4% and 77.8%). Those are product photos on white
 backgrounds, so expect lower accuracy on photos of people.
 
-Checked by eye on 18 full-body studio photos (DeepFashion) and one street
+Checked by eye, with the earlier ResNet50 setup, on 18 full-body studio photos (DeepFashion) and one street
 photo: categories were right on 15 of 19 people (all 4 dresses found; misses
 were a romper, a dress under a cardigan, and a furry jacket read as a top),
 and colors on 42 of 50 pieces. Article type for bottoms is the weakest part:
