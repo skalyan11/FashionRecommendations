@@ -7,3 +7,4 @@ pillow
 pyarrow
 huggingface_hub
 tqdm
+transformers
