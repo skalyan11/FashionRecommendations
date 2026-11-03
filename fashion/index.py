@@ -17,7 +17,7 @@ import numpy as np
 
 from fashion import INDEX_DIR
 from fashion.catalog import load_catalog
-from fashion.embeddings import (DEFAULT_BACKBONE, embed_images, load_backbone,
+from fashion.embeddings import (DEFAULT_BACKBONE, embed_images, fingerprint, load_backbone,
                                 load_embeddings, load_pca)
 
 ALL = "all"
@@ -32,7 +32,8 @@ def build_indexes(backbone=DEFAULT_BACKBONE, out_dir=INDEX_DIR):
     for category, rows in catalog.reset_index().groupby("category").groups.items():
         groups[category] = np.asarray(rows)
 
-    manifest = {"backbone": backbone, "dim": int(vectors.shape[1]), "categories": {}}
+    manifest = {"backbone": backbone, "dim": int(vectors.shape[1]),
+                "fingerprint": fingerprint(vectors), "categories": {}}
     for category, rows in groups.items():
         index = faiss.IndexFlatIP(vectors.shape[1])
         index.add(vectors[rows])

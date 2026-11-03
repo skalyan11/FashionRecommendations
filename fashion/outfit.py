@@ -406,11 +406,17 @@ class OutfitReader:
         self.index = index or CatalogIndex()
         self.detector = detector or PoseDetector()
         self.classifier = classifier or GarmentClassifier()
-        if self.classifier.backbone != self.index.manifest["backbone"]:
+        manifest = self.index.manifest
+        # The fingerprint also catches a re-embed with the same backbone name
+        # but new preprocessing; older files without one fall back to the name.
+        stale = (self.classifier.backbone != manifest["backbone"]
+                 or (self.classifier.fingerprint and manifest.get("fingerprint")
+                     and self.classifier.fingerprint != manifest["fingerprint"]))
+        if stale:
             raise ValueError(
-                f"garment classifier was trained on {self.classifier.backbone} embeddings but the "
-                f"index uses {self.index.manifest['backbone']}; rerun "
-                f"python -m fashion.garment_classifier --backbone {self.index.manifest['backbone']}")
+                f"garment classifier was trained on different {self.classifier.backbone} embeddings "
+                f"than the index ({manifest['backbone']}); rerun "
+                f"python -m fashion.garment_classifier --backbone {manifest['backbone']}")
 
     def read(self, image):
         image = image.convert("RGB")
