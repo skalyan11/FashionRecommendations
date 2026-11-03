@@ -123,10 +123,13 @@ class GarmentClassifier:
             logits, labels = logits[keep], [labels[i] for i in keep]
         return dict(zip(labels, _softmax(logits).tolist()))
 
-    def article(self, vector, category):
-        """Most likely article type within the given category."""
+    def article(self, vector, category, exclude=()):
+        """Most likely article type within the given category, skipping `exclude`."""
         logits = vector @ self.art_W.T + self.art_b
-        keep = [i for i, c in enumerate(self.art_category) if c == category]
+        keep = [i for i, c in enumerate(self.art_category)
+                if c == category and self.art_labels[i] not in exclude]
+        if not keep:
+            keep = [i for i, c in enumerate(self.art_category) if c == category]
         if not keep:
             return None
         return self.art_labels[keep[int(np.argmax(logits[keep]))]]

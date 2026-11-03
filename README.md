@@ -47,14 +47,22 @@ vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
    on first run.
 2. **Crop the garments.** The keypoints give an upper-body, lower-body, feet
    and shoulder-to-knee crop. A waist-up photo still gets an upper-body crop,
-   and anything cut off is reported as "not in frame".
+   a three-quarter shot (knees out of frame) still gets the bottom half, and
+   anything cut off is reported as "not in frame".
 3. **Label each crop.** Crops are embedded with the step 1 ResNet50 and
    labelled by linear classifiers trained on the catalog embeddings. Only
-   categories that make sense for the region compete, and a dress is only
-   called when the full-length crop and the upper or lower crop agree.
-4. **Name the color** from the crop's pixels in HSV. Leg and feet crops skip
-   pavement-colored clusters.
-5. **Report what's missing** (top, bottom, shoes, outerwear, accessories) and
+   categories that make sense for the region compete.
+4. **Find dresses and hemlines from the body itself.** The catalog classifier
+   almost never says "dress" on a torso crop, so small probe patches on the
+   chest, thigh, shins and between the knees are compared instead: one fabric
+   from chest to thigh that stops above the shins (or reaches the ankles with
+   no gap between the legs) is a dress. Whether the shins are covered also
+   rules out shorts/skirts or trousers when picking the article type.
+5. **Name the color** from the crop's pixels in HSV, skipping clusters that
+   look like skin (sampled from the person's face when visible) or like the
+   photo's background. Jackets are colored from their sides and sleeves, not
+   the shirt showing in the middle.
+6. **Report what's missing** (top, bottom, shoes, outerwear, accessories) and
    the closest catalog items to each piece. Step 3 builds recommendations
    from these.
 
@@ -67,6 +75,12 @@ python -m fashion.outfit photo.jpg --json --save-crops crops/
 The classifiers score 93% on outfit category and 78% on article type (52
 types), on a held-out 20% of the catalog. Those are product photos on white
 backgrounds, so expect lower accuracy on photos of people.
+
+Checked by eye on 18 full-body studio photos (DeepFashion) and one street
+photo: categories were right on 15 of 19 people (all 4 dresses found; misses
+were a romper, a dress under a cardigan, and a furry jacket read as a top),
+and colors on 42 of 50 pieces. Article type for bottoms is the weakest part:
+the classifier often mixes up jeans, track pants, trousers and leggings.
 
 Ultralytics is AGPL-3.0 licensed. That's fine for a class or portfolio
 project, but it matters if this is ever shipped as a closed-source service.
