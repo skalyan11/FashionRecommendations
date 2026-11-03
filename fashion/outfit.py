@@ -256,6 +256,11 @@ class OutfitReader:
         self.index = index or CatalogIndex()
         self.detector = detector or PoseDetector()
         self.classifier = classifier or GarmentClassifier()
+        if self.classifier.backbone != self.index.manifest["backbone"]:
+            raise ValueError(
+                f"garment classifier was trained on {self.classifier.backbone} embeddings but the "
+                f"index uses {self.index.manifest['backbone']}; rerun "
+                f"python -m fashion.garment_classifier --backbone {self.index.manifest['backbone']}")
 
     def read(self, image):
         image = image.convert("RGB")
