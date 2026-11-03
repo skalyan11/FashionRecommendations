@@ -7,4 +7,6 @@ pillow
 pyarrow
 huggingface_hub
 tqdm
+scikit-learn
+ultralytics
 transformers
