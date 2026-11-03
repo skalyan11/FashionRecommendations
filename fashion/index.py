@@ -17,12 +17,13 @@ import numpy as np
 
 from fashion import INDEX_DIR
 from fashion.catalog import load_catalog
-from fashion.embeddings import load_backbone, load_embeddings, embed_images
+from fashion.embeddings import (DEFAULT_BACKBONE, embed_images, load_backbone,
+                                load_embeddings, load_pca)
 
 ALL = "all"
 
 
-def build_indexes(backbone="resnet50", out_dir=INDEX_DIR):
+def build_indexes(backbone=DEFAULT_BACKBONE, out_dir=INDEX_DIR):
     ids, vectors = load_embeddings(backbone)
     catalog = load_catalog().set_index("item_id").loc[ids]
 
@@ -59,8 +60,11 @@ class CatalogIndex:
 
     def embed(self, images):
         if self._model is None:
-            self._model = load_backbone(self.manifest["backbone"], self._pretrained)[:2]
-        return embed_images(images, *self._model)
+            backbone = self.manifest["backbone"]
+            model, transform, _ = load_backbone(backbone, self._pretrained)
+            self._model = (model, transform, load_pca(backbone))
+        model, transform, pca = self._model
+        return embed_images(images, model, transform, pca=pca)
 
     def search(self, vectors, category=ALL, k=10, exclude=()):
         """vectors: float32 [n, dim]. Returns, per query, a list of (item_id, score)."""
@@ -90,7 +94,7 @@ def main():
     sub = parser.add_subparsers(dest="cmd", required=True)
 
     b = sub.add_parser("build")
-    b.add_argument("--backbone", default="resnet50")
+    b.add_argument("--backbone", default=DEFAULT_BACKBONE)
 
     s = sub.add_parser("search")
     s.add_argument("query", help="an image path, or a catalog item_id like p15970")
