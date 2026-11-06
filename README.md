@@ -64,17 +64,23 @@ vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
    a three-quarter shot (knees out of frame) still gets the bottom half, and
    anything cut off is reported as "not in frame".
 3. **Label each crop.** Crops are embedded with the same encoder as the
-   catalog index (ConvNeXt-Tiny by default) and labelled by linear
-   classifiers trained on the catalog embeddings. Only categories that make
-   sense for the region compete. The classifier records which embeddings it
-   was trained on, and the reader refuses to run against an index built from
-   different ones, so retrain it after re-embedding.
-4. **Find dresses and hemlines from the body itself.** The catalog classifier
-   almost never says "dress" on a torso crop, so small probe patches on the
-   chest, thigh, shins and between the knees are compared instead: one fabric
-   from chest to thigh that stops above the shins (or reaches the ankles with
-   no gap between the legs) is a dress. Whether the shins are covered also
-   rules out shorts/skirts or trousers when picking the article type.
+   catalog index (ConvNeXt-Tiny by default) and labelled by linear heads
+   trained on crops of people (`fashion/people.py`, below): upper body is
+   top / outerwear / dress, lower body is bottom / dress, the
+   shoulder-to-knee crop is dress / separates, and each category has an
+   article head (Tshirts, Shirts, Sweaters, Sweatshirts, Jackets, Cardigans,
+   Dresses, Jumpsuit, Trousers, Jeans, Shorts, Skirts, Leggings). Shoes, and
+   everything when `data/models/photo_classifier.npz` is missing, fall back
+   to the catalog-trained heads (`fashion/garment_classifier.py`). Both
+   record the encoder they were trained on, and the reader refuses to run
+   against an index built with a different one.
+4. **Dress or separates.** The dress/separates head decides, and a shape test
+   nudges borderline cases: probe patches on the chest, thigh, shins and
+   between the knees check for one fabric from chest to thigh that stops
+   above the shins (or reaches the ankles with no gap between the legs). A
+   jacket or cardigan over a dress is reported as its own piece. Whether the
+   shins are covered also rules out shorts/skirts or trousers when picking
+   the bottom's article type.
 5. **Name the color** from the crop's pixels in HSV, skipping clusters that
    look like skin (sampled from the person's face when visible) or like the
    photo's background. Jackets are colored from their sides and sleeves, not
@@ -84,21 +90,47 @@ vocabulary as `items.csv`, with `outerwear` and `dress` added as categories.
    from these.
 
 ```bash
-python -m fashion.garment_classifier     # train the labelling heads on the current embeddings (~1.5 min on CPU)
+python -m fashion.garment_classifier     # catalog heads (shoes, fallback), ~1.5 min on CPU
+python -m fashion.people download        # ~14k DeepFashion photos of people, ~300 MB
+python -m fashion.people crops           # pose crops, ~15 min on CPU
+python -m fashion.people embed           # ~30 min on 4 CPUs
+python -m fashion.people train           # seconds; prints validation accuracy
 python -m fashion.outfit photo.jpg        # what's worn, what's missing, look-alikes
 python -m fashion.outfit photo.jpg --json --save-crops crops/
 ```
 
-On ConvNeXt-Tiny embeddings the classifiers score 94.9% on outfit category
-and 80.6% on article type (52 types), on a held-out 20% of the catalog
-(ResNet50 got 93.4% and 77.8%). Those are product photos on white
-backgrounds, so expect lower accuracy on photos of people.
+### Training on photos of people
 
-Checked by eye, with the earlier ResNet50 setup, on 18 full-body studio photos (DeepFashion) and one street
-photo: categories were right on 15 of 19 people (all 4 dresses found; misses
-were a romper, a dress under a cardigan, and a furry jacket read as a top),
-and colors on 42 of 50 pieces. Article type for bottoms is the weakest part:
-the classifier often mixes up jeans, track pants, trousers and leggings.
+The catalog heads learned from product shots, but here they label crops of
+someone's body, and that mismatch was the main source of errors. The people
+heads train on DeepFashion In-shop photos (Hugging Face mirror
+`SaffalPoosh/deepFashion-with-masks`): each photo sells one product, and its
+type (Dresses, Pants, Jackets_Coats, ...) labels the body region that product
+covers. Photos whose caption contradicts the label are dropped, and photos
+are split 85/15 by product so no garment is in both training and validation.
+
+Whole pipeline on the 2,045 validation photos (heads trained on the training
+split only):
+
+| | before (catalog heads) | after (people heads) |
+|---|---|---|
+| right category for the labelled garment | 79.9% | 90.2% |
+| right category and article | 43.7% | 71.7% |
+| dresses found | 47.0% | 90.0% |
+| non-dresses called a dress | 1.9% | 3.7% |
+
+Per head, on validation crops (balanced accuracy in brackets): upper body
+86.7% (88.1%), lower body 76.1%, dress vs separates 92.7%, articles: tops
+73.9%, outerwear 87.7%, bottoms 83.7% (65.3%; few jeans and leggings),
+dresses 90.6%.
+
+CLIP was compared on the same crops. OpenAI's CLIP weights are on Hugging
+Face file storage, which this environment can't reach, so this used
+open_clip's ResNet-50 trained on CC12M (from GitHub). Zero-shot it did no
+better than the catalog heads (upper 73%, lower 51%). With the same people
+heads on its embeddings it was slightly ahead of ConvNeXt-Tiny (upper 88.2%,
+dress vs separates 96.1%, articles within a point or two), not enough to
+justify a second encoder next to the index's ConvNeXt-Tiny.
 
 Ultralytics is AGPL-3.0 licensed. That's fine for a class or portfolio
 project, but it matters if this is ever shipped as a closed-source service.

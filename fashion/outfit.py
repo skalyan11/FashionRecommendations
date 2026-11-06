@@ -6,10 +6,10 @@ Read an outfit photo: find the person, crop each garment, and label it.
 2. The keypoints split the body into regions: upper body, lower body, feet,
    plus a shoulder-to-knee crop used to tell dresses apart from top + bottom.
 3. Each crop is embedded with the same CNN as the catalog and labelled by
-   linear classifiers trained on the catalog embeddings
-   (fashion/garment_classifier.py). Only categories that can appear in that
-   region compete: upper → top/outerwear/dress, lower → bottom/dress,
-   feet → shoes.
+   linear heads trained on crops of people (fashion/people.py), falling back
+   to heads trained on the catalog (fashion/garment_classifier.py). Only
+   categories that can appear in that region compete: upper →
+   top/outerwear/dress, lower → bottom/dress, feet → shoes.
 4. Color comes from the crop's pixels (dominant cluster near the middle of the
    garment), mapped onto the catalog palette.
 
@@ -28,6 +28,7 @@ import numpy as np
 from PIL import Image
 
 from fashion.garment_classifier import GarmentClassifier
+from fashion.people import MODEL_PATH as PHOTO_MODEL_PATH, PhotoClassifier
 from fashion.index import CatalogIndex
 
 POSE_WEIGHTS = "yolov8n-pose.pt"   # ultralytics fetches this from its GitHub releases
@@ -402,11 +403,23 @@ def dominant_color(crop, background=None, sides=False, skin_ref=None, border=Fal
 # ── Labelling crops ───────────────────────────────────────────────────────────
 
 class OutfitReader:
-    def __init__(self, index=None, detector=None, classifier=None):
+    def __init__(self, index=None, detector=None, classifier=None, photo_classifier="auto",
+                 dress_rule="heads+shape"):
         self.index = index or CatalogIndex()
         self.detector = detector or PoseDetector()
         self.classifier = classifier or GarmentClassifier()
+        self.dress_rule = dress_rule
         manifest = self.index.manifest
+        if photo_classifier == "auto":
+            photo_classifier = PhotoClassifier() if PHOTO_MODEL_PATH.exists() else None
+        if photo_classifier is not None and photo_classifier.backbone != manifest["backbone"]:
+            raise ValueError(
+                f"photo classifier was trained on {photo_classifier.backbone} crops but the index "
+                f"uses {manifest['backbone']}; rerun python -m fashion.people embed and train "
+                f"with --backbone {manifest['backbone']}")
+        # Heads trained on crops of people (fashion/people.py). Without them,
+        # the catalog heads label the crops instead.
+        self.photo = photo_classifier
         # The fingerprint also catches a re-embed with the same backbone name
         # but new preprocessing; older files without one fall back to the name.
         stale = (self.classifier.backbone != manifest["backbone"]
@@ -435,8 +448,13 @@ class OutfitReader:
         embedded = self.index.embed(batch) if batch else []
         vectors = dict(zip(crops, embedded[:len(crops)]))
         probe_vecs = dict(zip(probe_crops, embedded[len(crops):]))
-        probs = {name: self.classifier.category_probs(vec, REGION_CATEGORIES[name])
-                 for name, vec in vectors.items()}
+        if self.photo is not None:
+            probs = {name: (self.photo.region_probs(name, vec) if name != "feet"
+                            else self.classifier.category_probs(vec, REGION_CATEGORIES[name]))
+                     for name, vec in vectors.items()}
+        else:
+            probs = {name: self.classifier.category_probs(vec, REGION_CATEGORIES[name])
+                     for name, vec in vectors.items()}
 
         def best(name):
             return max(probs[name], key=probs[name].get) if name in probs else None
@@ -469,12 +487,20 @@ class OutfitReader:
             looks_like_dress = (not legs_covered) or gap_is_background is False
         else:
             looks_like_dress = False
-        is_dress = looks_like_dress or (
-            best("full") == "dress" and "dress" in (best("upper"), best("lower")))
+        if self.photo is None:
+            is_dress = looks_like_dress or (
+                best("full") == "dress" and "dress" in (best("upper"), best("lower")))
+        else:
+            is_dress = self._dress_from_heads(probs, looks_like_dress)
 
         pieces = []
         if is_dress:
-            pieces.append(self._piece("full", "dress", regions, crops, vectors, probs, background, skin))
+            where = "full" if "full" in probs else "upper" if "upper" in probs else "lower"
+            pieces.append(self._piece(where, "dress", regions, crops, vectors, probs, background, skin))
+            # A jacket or cardigan worn over the dress.
+            if self.photo is not None and where != "upper" and probs.get("upper", {}).get("outerwear", 0) > 0.6:
+                pieces.append(self._piece("upper", "outerwear", regions, crops, vectors, probs,
+                                          background, skin))
         else:
             for name in ("upper", "lower"):
                 if name not in probs:
@@ -500,13 +526,32 @@ class OutfitReader:
         missing = [slot for slot in OUTFIT_SLOTS if slot not in worn]
         return OutfitAnalysis(pieces, missing, not_in_frame, person_box)
 
+    def _dress_from_heads(self, probs, looks_like_dress):
+        """Dress or separates, from the people-trained heads (and the shape test)."""
+        votes = [probs[r]["dress"] for r in ("full", "upper", "lower") if r in probs]
+        if not votes:
+            return looks_like_dress
+        if "full" in probs:
+            score = probs["full"]["dress"]
+        else:
+            score = float(np.mean(votes))
+        if self.dress_rule == "heads":
+            return score > 0.5
+        if self.dress_rule == "heads+votes":
+            return float(np.mean(votes)) > 0.5
+        # heads+shape: the shape test can tip a borderline case either way.
+        return score > (0.35 if looks_like_dress else 0.65) if "full" in probs else score > 0.5
+
     def _piece(self, region, category, regions, crops, vectors, probs, background=None,
                skin=None, exclude=(), k=5):
         vec = vectors[region]
+        article = None
+        if self.photo is not None and category != "shoes":
+            article = self.photo.article(vec, category, exclude)
         return Piece(
             region=region,
             category=category,
-            article=self.classifier.article(vec, category, exclude),
+            article=article or self.classifier.article(vec, category, exclude),
             color=dominant_color(crops[region], background, sides=category == "outerwear",
                                  skin_ref=skin),
             confidence=round(probs[region].get(category, 0.0), 4),
