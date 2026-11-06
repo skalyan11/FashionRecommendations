@@ -20,7 +20,7 @@ import numpy as np
 
 from fashion import DATA_DIR
 from fashion.catalog import load_catalog
-from fashion.embeddings import load_embeddings
+from fashion.embeddings import DEFAULT_BACKBONE, fingerprint, load_embeddings
 
 MODEL_PATH = DATA_DIR / "models" / "garment_classifier.npz"
 MIN_ARTICLE_COUNT = 40
@@ -49,7 +49,7 @@ def _per_class_report(y_true, y_pred):
     return out
 
 
-def train(backbone="resnet50", C=1.0, out_path=MODEL_PATH):
+def train(backbone=DEFAULT_BACKBONE, C=1.0, out_path=MODEL_PATH):
     ids, X = load_embeddings(backbone)
     catalog = load_catalog().set_index("item_id").loc[ids]
     categories = catalog["category"].to_numpy()
@@ -89,6 +89,7 @@ def train(backbone="resnet50", C=1.0, out_path=MODEL_PATH):
     np.savez(
         out_path,
         backbone=backbone,
+        fingerprint=fingerprint(X),
         cat_W=cat_clf.coef_, cat_b=cat_clf.intercept_, cat_labels=cat_clf.classes_.astype(str),
         art_W=art_clf.coef_, art_b=art_clf.intercept_, art_labels=art_clf.classes_.astype(str),
         art_category=np.array([article_category[a] for a in art_clf.classes_], dtype=str),
@@ -109,6 +110,7 @@ class GarmentClassifier:
     def __init__(self, path=MODEL_PATH):
         m = np.load(path, allow_pickle=False)
         self.backbone = str(m["backbone"])
+        self.fingerprint = str(m["fingerprint"]) if "fingerprint" in m.files else None
         self.cat_W, self.cat_b, self.cat_labels = m["cat_W"], m["cat_b"], m["cat_labels"].tolist()
         self.art_W, self.art_b, self.art_labels = m["art_W"], m["art_b"], m["art_labels"].tolist()
         self.art_category = m["art_category"].tolist()
@@ -137,7 +139,7 @@ class GarmentClassifier:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("--backbone", default="resnet50")
+    parser.add_argument("--backbone", default=DEFAULT_BACKBONE)
     parser.add_argument("-C", type=float, default=1.0, help="inverse regularization strength")
     args = parser.parse_args()
     train(args.backbone, args.C)

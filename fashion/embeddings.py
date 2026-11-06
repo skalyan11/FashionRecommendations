@@ -191,6 +191,16 @@ def embed_catalog(backbone=DEFAULT_BACKBONE, pretrained=True, batch_size=64, pca
     return vectors
 
 
+def fingerprint(vectors):
+    """
+    Short hash of a set of catalog embeddings. Models trained on one embedding
+    run record it, so they can refuse vectors from a different run, even one
+    with the same backbone name but different preprocessing.
+    """
+    import hashlib
+    return hashlib.sha1(np.ascontiguousarray(vectors[:64], dtype=np.float32).tobytes()).hexdigest()[:12]
+
+
 def load_embeddings(backbone=DEFAULT_BACKBONE, out_dir=EMBEDDINGS_DIR):
     vectors = np.load(out_dir / f"{backbone}.npy")
     ids = (out_dir / f"{backbone}_ids.txt").read_text().split()
